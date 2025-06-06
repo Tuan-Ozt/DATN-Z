@@ -1,4 +1,5 @@
-﻿using System.Linq;
+﻿using System.Collections.Generic;
+using System.Linq;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -26,11 +27,11 @@ public class ItemDetailsPanel : MonoBehaviour
 
         string name = id.Split('.').Length > 0 ? id.Split('.').Last() : id;
         string displayType = type ?? "Không rõ loại";
-        var stats = ItemStatDatabase.Instance.GetStats(id);
 
         description.text = $"{displayType}\n\n{GetStatsFromId(id)}";
         Type.text = $"Loại: {displayType}";
-        Name.text = $"{stats.Type}: {name}";
+
+        Name.text = $"Tên: {name}";
     }
 
 
