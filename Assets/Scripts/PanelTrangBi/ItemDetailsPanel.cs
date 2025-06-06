@@ -26,10 +26,11 @@ public class ItemDetailsPanel : MonoBehaviour
 
         string name = id.Split('.').Length > 0 ? id.Split('.').Last() : id;
         string displayType = type ?? "Không rõ loại";
+        var stats = ItemStatDatabase.Instance.GetStats(id);
 
         description.text = $"{displayType}\n\n{GetStatsFromId(id)}";
         Type.text = $"Loại: {displayType}";
-        Name.text = $"Tên: {name}";
+        Name.text = $"{stats.Type}: {name}";
     }
 
 
@@ -40,15 +41,16 @@ public class ItemDetailsPanel : MonoBehaviour
 
     private string GetStatsFromId(string id)
     {
-        // TODO: Replace with real data from ScriptableObject/JSON
-        switch (id)
-        {
-            case "helmet_dragon":
-                return "Giáp: +50\nKháng Băng: +10";
-            case "bow_ice":
-                return "Sát thương: 45-60\nTốc độ đánh: +5%";
-            default:
-                return "Không có thông tin.";
-        }
+        var stats = ItemStatDatabase.Instance.GetStats(id);
+        if (stats == null)
+            return "Không có thông tin.";
+
+        return
+            $"Sức mạnh: {stats.Strength}\n" +
+            $"Phòng thủ: {stats.Defense}\n" +
+            $"Nhanh nhẹn: {stats.Agility}\n" +
+            $"Trí tuệ: {stats.Intelligence}\n" +
+            $"Thể lực: {stats.Vitality}";
     }
+
 }
