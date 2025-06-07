@@ -123,13 +123,13 @@ public class CharacterUIManager1 : MonoBehaviour
                 }
 
 
-                Debug.Log($"✅ Hiển thị icon: {id} | Type: {icon.Type} | Path: {icon.Path}");
+               // Debug.Log($" Hiển thị icon: {id} | Type: {icon.Type} | Path: {icon.Path}");
             }
             else
             {
                 img.sprite = IconCollection.Active.DefaultItemIcon;
                 img.color = Color.gray;
-                Debug.LogWarning($"❌ Không tìm thấy icon: {id} | expectedType: {expectedType}");
+              //  Debug.LogWarning($" Không tìm thấy icon: {id} | expectedType: {expectedType}");
             }
         }
     }
@@ -173,13 +173,13 @@ public class CharacterUIManager1 : MonoBehaviour
                 Debug.Log($"[CLICK SET] Slot {slot.name} gán ID: {icon.Id}");
             }
 
-            Debug.Log($"✅ Hiển thị icon: {icon.Id} | Path: {icon.Path} | Type: {icon.Type}");
+          //  Debug.Log($" Hiển thị icon: {icon.Id} | Path: {icon.Path} | Type: {icon.Type}");
         }
         else
         {
             img.sprite = IconCollection.Active.DefaultItemIcon;
             img.color = Color.gray;
-            Debug.LogWarning($"❌ Không tìm thấy icon: {expectedType}.{name}");
+          //  Debug.LogWarning($" Không tìm thấy icon: {expectedType}.{name}");
         }
     }
 
@@ -200,12 +200,12 @@ public class CharacterUIManager1 : MonoBehaviour
 
             if (icon != null)
             {
-                Debug.Log($"🔍 Đã tìm thấy icon với ID: {id}");
+               // Debug.Log($" Đã tìm thấy icon với ID: {id}");
                 return icon;
             }
         }
 
-        Debug.LogWarning($"❌ Không tìm thấy icon: {type}.{name} trong bất kỳ bộ nào.");
+    //    Debug.LogWarning($" Không tìm thấy icon: {type}.{name} trong bất kỳ bộ nào.");
         return null;
     }
 

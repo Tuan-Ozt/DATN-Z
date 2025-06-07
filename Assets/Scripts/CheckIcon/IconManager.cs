@@ -32,7 +32,7 @@ public class IconManager : MonoBehaviour
             }
         }
 
-        Debug.Log("🧠 Loaded " + iconDict.Count + " icon từ Resources.");
+        Debug.Log(" Loaded " + iconDict.Count + " icon từ Resources.");
     }
 
     public Sprite LoadSpriteFromTexture(string fullName)
