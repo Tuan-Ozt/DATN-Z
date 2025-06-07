@@ -29,6 +29,15 @@ public class PlayerSpawner : SimulationBehaviour, INetworkRunnerCallbacks
                 Debug.Log("da goi");
                 avatar.UpdateCharacterJson(PlayerDataHolder1.CharacterJson);
             }
+            //  Gán chỉ số gốc
+            var stats = obj.GetComponent<CharacterStats>();
+            if (stats != null)
+            {
+                stats.strength = 10;
+                stats.defense = 8;
+                stats.agility = 6;
+                stats.vitality = 12;
+            }
             string token = PlayerDataHolder1.Token;
 
             if (OnlineAccountManager.OnlineTokens.TryGetValue(token, out PlayerRef oldPlayer))

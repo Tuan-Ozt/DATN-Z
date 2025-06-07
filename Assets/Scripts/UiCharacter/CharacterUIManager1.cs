@@ -80,12 +80,12 @@ public class CharacterUIManager1 : MonoBehaviour
 
 
         DisplayItem1(Bootsslot, characterData.Boots);
-        Debug.Log("Giay" + characterData.Boots);
+       // Debug.Log("Giay" + characterData.Boots);
         // DisplayItem(Bowslot, characterData.Bow);
         DisplayItem1(Hairslot, characterData.Hair);
         DisplayItem1(Beltslot, characterData.Belt);
         DisplayItem1(Capeslot, characterData.Cape);
-        Debug.Log("Cánh" + characterData.Cape);
+       // Debug.Log("Cánh" + characterData.Cape);
         DisplayItem1(Backslot, characterData.Back);
         DisplayItem1(Maskslot, characterData.Mask);
         DisplayItem1(Glassesslot, characterData.Glasses);
@@ -151,7 +151,7 @@ public class CharacterUIManager1 : MonoBehaviour
         "Extensions.AbandonedWorkshop"
     };
 
-        Debug.Log($"🔍 Tìm icon: {expectedType}.{name}");
+       // Debug.Log($"🔍 Tìm icon: {expectedType}.{name}");
 
         TextMeshProUGUI tmpText = slot.GetComponentInChildren<TextMeshProUGUI>();
         if (tmpText != null)
@@ -170,7 +170,7 @@ public class CharacterUIManager1 : MonoBehaviour
             if (eqSlot != null)
             {
                 eqSlot.SetItem(icon.Id, icon.Sprite, icon.Type);
-                Debug.Log($"[CLICK SET] Slot {slot.name} gán ID: {icon.Id}");
+               // Debug.Log($"[CLICK SET] Slot {slot.name} gán ID: {icon.Id}");
             }
 
           //  Debug.Log($" Hiển thị icon: {icon.Id} | Path: {icon.Path} | Type: {icon.Type}");

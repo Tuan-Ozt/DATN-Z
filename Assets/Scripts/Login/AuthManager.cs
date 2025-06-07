@@ -6,6 +6,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.Networking;
 using UnityEngine.SceneManagement;
+using static MenuManager;
 
 public class AuthManager : MonoBehaviour
 {
@@ -217,6 +218,7 @@ public class AuthManager : MonoBehaviour
         }
 
     }
+
     // Gọi API , lấy dữ liệu CharacterData từ database xuống
     public IEnumerator SaveCharacterToServer(string characterJson)
     {
@@ -256,12 +258,13 @@ public class AuthManager : MonoBehaviour
 }
 
 [System.Serializable]
-    public class CharacterResponse
-    {
-        public string characterJson;
-    }
+public class CharacterSimpleResponse
+{
+    public string name;
+    public string characterJson;
+}
 
-    [System.Serializable]
+[System.Serializable]
     public class SaveCharacterDto
     {
         public int AccountId;

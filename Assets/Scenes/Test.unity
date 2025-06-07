@@ -14115,6 +14115,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: ItemDetailsCanvas
       objectReference: {fileID: 0}
+    - target: {fileID: 6005119740155219370, guid: c761843ae3b0aae4ea41d113ea8bf1a3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6356190688747175789, guid: c761843ae3b0aae4ea41d113ea8bf1a3, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6356190688747175789, guid: c761843ae3b0aae4ea41d113ea8bf1a3, type: 3}
+      propertyPath: m_Color.a
+      value: 0.7372549
+      objectReference: {fileID: 0}
+    - target: {fileID: 6356190688747175789, guid: c761843ae3b0aae4ea41d113ea8bf1a3, type: 3}
+      propertyPath: m_Color.b
+      value: 0.04832682
+      objectReference: {fileID: 0}
+    - target: {fileID: 6356190688747175789, guid: c761843ae3b0aae4ea41d113ea8bf1a3, type: 3}
+      propertyPath: m_Color.g
+      value: 0.04832682
+      objectReference: {fileID: 0}
+    - target: {fileID: 6356190688747175789, guid: c761843ae3b0aae4ea41d113ea8bf1a3, type: 3}
+      propertyPath: m_Color.r
+      value: 0.05660379
+      objectReference: {fileID: 0}
     - target: {fileID: 7725947135954575818, guid: c761843ae3b0aae4ea41d113ea8bf1a3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -14142,6 +14166,10 @@ PrefabInstance:
     - target: {fileID: 7725947135954575818, guid: c761843ae3b0aae4ea41d113ea8bf1a3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 8943578535060174773, guid: c761843ae3b0aae4ea41d113ea8bf1a3, type: 3}
+      propertyPath: m_Sprite
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

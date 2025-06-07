@@ -43,7 +43,9 @@ public class MenuManager : MonoBehaviour
             Debug.Log("Response JSON: " + json);
 
             // Parse JSON
-            CharacterResponse response = JsonUtility.FromJson<CharacterResponse>(json);
+            CharacterSimpleResponse response = JsonUtility.FromJson<CharacterSimpleResponse>(json);
+            PlayerDataHolder1.PlayerName = response.name;
+            PlayerDataHolder1.CharacterJson = response.characterJson;
 
             if (string.IsNullOrEmpty(response.characterJson) || response.characterJson == "null")
             {

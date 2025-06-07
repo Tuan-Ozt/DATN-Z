@@ -85,7 +85,7 @@ namespace Assets.HeroEditor.Common.ExampleScripts
 
             if (Controller.isGrounded)
             {
-                _velocity = new Vector3(5 * direction.x, 10 * direction.y);
+                _velocity = new Vector3(5 * direction.x, 12 * direction.y);
 
                 if (HasInputAuthority)
                 {
