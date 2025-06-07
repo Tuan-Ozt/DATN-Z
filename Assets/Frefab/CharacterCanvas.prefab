@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 733928343524976997}
   - component: {fileID: 6135112310710849079}
   - component: {fileID: 4623638852076556520}
+  - component: {fileID: 7774092949547162546}
   m_Layer: 5
   m_Name: quan
   m_TagString: Untagged
@@ -76,6 +77,20 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &7774092949547162546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 47697300940944356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40496fa1f3f846143b3954873df869c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 
+  iconImage: {fileID: 4623638852076556520}
 --- !u!1 &114218767072169900
 GameObject:
   m_ObjectHideFlags: 0
@@ -359,6 +374,7 @@ GameObject:
   - component: {fileID: 8687807908214006825}
   - component: {fileID: 2232815740180272782}
   - component: {fileID: 27321581147418972}
+  - component: {fileID: 2010939432108963452}
   m_Layer: 5
   m_Name: Giay
   m_TagString: Untagged
@@ -424,6 +440,20 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &2010939432108963452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 289892659140553495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40496fa1f3f846143b3954873df869c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 
+  iconImage: {fileID: 27321581147418972}
 --- !u!1 &293321821467875883
 GameObject:
   m_ObjectHideFlags: 0
@@ -435,6 +465,7 @@ GameObject:
   - component: {fileID: 1987975498171133084}
   - component: {fileID: 6528008185372363361}
   - component: {fileID: 4460713125573506712}
+  - component: {fileID: 3802308388346165190}
   m_Layer: 5
   m_Name: Ao choang
   m_TagString: Untagged
@@ -500,6 +531,20 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &3802308388346165190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 293321821467875883}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40496fa1f3f846143b3954873df869c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 
+  iconImage: {fileID: 4460713125573506712}
 --- !u!1 &434385359353835360
 GameObject:
   m_ObjectHideFlags: 0
@@ -719,6 +764,7 @@ GameObject:
   - component: {fileID: 6255413172074876788}
   - component: {fileID: 1831176310373998892}
   - component: {fileID: 6277473866827668864}
+  - component: {fileID: 112128658913189442}
   m_Layer: 5
   m_Name: Khien
   m_TagString: Untagged
@@ -784,6 +830,20 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &112128658913189442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1929204653040320543}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40496fa1f3f846143b3954873df869c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 
+  iconImage: {fileID: 6277473866827668864}
 --- !u!1 &2620080721209191458
 GameObject:
   m_ObjectHideFlags: 0
@@ -795,6 +855,7 @@ GameObject:
   - component: {fileID: 2240541542745327301}
   - component: {fileID: 4674740340179403600}
   - component: {fileID: 1069425155090666226}
+  - component: {fileID: 530068471550929827}
   m_Layer: 5
   m_Name: Kinh
   m_TagString: Untagged
@@ -860,6 +921,20 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &530068471550929827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2620080721209191458}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40496fa1f3f846143b3954873df869c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 
+  iconImage: {fileID: 1069425155090666226}
 --- !u!1 &2920814365094628937
 GameObject:
   m_ObjectHideFlags: 0
@@ -871,6 +946,7 @@ GameObject:
   - component: {fileID: 1638609799076148724}
   - component: {fileID: 6451163993052520071}
   - component: {fileID: 3134466509310319584}
+  - component: {fileID: 2431158442023474998}
   m_Layer: 5
   m_Name: Vukhi
   m_TagString: Untagged
@@ -936,6 +1012,20 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &2431158442023474998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2920814365094628937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40496fa1f3f846143b3954873df869c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 
+  iconImage: {fileID: 3134466509310319584}
 --- !u!1 &3437655434169667493
 GameObject:
   m_ObjectHideFlags: 0
@@ -947,6 +1037,7 @@ GameObject:
   - component: {fileID: 7308912744681670598}
   - component: {fileID: 5055880722528818493}
   - component: {fileID: 5413541002622292425}
+  - component: {fileID: 5720168196351717666}
   m_Layer: 5
   m_Name: ao trong
   m_TagString: Untagged
@@ -1012,6 +1103,20 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &5720168196351717666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3437655434169667493}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40496fa1f3f846143b3954873df869c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 
+  iconImage: {fileID: 5413541002622292425}
 --- !u!1 &3713062584463336836
 GameObject:
   m_ObjectHideFlags: 0
@@ -1023,6 +1128,7 @@ GameObject:
   - component: {fileID: 1615638161748990056}
   - component: {fileID: 1479295926534018015}
   - component: {fileID: 8335727499480951738}
+  - component: {fileID: 5123386410099525476}
   m_Layer: 5
   m_Name: ao
   m_TagString: Untagged
@@ -1088,6 +1194,20 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &5123386410099525476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3713062584463336836}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40496fa1f3f846143b3954873df869c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 
+  iconImage: {fileID: 8335727499480951738}
 --- !u!1 &3863650224305766648
 GameObject:
   m_ObjectHideFlags: 0
@@ -1643,6 +1763,7 @@ GameObject:
   - component: {fileID: 8188064803601587295}
   - component: {fileID: 3745714949674902185}
   - component: {fileID: 5957403767646941895}
+  - component: {fileID: 6917829557349945327}
   m_Layer: 5
   m_Name: Bao tay
   m_TagString: Untagged
@@ -1708,6 +1829,20 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &6917829557349945327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4472543452910779564}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40496fa1f3f846143b3954873df869c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 
+  iconImage: {fileID: 5957403767646941895}
 --- !u!1 &4589378587811267925
 GameObject:
   m_ObjectHideFlags: 0
@@ -1719,6 +1854,7 @@ GameObject:
   - component: {fileID: 5154758036390392277}
   - component: {fileID: 4959973078577300510}
   - component: {fileID: 7499848096207763925}
+  - component: {fileID: 5249263297537318322}
   m_Layer: 5
   m_Name: Bit Mat
   m_TagString: Untagged
@@ -1784,6 +1920,20 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &5249263297537318322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4589378587811267925}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40496fa1f3f846143b3954873df869c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 
+  iconImage: {fileID: 7499848096207763925}
 --- !u!1 &5490305354126890435
 GameObject:
   m_ObjectHideFlags: 0
@@ -1795,6 +1945,7 @@ GameObject:
   - component: {fileID: 1199730440082990668}
   - component: {fileID: 6121847603593361957}
   - component: {fileID: 5126643848926190853}
+  - component: {fileID: 5944898012439007679}
   m_Layer: 5
   m_Name: Nhan
   m_TagString: Untagged
@@ -1860,6 +2011,20 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &5944898012439007679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5490305354126890435}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40496fa1f3f846143b3954873df869c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 
+  iconImage: {fileID: 5126643848926190853}
 --- !u!1 &5677600575801849452
 GameObject:
   m_ObjectHideFlags: 0
@@ -2674,6 +2839,7 @@ GameObject:
   - component: {fileID: 6064754663561921915}
   - component: {fileID: 1404998892874021897}
   - component: {fileID: 652943117855186761}
+  - component: {fileID: 4100439079334208296}
   m_Layer: 5
   m_Name: VukhiPhu
   m_TagString: Untagged
@@ -2739,6 +2905,20 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &4100439079334208296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7044518874312868026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40496fa1f3f846143b3954873df869c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 
+  iconImage: {fileID: 652943117855186761}
 --- !u!1 &7445159837033011227
 GameObject:
   m_ObjectHideFlags: 0
@@ -3448,6 +3628,7 @@ GameObject:
   - component: {fileID: 4369578155280251233}
   - component: {fileID: 976545472270514530}
   - component: {fileID: 9210930336232104188}
+  - component: {fileID: 125000266955263769}
   m_Layer: 5
   m_Name: Mu
   m_TagString: Untagged
@@ -3513,6 +3694,20 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &125000266955263769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8899857280956034073}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40496fa1f3f846143b3954873df869c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 
+  iconImage: {fileID: 9210930336232104188}
 --- !u!1 &9197104309140297112
 GameObject:
   m_ObjectHideFlags: 0
@@ -3524,6 +3719,7 @@ GameObject:
   - component: {fileID: 4783089700005198568}
   - component: {fileID: 7712107554289977688}
   - component: {fileID: 1062708353972035675}
+  - component: {fileID: 4261432424767414084}
   m_Layer: 5
   m_Name: Toc
   m_TagString: Untagged
@@ -3589,3 +3785,17 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &4261432424767414084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9197104309140297112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40496fa1f3f846143b3954873df869c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 
+  iconImage: {fileID: 1062708353972035675}

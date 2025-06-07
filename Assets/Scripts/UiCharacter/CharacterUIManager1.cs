@@ -99,7 +99,6 @@ public class CharacterUIManager1 : MonoBehaviour
 
         string id = itemPath.Split('#')[0].Trim();  // Xóa màu nếu có
 
-
         // === Hiện Text (nếu có TextMeshPro) ===
         TextMeshProUGUI tmpText = slot.GetComponentInChildren<TextMeshProUGUI>();
         if (tmpText != null)
@@ -116,6 +115,14 @@ public class CharacterUIManager1 : MonoBehaviour
                 img.sprite = icon.Sprite;
                 img.color = Color.white;
 
+                // GÁN cho EquipmentSlotUI nếu có
+                var eqSlot = slot.GetComponent<EquipmentSlotUI>();
+                if (eqSlot != null)
+                {
+                    eqSlot.SetItem(id, icon.Sprite, icon.Type); // icon.Type có trong IconCollection
+                }
+
+
                 Debug.Log($"✅ Hiển thị icon: {id} | Type: {icon.Type} | Path: {icon.Path}");
             }
             else
@@ -126,6 +133,7 @@ public class CharacterUIManager1 : MonoBehaviour
             }
         }
     }
+
     void DisplayItem(GameObject slot, string itemPath, string expectedType = null)
     {
         if (slot == null || string.IsNullOrEmpty(itemPath)) return;
@@ -158,6 +166,13 @@ public class CharacterUIManager1 : MonoBehaviour
         {
             img.sprite = icon.Sprite;
             img.color = Color.white;
+            var eqSlot = slot.GetComponent<EquipmentSlotUI>();
+            if (eqSlot != null)
+            {
+                eqSlot.SetItem(icon.Id, icon.Sprite, icon.Type);
+                Debug.Log($"[CLICK SET] Slot {slot.name} gán ID: {icon.Id}");
+            }
+
             Debug.Log($"✅ Hiển thị icon: {icon.Id} | Path: {icon.Path} | Type: {icon.Type}");
         }
         else
