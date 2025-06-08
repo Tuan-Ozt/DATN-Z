@@ -1,17 +1,20 @@
 ﻿using System.Collections;
 using TMPro;
-using UnityEditor.PackageManager.Requests;
+using Assets.HeroEditor.FantasyInventory.Scripts.Interface.Elements;
 using UnityEngine;
 
 public class ThongTin : MonoBehaviour
 {
-    public CharacterStats Instane;
     public TextMeshProUGUI Nametext;
     public TextMeshProUGUI strength;
     public TextMeshProUGUI defense;
     public TextMeshProUGUI agility;
     public TextMeshProUGUI vitality;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    //chi so item
+    public TextMeshProUGUI strengthitem;
+    public TextMeshProUGUI defenseitem;
+    public TextMeshProUGUI agilityitem;
+    public TextMeshProUGUI vitalityitem;
     private void Start()
     {
 
@@ -34,10 +37,16 @@ public class ThongTin : MonoBehaviour
             defense.text = "Phòng thủ: " + stats.defense;
             agility.text = "Nhanh nhẹn: " + stats.agility;
             vitality.text = "Sinh lực: " + stats.vitality;
+
+            strengthitem.text = "Sức mạnh trang bị: " + stats.finalStrength;
+            defenseitem.text = "Phòng thủ trang bi: " + stats.finalDefense;
+            agilityitem.text = "Nhanh nhẹn trang bị: " + stats.finalAgility;
+            vitalityitem.text = "Sinh lực trang bị: " + stats.finalVitality;
+
         }
         else
         {
-            Debug.LogWarning("⚠️ Player không có CharacterStats.");
+            Debug.LogWarning(" Player không có CharacterStats.");
         }
     }
 
