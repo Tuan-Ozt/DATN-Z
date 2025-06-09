@@ -85,7 +85,7 @@ public class MenuManager : MonoBehaviour
                 Debug.Log("Đã tải dữ liệu nhân vật: " + PlayerDataHolder1.CharacterJson);
 
                 // Gọi luôn Fusion khởi động chế độ Shared và load scene Test
-                FusionManager.Instance.StartFusionSession("Test");
+                FusionManager.Instance.StartFusionSession("map1_HC");
             }
             else
             {
