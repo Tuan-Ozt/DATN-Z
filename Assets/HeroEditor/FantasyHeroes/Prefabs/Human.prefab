@@ -403,6 +403,7 @@ GameObject:
   - component: {fileID: 7565882508797186451}
   - component: {fileID: -4813339243730235624}
   - component: {fileID: -4778966891055361141}
+  - component: {fileID: -7964199508935505587}
   m_Layer: 7
   m_Name: Human
   m_TagString: Player
@@ -851,7 +852,7 @@ MonoBehaviour:
   Firearm: {fileID: 8293370063637748550}
   ArmL: {fileID: 4314068295598354}
   ArmR: {fileID: 4957315199455554}
-  FireButton: 323
+  FireButton: 116
   ReloadButton: 114
   FixedArm: 0
   AngleToTarget: 0
@@ -888,6 +889,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Character: {fileID: 114665035860700710}
+--- !u!114 &-7964199508935505587
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1109986072035710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59d248b4d2ab704409590b271117df20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  strength: 1000
+  defense: 500
+  agility: 1000
+  vitality: 10
+  finalStrength: 0
+  finalDefense: 0
+  finalAgility: 0
+  finalIntelligence: 0
+  finalVitality: 0
 --- !u!1 &1148429461579488
 GameObject:
   m_ObjectHideFlags: 0
