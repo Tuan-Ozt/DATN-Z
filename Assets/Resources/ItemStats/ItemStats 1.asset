@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ItemStats 1
   m_EditorClassIdentifier: 
   itemId: Extensions.Legendary.Gloves.AizenHeavyArmor
+  Icon: {fileID: 21300000, guid: e3e5b87a219fbf947b55570dbead9474, type: 3}
   Name: Gang.AizenHeavyArmor
   Type: Gloves
   Description: "T\u0103ng ch\u1EC9 s\u1ED1"

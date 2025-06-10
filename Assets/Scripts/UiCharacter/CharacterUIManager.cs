@@ -8,6 +8,7 @@ public class CharacterUIManager : MonoBehaviour
     public GameObject button;
     public GameObject Tui;
     public GameObject button2;
+   
     private void Start()
     {
         characterPanel.SetActive(false);

@@ -26,7 +26,7 @@ public class ItemStatsExporter : MonoBehaviour
 
         string json = "[\n" + string.Join(",\n", jsonItems) + "\n]";
         File.WriteAllText(Application.dataPath + "/ItemStatsExport.json", json);
-        Debug.Log("✅ Đã xuất file ItemStatsExport.json");
+        Debug.Log("Đã xuất file ItemStatsExport.json");
 
         StartCoroutine(UploadToServer(json));
     }

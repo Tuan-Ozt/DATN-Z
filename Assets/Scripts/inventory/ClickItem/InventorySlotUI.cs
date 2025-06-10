@@ -1,33 +1,43 @@
-﻿using TMPro;
+﻿using Assets.HeroEditor.FantasyInventory.Scripts.Interface.Elements;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class InventorySlotUI : MonoBehaviour
 {
-    public InventoryItem itemData;
+    public InventoryItem1 itemData;
     public Image iconImage;
     public TextMeshProUGUI quantityText;
 
-    public void Init(InventoryItem data)
+    public void Init(InventoryItem1 data)
     {
         itemData = data;
 
-        if (iconImage != null)
-            iconImage.sprite = data.icon;
+        if (data.stats == null)
+        {
+            Debug.LogError("❌ ItemStats (stats) bị null.");
+            return;
+        }
 
+        if (iconImage != null && data.stats.Icon != null)
+        {
+            iconImage.sprite = data.stats.Icon;
+            iconImage.color = Color.white;
+        }
         if (quantityText != null)
             quantityText.text = data.quantity > 1 ? data.quantity.ToString() : "";
-
-        // Debug
-        Debug.Log($"Slot init: {data.itemName} (x{data.quantity})");
     }
+
+
+
 
 
     public void OnClick()
     {
-        if (itemData != null)
+        if (itemData != null && itemData.stats != null)
+        {
             ItemDetailsUI.Instance.Show(itemData);
-        else
-            Debug.LogWarning("ItemData null khi click vào slot.");
+        }
     }
+
 }

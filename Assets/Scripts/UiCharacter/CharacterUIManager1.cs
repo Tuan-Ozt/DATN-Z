@@ -4,6 +4,7 @@ using System.Linq;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using Assets.HeroEditor.Common.CharacterScripts;
 
 public class CharacterUIManager1 : MonoBehaviour
 {
@@ -37,7 +38,12 @@ public class CharacterUIManager1 : MonoBehaviour
     public GameObject MeleeWeapon2Hslot; // Nếu có dùng vũ khí 2 tay
     //load chỉ số
     private List<ItemStats> equippedItems = new List<ItemStats>();
-
+    public static CharacterUIManager1 Instance;
+    public Character character; // ← nhân vật trong UI
+    private void Awake()
+    {
+        Instance = this;
+    }
 
     void Start()
     {
