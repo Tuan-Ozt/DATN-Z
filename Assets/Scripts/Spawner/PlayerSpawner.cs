@@ -10,6 +10,8 @@ public class PlayerSpawner : SimulationBehaviour, INetworkRunnerCallbacks
     public NetworkObject playerPrefab;
     public GameObject characterCanvasPrefab;
 
+
+
     public void OnPlayerJoined(NetworkRunner runner, PlayerRef player)
     {
         if (player == runner.LocalPlayer)
@@ -19,7 +21,10 @@ public class PlayerSpawner : SimulationBehaviour, INetworkRunnerCallbacks
             canvas.SetActive(true);
             Vector3 spawnPosition = new Vector3(0, -7.02f, 0);
             Quaternion spawnRotation = Quaternion.identity;
-
+            //gọi inventory
+            //var uiManager = canvas.GetComponentInChildren<InventoryUIManager>();
+            //uiManager.gridParent = canvas.transform.Find("Scroll View/Viewport/Content"); // đường dẫn đến Grid
+            //uiManager.DisplayInventory(uiManager.testItems);
 
             NetworkObject obj = runner.Spawn(playerPrefab, spawnPosition, spawnRotation, player);
 

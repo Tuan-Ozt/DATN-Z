@@ -1,10 +1,12 @@
 ﻿using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UI;
 
 [CreateAssetMenu(fileName = "ItemStats", menuName = "RPG/ItemStats", order = 1)]
 public class ItemStats : ScriptableObject
 {
     public string itemId;
+    public Sprite Icon;
     public string Name;
     public string Type;
     public string Description;
