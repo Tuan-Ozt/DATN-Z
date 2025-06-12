@@ -10,6 +10,8 @@ public class PlayerSpawner : SimulationBehaviour, INetworkRunnerCallbacks
     public NetworkObject playerPrefab;
     public GameObject characterCanvasPrefab;
 
+
+
     public void OnPlayerJoined(NetworkRunner runner, PlayerRef player)
     {
         if (player == runner.LocalPlayer)
@@ -21,6 +23,10 @@ public class PlayerSpawner : SimulationBehaviour, INetworkRunnerCallbacks
             Quaternion spawnRotation = Quaternion.identity;
 
 
+            var uiManager = canvas.GetComponentInChildren<InventoryUIManager>();
+            InventoryManager.Instance.uiManager = uiManager; // GÁN VÀO ĐÂY
+
+
             NetworkObject obj = runner.Spawn(playerPrefab, spawnPosition, spawnRotation, player);
 
             var avatar = obj.GetComponent<PlayerAvatar>();
@@ -28,6 +34,15 @@ public class PlayerSpawner : SimulationBehaviour, INetworkRunnerCallbacks
             {
                 Debug.Log("da goi");
                 avatar.UpdateCharacterJson(PlayerDataHolder1.CharacterJson);
+            }
+            //  Gán chỉ số gốc của player ( tất cả player sẽ chung một chỉ số
+            var stats = obj.GetComponent<CharacterStats>();
+            if (stats != null)
+            {
+                stats.strength = 50;
+                stats.defense = 50;
+                stats.agility = 50;
+                stats.vitality = 200;
             }
             string token = PlayerDataHolder1.Token;
 

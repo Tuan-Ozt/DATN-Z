@@ -1,9 +1,14 @@
+<<<<<<< HEAD
 # Default ignored files
+=======
+﻿# Default ignored files
+>>>>>>> main
 /shelf/
 /workspace.xml
 # Rider ignored files
 /.idea.DATN-Z.iml
 /modules.xml
+<<<<<<< HEAD
 /contentModel.xml
 /projectSettingsUpdater.xml
 # Editor-based HTTP Client requests
@@ -11,3 +16,9 @@
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
+=======
+/projectSettingsUpdater.xml
+/contentModel.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+>>>>>>> main

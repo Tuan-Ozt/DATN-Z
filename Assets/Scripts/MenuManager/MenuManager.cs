@@ -43,7 +43,9 @@ public class MenuManager : MonoBehaviour
             Debug.Log("Response JSON: " + json);
 
             // Parse JSON
-            CharacterResponse response = JsonUtility.FromJson<CharacterResponse>(json);
+            CharacterSimpleResponse response = JsonUtility.FromJson<CharacterSimpleResponse>(json);
+            PlayerDataHolder1.PlayerName = response.name;
+            PlayerDataHolder1.CharacterJson = response.characterJson;
 
             if (string.IsNullOrEmpty(response.characterJson) || response.characterJson == "null")
             {
@@ -81,6 +83,7 @@ public class MenuManager : MonoBehaviour
             {
                 PlayerDataHolder1.CharacterJson = response.characterJson;
                 Debug.Log("Đã tải dữ liệu nhân vật: " + PlayerDataHolder1.CharacterJson);
+                PlayerDataHolder1.Character = JsonUtility.FromJson<CharacterData>(PlayerDataHolder1.CharacterJson);
 
                 // Gọi luôn Fusion khởi động chế độ Shared và load scene Test
                 FusionManager.Instance.StartFusionSession("Test");

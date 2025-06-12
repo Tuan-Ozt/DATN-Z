@@ -6,6 +6,7 @@ using Unity.Cinemachine;
 
 public class PlayerAvatar : NetworkBehaviour
 {
+    public static PlayerAvatar Instance;
     public Character Character;
 
     // Các phần nhỏ của JSON  ( khởi tạo nhiều luồng để lưu dữ liệu ) vì dữ liệu quá 512
@@ -19,6 +20,10 @@ public class PlayerAvatar : NetworkBehaviour
     private string _lastCharacterJson = "";
     public CinemachineCamera vCam;
     public Camera cam;
+    void Awake()
+    {
+        Instance = this;
+    }
 
     public override void Spawned()
     {
@@ -57,6 +62,8 @@ public class PlayerAvatar : NetworkBehaviour
         {
             _lastCharacterJson = fullJson;
             LoadCharacter(fullJson);
+            Debug.Log(" FixedUpdateNetwork gọi LoadCharacter thành công.");
+
         }
     }
     //xử lý load Character
@@ -77,7 +84,8 @@ public class PlayerAvatar : NetworkBehaviour
         try
         {
             Character.FromJson(json);
-            Debug.Log("Character loaded from JSON.");
+            Character.Initialize(); //  ép cập nhật lại sprite
+            Debug.Log(" Character loaded from JSON.");
         }
         catch (System.Exception ex)
         {
@@ -85,12 +93,15 @@ public class PlayerAvatar : NetworkBehaviour
         }
     }
 
+
     // Cập nhật và chia nhỏ JSON thành các phần nhỏ
     public void UpdateCharacterJson(string fullJson)
     {
+        Debug.Log($" UpdateCharacterJson(): fullJson={fullJson.Substring(0, 60)}...");
+
         if (!HasStateAuthority)
         {
-            Debug.LogWarning("Only StateAuthority can update CharacterJson.");
+            Debug.LogWarning(" Không có quyền cập nhật CharacterJson (HasStateAuthority = false)");
             return;
         }
 

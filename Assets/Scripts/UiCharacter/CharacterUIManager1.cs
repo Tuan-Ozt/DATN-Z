@@ -1,8 +1,10 @@
 ﻿using Assets.HeroEditor.Common.CommonScripts;
+using System.Collections.Generic;
+using System.Linq;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
-using System.Linq;
+using Assets.HeroEditor.Common.CharacterScripts;
 
 public class CharacterUIManager1 : MonoBehaviour
 {
@@ -34,6 +36,14 @@ public class CharacterUIManager1 : MonoBehaviour
 
     public GameObject MeleeWeapon1Hslot;
     public GameObject MeleeWeapon2Hslot; // Nếu có dùng vũ khí 2 tay
+    //load chỉ số
+    private List<ItemStats> equippedItems = new List<ItemStats>();
+    public static CharacterUIManager1 Instance;
+    public Character character; // ← nhân vật trong UI
+    private void Awake()
+    {
+        Instance = this;
+    }
 
     void Start()
     {
@@ -64,7 +74,7 @@ public class CharacterUIManager1 : MonoBehaviour
 
         DisplayItem1(Helmetslot, characterData.Helmet);
         //DisplayItem(Armorslot, characterData.Armor);
-        DisplayItem1(Vestslot, characterData.Vest);
+       // DisplayItem1(Vestslot, characterData.Vest);
         DisplayItem1(Pauldronsslot, characterData.Pauldrons);
         DisplayItem1(Glovesslot, characterData.Gloves);
         DisplayItem1(MeleeWeapon1Hslot, characterData.PrimaryMeleeWeapon);
@@ -80,31 +90,39 @@ public class CharacterUIManager1 : MonoBehaviour
 
 
         DisplayItem1(Bootsslot, characterData.Boots);
-        Debug.Log("Giay" + characterData.Boots);
+       // Debug.Log("Giay" + characterData.Boots);
         // DisplayItem(Bowslot, characterData.Bow);
         DisplayItem1(Hairslot, characterData.Hair);
         DisplayItem1(Beltslot, characterData.Belt);
         DisplayItem1(Capeslot, characterData.Cape);
-        Debug.Log("Cánh" + characterData.Cape);
+       // Debug.Log("Cánh" + characterData.Cape);
         DisplayItem1(Backslot, characterData.Back);
         DisplayItem1(Maskslot, characterData.Mask);
         DisplayItem1(Glassesslot, characterData.Glasses);
         DisplayItem1(Shieldslot, characterData.Shield);
- 
+        GameObject player = GameObject.FindWithTag("Player");
+        if (player != null)
+        {
+            var statComp = player.GetComponent<CharacterStats>();
+            if (statComp != null)
+            {
+                statComp.RecalculateStatsFromEquipment(equippedItems);
+            }
+        }
+
+
     }
 
     void DisplayItem1(GameObject slot, string itemPath, string expectedType = null)
     {
         if (slot == null || string.IsNullOrEmpty(itemPath)) return;
 
-        string id = itemPath.Split('#')[0].Trim();  // Xóa màu nếu có
+        string id = itemPath.Split('#')[0].Trim();
 
-        // === Hiện Text (nếu có TextMeshPro) ===
         TextMeshProUGUI tmpText = slot.GetComponentInChildren<TextMeshProUGUI>();
         if (tmpText != null)
             tmpText.text = id;
 
-        // === Hiện Sprite đúng loại ===
         Image img = slot.GetComponentInChildren<Image>();
         if (img != null)
         {
@@ -115,24 +133,31 @@ public class CharacterUIManager1 : MonoBehaviour
                 img.sprite = icon.Sprite;
                 img.color = Color.white;
 
-                // GÁN cho EquipmentSlotUI nếu có
                 var eqSlot = slot.GetComponent<EquipmentSlotUI>();
                 if (eqSlot != null)
                 {
-                    eqSlot.SetItem(id, icon.Sprite, icon.Type); // icon.Type có trong IconCollection
+                    eqSlot.SetItem(id, icon.Sprite, icon.Type);
                 }
 
-
-                Debug.Log($"✅ Hiển thị icon: {id} | Type: {icon.Type} | Path: {icon.Path}");
+                // ✅ THÊM DÒNG NÀY để cộng stats:
+                string itemId = icon.Id.Split('.').Last(); // hoặc giữ nguyên icon.Id nếu bạn dùng full ID
+                string itemType = icon.Type;
+                var stats = ItemDatabase.Instance.GetItemStatsById(itemId, itemType);
+                if (stats != null)
+                {
+                    equippedItems.Add(stats);
+                    Debug.Log($"[STAT ADDED] {itemId} ({itemType}) ➜ STR: {stats.Strength}, DEF: {stats.Defense}, AGI: {stats.Agility}, VIT: {stats.Vitality}");
+                }
             }
             else
             {
                 img.sprite = IconCollection.Active.DefaultItemIcon;
                 img.color = Color.gray;
-                Debug.LogWarning($"❌ Không tìm thấy icon: {id} | expectedType: {expectedType}");
             }
         }
     }
+
+
 
     void DisplayItem(GameObject slot, string itemPath, string expectedType = null)
     {
@@ -141,7 +166,6 @@ public class CharacterUIManager1 : MonoBehaviour
         string raw = itemPath.Split('#')[0].Trim();  // Loại bỏ màu
         string name = raw.Split('.').Last();         // Lấy tên item
 
-        // Danh sách các collection ưu tiên (có thể mở rộng tùy nhân vật/map)
         string[] collections = {
         "Extensions.Legendary",
         "FantasyHeroes.Basic",
@@ -150,8 +174,6 @@ public class CharacterUIManager1 : MonoBehaviour
         "FantasyHeroes.Samurai",
         "Extensions.AbandonedWorkshop"
     };
-
-        Debug.Log($"🔍 Tìm icon: {expectedType}.{name}");
 
         TextMeshProUGUI tmpText = slot.GetComponentInChildren<TextMeshProUGUI>();
         if (tmpText != null)
@@ -166,22 +188,31 @@ public class CharacterUIManager1 : MonoBehaviour
         {
             img.sprite = icon.Sprite;
             img.color = Color.white;
+
             var eqSlot = slot.GetComponent<EquipmentSlotUI>();
             if (eqSlot != null)
             {
                 eqSlot.SetItem(icon.Id, icon.Sprite, icon.Type);
-                Debug.Log($"[CLICK SET] Slot {slot.name} gán ID: {icon.Id}");
             }
 
-            Debug.Log($"✅ Hiển thị icon: {icon.Id} | Path: {icon.Path} | Type: {icon.Type}");
+            // ✅ Lấy chỉ số từ item và lưu lại
+            string itemId = icon.Id.Split('.').Last();
+            string itemType = icon.Type;
+            var stats = ItemDatabase.Instance.GetItemStatsById(itemId, itemType);
+            if (stats != null)
+            {
+                equippedItems.Add(stats);
+                Debug.Log($"[STAT ADDED] {itemId} ({itemType}) ➜ " +
+             $"STR: {stats.Strength}, DEF: {stats.Defense}, AGI: {stats.Agility}, VIT: {stats.Vitality}");
+            }
         }
         else
         {
             img.sprite = IconCollection.Active.DefaultItemIcon;
             img.color = Color.gray;
-            Debug.LogWarning($"❌ Không tìm thấy icon: {expectedType}.{name}");
         }
     }
+
 
     string GenerateId(string collection, string type, string itemPath)
     {
@@ -200,21 +231,14 @@ public class CharacterUIManager1 : MonoBehaviour
 
             if (icon != null)
             {
-                Debug.Log($"🔍 Đã tìm thấy icon với ID: {id}");
+               // Debug.Log($" Đã tìm thấy icon với ID: {id}");
                 return icon;
             }
         }
 
-        Debug.LogWarning($"❌ Không tìm thấy icon: {type}.{name} trong bất kỳ bộ nào.");
+    //    Debug.LogWarning($" Không tìm thấy icon: {type}.{name} trong bất kỳ bộ nào.");
         return null;
     }
-
-
-
-
-
-
-
 
 
     //hàm đọc dữ liện index của []armor

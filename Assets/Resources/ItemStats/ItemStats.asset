@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ItemStats
   m_EditorClassIdentifier: 
   itemId: Extensions.Legendary.Belt.AizenHeavyArmor
+  Icon: {fileID: 21300000, guid: f60e5a907dc8e0c418681aa7cb161947, type: 3}
   Name: Quan.AizenHeavyArmor
   Type: Belt
   Description: "t\u0103ng ch\u1EC9 s\u1ED1"
