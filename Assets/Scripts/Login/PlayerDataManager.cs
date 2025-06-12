@@ -7,6 +7,9 @@ public class PlayerDataManager : MonoBehaviour
     public int AccountId { get; private set; } = -1;
     public string CharacterJson { get; private set; }
 
+    public string Token { get; private set; }
+
+
     private void Awake()
     {
         if (Instance == null)
@@ -38,4 +41,5 @@ public class PlayerDataManager : MonoBehaviour
     {
         return CharacterJson;
     }
+
 }
