@@ -1,8 +1,12 @@
 ﻿using Assets.HeroEditor.Common.CharacterScripts;
 using Fusion;
-using UnityEngine;
-using UnityEngine.SceneManagement;
+using System;
+using System.Collections;
+using System.Text;
 using Unity.Cinemachine;
+using UnityEngine;
+using UnityEngine.Networking;
+using UnityEngine.SceneManagement;
 
 public class PlayerAvatar : NetworkBehaviour
 {
@@ -16,6 +20,7 @@ public class PlayerAvatar : NetworkBehaviour
     [Networked] public NetworkString<_512> CharacterJsonPart4 { get; set; }
     [Networked] public NetworkString<_512> CharacterJsonPart5 { get; set; }
     [Networked] public NetworkString<_512> CharacterJsonPart6 { get; set; }
+    [Networked] public NetworkString<_512> CharacterJsonPart7 { get; set; }
 
     private string _lastCharacterJson = "";
     public CinemachineCamera vCam;
@@ -97,7 +102,8 @@ public class PlayerAvatar : NetworkBehaviour
     // Cập nhật và chia nhỏ JSON thành các phần nhỏ
     public void UpdateCharacterJson(string fullJson)
     {
-        Debug.Log($" UpdateCharacterJson(): fullJson={fullJson.Substring(0, 60)}...");
+
+        Debug.Log($" UpdateCharacterJson(): fullJson={fullJson.Substring(0, 70)}...");
 
         if (!HasStateAuthority)
         {
@@ -106,7 +112,7 @@ public class PlayerAvatar : NetworkBehaviour
         }
 
         int maxLen = 512;
-        int maxTotalLen = maxLen * 6; // 3072 chars
+        int maxTotalLen = maxLen * 7;
 
         if (fullJson.Length > maxTotalLen)
         {
@@ -120,9 +126,12 @@ public class PlayerAvatar : NetworkBehaviour
         CharacterJsonPart4 = fullJson.Length > maxLen * 3 ? fullJson.Substring(maxLen * 3, Mathf.Min(maxLen, fullJson.Length - maxLen * 3)) : "";
         CharacterJsonPart5 = fullJson.Length > maxLen * 4 ? fullJson.Substring(maxLen * 4, Mathf.Min(maxLen, fullJson.Length - maxLen * 4)) : "";
         CharacterJsonPart6 = fullJson.Length > maxLen * 5 ? fullJson.Substring(maxLen * 5, Mathf.Min(maxLen, fullJson.Length - maxLen * 5)) : "";
+        CharacterJsonPart7 = fullJson.Length > maxLen * 6 ? fullJson.Substring(maxLen * 6, Mathf.Min(maxLen, fullJson.Length - maxLen * 6)) : "";
 
         Debug.Log("CharacterJson updated and split into parts.");
+
     }
+
 
     // Lấy lại JSON đầy đủ từ các phần nhỏ
     public string GetFullCharacterJson()
@@ -132,7 +141,8 @@ public class PlayerAvatar : NetworkBehaviour
                CharacterJsonPart3.ToString() +
                CharacterJsonPart4.ToString() +
                CharacterJsonPart5.ToString() +
-               CharacterJsonPart6.ToString();
+               CharacterJsonPart6.ToString() +
+               CharacterJsonPart7.ToString();
     }
     //check token , kich login nếu trùng token , đẩy client về Scene Login
     [Rpc(RpcSources.StateAuthority, RpcTargets.All)]
@@ -143,5 +153,13 @@ public class PlayerAvatar : NetworkBehaviour
             Debug.Log("Bạn bị đá do đăng nhập trùng!");
             SceneManager.LoadScene("Login");
         }
+    }
+    
+
+    [Serializable]
+    public class SaveCharacterDto
+    {
+        public int AccountId;
+        public string CharacterJson;
     }
 }

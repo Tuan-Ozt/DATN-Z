@@ -1,10 +1,12 @@
-﻿using Assets.HeroEditor.Common.CommonScripts;
+﻿using Assets.HeroEditor.Common.CharacterScripts;
+using Assets.HeroEditor.Common.CommonScripts;
+using HeroEditor.Common.Enums;
+using Newtonsoft.Json;
 using System.Collections.Generic;
 using System.Linq;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
-using Assets.HeroEditor.Common.CharacterScripts;
 
 public class CharacterUIManager1 : MonoBehaviour
 {
@@ -15,13 +17,13 @@ public class CharacterUIManager1 : MonoBehaviour
     public GameObject Vestslot;// ao trong
     public GameObject Pauldronsslot;//quan
     public GameObject Glovesslot;//bao tay
-    public GameObject Bootsslot;//giay
+    //public GameObject Bootsslot;//giay
     public GameObject Firearms1Hslot;
     public GameObject Firearms2Hslot;
 
-    /* public GameObject MeleeWeapon1Hslot; // 1 kiem
-     public GameObject Firearms1Hslot; // Súng
-     public GameObject Firearms2Hslot; // Súng to*/
+    //public GameObject MeleeWeapon1Hslot; // 1 kiem
+   // public GameObject Firearms1Hslot; // Súng
+    // public GameObject Firearms2Hslot; // Súng to*/
     public GameObject Bowslot; // Cung
     public GameObject Hairslot;//toc
     public GameObject Beltslot;//nhan
@@ -30,7 +32,7 @@ public class CharacterUIManager1 : MonoBehaviour
     public GameObject Maskslot;//bit mat
     public GameObject Glassesslot; //kinh
     public GameObject Shieldslot;//khien
-    public GameObject CharacterPreviewSlot; // Nhân vật trung tâm
+   // public GameObject CharacterPreviewSlot; // Nhân vật trung tâm
 
     //
 
@@ -62,7 +64,7 @@ public class CharacterUIManager1 : MonoBehaviour
         }
 
         CharacterData characterData = JsonUtility.FromJson<CharacterData>(json);
-        string[] armorTypes = { "Armor", "Belt", "Boots", "Gloves", "Pauldrons", "Vest" };
+        string[] armorTypes = { "Armor", "Boots", "Gloves", "Pauldrons", "Vest", "Belt" };
 
         for (int i = 0; i < ArmorSlots.Length && i < armorTypes.Length; i++)
         {
@@ -75,9 +77,9 @@ public class CharacterUIManager1 : MonoBehaviour
         DisplayItem1(Helmetslot, characterData.Helmet);
         //DisplayItem(Armorslot, characterData.Armor);
        // DisplayItem1(Vestslot, characterData.Vest);
-        DisplayItem1(Pauldronsslot, characterData.Pauldrons);
+       // DisplayItem1(Pauldronsslot, characterData.Pauldrons);
         DisplayItem1(Glovesslot, characterData.Gloves);
-        DisplayItem1(MeleeWeapon1Hslot, characterData.PrimaryMeleeWeapon);
+        DisplayItem1(MeleeWeapon1Hslot, characterData.MeleeWeapon1H);
         DisplayItem1(MeleeWeapon2Hslot, characterData.SecondaryMeleeWeapon);
         if (characterData.WeaponType == "Firearms1H" && !string.IsNullOrEmpty(characterData.Firearms))
         {
@@ -89,10 +91,11 @@ public class CharacterUIManager1 : MonoBehaviour
         }
 
 
-        DisplayItem1(Bootsslot, characterData.Boots);
+       // DisplayItem1(Bootsslot, characterData.Boots);
        // Debug.Log("Giay" + characterData.Boots);
         // DisplayItem(Bowslot, characterData.Bow);
         DisplayItem1(Hairslot, characterData.Hair);
+       
         DisplayItem1(Beltslot, characterData.Belt);
         DisplayItem1(Capeslot, characterData.Cape);
        // Debug.Log("Cánh" + characterData.Cape);
@@ -109,11 +112,62 @@ public class CharacterUIManager1 : MonoBehaviour
                 statComp.RecalculateStatsFromEquipment(equippedItems);
             }
         }
+    }
+    public void LoadCharacterFromJson(string json)
+    {
+        if (string.IsNullOrEmpty(json)) return;
 
+        var characterData = JsonConvert.DeserializeObject<CharacterData>(json);
+        if (characterData == null) return;
 
+        equippedItems.Clear(); // clear stat cũ
+
+        //  Quan trọng: cập nhật Armor[]
+        string[] armorTypes = { "Armor", "Boots", "Gloves", "Pauldrons", "Vest", "Belt" };
+        for (int i = 0; i < ArmorSlots.Length && i < armorTypes.Length; i++)
+        {
+            string armorValue = GetArmorValue(json, i);
+            string expectedType = armorTypes[i];
+            DisplayItem(ArmorSlots[i], armorValue, expectedType);
+            Debug.Log($"thu tu duyệt+ {ArmorSlots[i]}, {armorValue}, {expectedType}");
+        }
+
+        // Các slot còn lại
+        DisplayItem1(Helmetslot, characterData.Helmet, "Helmet");
+        //DisplayItem1(Vestslot, characterData.Vest, "Vest");
+        //DisplayItem1(Pauldronsslot, characterData.Pauldrons, "Pauldrons");
+        DisplayItem1(Glovesslot, characterData.Gloves, "Gloves");
+        //DisplayItem1(Bootsslot, characterData.Boots, "Boots");
+        DisplayItem1(MeleeWeapon1Hslot, characterData.PrimaryMeleeWeapon, "MeleeWeapon1H");
+        DisplayItem1(MeleeWeapon2Hslot, characterData.SecondaryMeleeWeapon, "MeleeWeapon2H");
+        DisplayItem1(Firearms1Hslot, characterData.Firearms1H, "Firearms1H");
+        DisplayItem1(Firearms2Hslot, characterData.Firearms2H, "Firearms2H");
+        DisplayItem1(Bowslot, characterData.Bow, "Bow");
+        DisplayItem1(Hairslot, characterData.Hair, "Hair");
+        DisplayItem1(Beltslot, characterData.Belt, "Belt");
+        DisplayItem1(Capeslot, characterData.Cape, "Cape");
+        DisplayItem1(Backslot, characterData.Back, "Back");
+        DisplayItem1(Maskslot, characterData.Mask, "Mask");
+        DisplayItem1(Glassesslot, characterData.Glasses, "Glasses");
+        DisplayItem1(Shieldslot, characterData.Shield, "Shield");
+
+        // Cập nhật chỉ số
+        var player = GameObject.FindWithTag("Player");
+        if (player != null)
+        {
+            var statComp = player.GetComponent<CharacterStats>();
+            if (statComp != null)
+            {
+                statComp.RecalculateStatsFromEquipment(equippedItems);
+            }
+        }
     }
 
-    void DisplayItem1(GameObject slot, string itemPath, string expectedType = null)
+
+
+
+
+    public void DisplayItem1(GameObject slot, string itemPath, string expectedType = null)
     {
         if (slot == null || string.IsNullOrEmpty(itemPath)) return;
 
@@ -147,7 +201,14 @@ public class CharacterUIManager1 : MonoBehaviour
                 {
                     equippedItems.Add(stats);
                     Debug.Log($"[STAT ADDED] {itemId} ({itemType}) ➜ STR: {stats.Strength}, DEF: {stats.Defense}, AGI: {stats.Agility}, VIT: {stats.Vitality}");
+
                 }
+                if (character != null && stats != null)
+                {
+                    EquipToCharacterFromStats(stats);
+                }
+
+
             }
             else
             {
@@ -159,7 +220,7 @@ public class CharacterUIManager1 : MonoBehaviour
 
 
 
-    void DisplayItem(GameObject slot, string itemPath, string expectedType = null)
+    public  void DisplayItem(GameObject slot, string itemPath, string expectedType = null)
     {
         if (slot == null || string.IsNullOrEmpty(itemPath)) return;
 
@@ -252,4 +313,111 @@ public class CharacterUIManager1 : MonoBehaviour
         if (end == -1) return null;
         return json.Substring(start, end - start);
     }
+    private void EquipToCharacterFromStats(ItemStats stats)
+    {
+        string spriteName = stats.itemId.Split('.').Last();
+        Sprite sprite = stats.Icon;
+
+        if (string.IsNullOrEmpty(spriteName) || sprite == null)
+        {
+            Debug.LogWarning("EquipToCharacter: sprite null hoặc tên trống.");
+            return;
+        }
+
+        switch (stats.Type)
+        {
+            case "Helmet":
+                character.Helmet = sprite;
+                break;
+            case "Glasses":
+                character.Glasses = sprite;
+                break;
+            case "Hair":
+                character.Hair = sprite;
+                break;
+            case "Back":
+                character.Back = sprite;
+                break;
+            case "Cape":
+                character.Cape = sprite;
+                break;
+            case "Shield":
+                character.Shield = sprite;
+                break;
+            case "Armor":
+                EnsureArmorListSize(0);
+                character.Armor[0] = sprite;
+                break;
+            case "Boots":
+                EnsureArmorListSize(1);
+                character.Armor[1] = sprite;
+                break;
+            case "Gloves":
+                EnsureArmorListSize(2);
+                character.Armor[2] = sprite;
+                break;
+            case "Pauldrons":
+                EnsureArmorListSize(3);
+                character.Armor[3] = sprite;
+                break;
+            case "Vest":
+                EnsureArmorListSize(4);
+                character.Armor[4] = sprite;
+                break;
+            case "Belt":
+                EnsureArmorListSize(5);
+                character.Armor[5] = sprite;
+                break;
+
+            case "MeleeWeapon1H":
+            case "PrimaryMeleeWeapon":
+                EquipWeapon(sprite, WeaponType.Melee1H);
+                break;
+
+            case "Bow":
+                EquipWeapon(sprite, WeaponType.Bow);
+                break;
+
+            case "Firearms1H":
+                EquipWeapon(sprite, WeaponType.Firearms1H);
+                break;
+
+            case "Firearms2H":
+                EquipWeapon(sprite, WeaponType.Firearms2H);
+                break;
+
+            default:
+                Debug.LogWarning($"Chưa hỗ trợ trang bị: {stats.Type}");
+                break;
+        }
+
+        character.Initialize();
+    }
+    private void EquipWeapon(Sprite sprite, WeaponType type)
+    {
+        if (sprite == null) return;
+
+        var entry = new HeroEditor.Common.SpriteGroupEntry(
+            edition: "Custom",
+            collection: "Default",
+            type: type.ToString(),
+            name: sprite.name,
+            path: "",
+            sprite: sprite,
+            sprites: new List<Sprite> { sprite }
+        );
+
+        character.WeaponType = type;
+        character.Equip(entry, EquipmentPart.MeleeWeapon1H);
+    }
+    private void EnsureArmorListSize(int index)
+    {
+        while (character.Armor.Count <= index)
+        {
+            character.Armor.Add(null);
+        }
+    }
+
+
+
 }

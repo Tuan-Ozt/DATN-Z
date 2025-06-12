@@ -33,6 +33,7 @@ public class AuthManager : MonoBehaviour
         {
             tokenCheckCoroutine = StartCoroutine(TokenChecker());
         }
+
     }
     public static AuthManager Instance;
 
@@ -197,27 +198,6 @@ public class AuthManager : MonoBehaviour
         }
 
     }
-    //Load Dữ liệu CharacterData từ database qua API
-    public IEnumerator LoadCharacterData(int accountId)
-    {
-        string url = apiUrl + "/get-character/" + accountId;
-        UnityWebRequest request = UnityWebRequest.Get(url);
-        request.SetRequestHeader("Authorization", "Bearer " + PlayerPrefs.GetString("token"));
-        yield return request.SendWebRequest();
-
-        if (request.result == UnityWebRequest.Result.Success)
-        {
-            var responseJson = request.downloadHandler.text;
-            Debug.Log("Lấy dữ liệu nhân vật thành công: " + responseJson);
-            CharacterResponse characterResponse = JsonUtility.FromJson<CharacterResponse>(responseJson);
-            Debug.Log("Character JSON: " + characterResponse.characterJson);
-        }
-        else
-        {
-            Debug.LogError("Lỗi khi lấy dữ liệu nhân vật: " + request.error);
-        }
-
-    }
 
     // Gọi API , lấy dữ liệu CharacterData từ database xuống
     public IEnumerator SaveCharacterToServer(string characterJson)
@@ -265,11 +245,11 @@ public class CharacterSimpleResponse
 }
 
 [System.Serializable]
-    public class SaveCharacterDto
-    {
-        public int AccountId;
-        public string CharacterJson;
-    }
+public class SaveCharacterDto
+{
+    public int AccountId;
+    public string CharacterJson;
+}
 
 
 [System.Serializable]
