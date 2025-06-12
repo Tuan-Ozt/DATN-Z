@@ -20,7 +20,7 @@ MonoBehaviour:
   - {fileID: 102900000, guid: 67ca9debcaf14e35b0e035ac4424f478, type: 3}
   - {fileID: 102900000, guid: be761057a0844228844b816f63762da7, type: 3}
   - {fileID: 102900000, guid: db25fb96c6dcb6a43b482104ad5c52de, type: 3}
-  - {fileID: 102900000, guid: 0af4020a146fa1d49b603e0e1dfa595d, type: 3}
+  - {fileID: 102900000, guid: faf14b48c5604c92add598af67f1f640, type: 3}
   CollectionFilter: []
   CollectionFilterIgnore: []
   Head:
@@ -123,7 +123,7 @@ MonoBehaviour:
     Meta: 
     Tags: []
   - Name: Ariel
-    Collection: MoonStyle [NoPaint]
+    Collection: 'MoonStyle [NoPaint]'
     Edition: Extensions
     Id: Extensions.MoonStyle [NoPaint].Hair.Ariel
     Path: Assets/HeroEditor/Extensions/Style/Sprites/BodyParts/Hair/MoonStyle [NoPaint]/Ariel.png
@@ -136,7 +136,7 @@ MonoBehaviour:
     Tags:
     - NoPaint
   - Name: Ariel
-    Collection: SkyStyle [NoPaint]
+    Collection: 'SkyStyle [NoPaint]'
     Edition: Extensions
     Id: Extensions.SkyStyle [NoPaint].Hair.Ariel
     Path: Assets/HeroEditor/Extensions/Style/Sprites/BodyParts/Hair/SkyStyle [NoPaint]/Ariel.png
@@ -161,7 +161,7 @@ MonoBehaviour:
     Meta: 
     Tags: []
   - Name: Ariel
-    Collection: SunStyle [NoPaint]
+    Collection: 'SunStyle [NoPaint]'
     Edition: Extensions
     Id: Extensions.SunStyle [NoPaint].Hair.Ariel
     Path: Assets/HeroEditor/Extensions/Style/Sprites/BodyParts/Hair/SunStyle [NoPaint]/Ariel.png
@@ -186,7 +186,7 @@ MonoBehaviour:
     Meta: 
     Tags: []
   - Name: Blade
-    Collection: MoonStyle [NoPaint]
+    Collection: 'MoonStyle [NoPaint]'
     Edition: Extensions
     Id: Extensions.MoonStyle [NoPaint].Hair.Blade
     Path: Assets/HeroEditor/Extensions/Style/Sprites/BodyParts/Hair/MoonStyle [NoPaint]/Blade.png
@@ -199,7 +199,7 @@ MonoBehaviour:
     Tags:
     - NoPaint
   - Name: Blade
-    Collection: SkyStyle [NoPaint]
+    Collection: 'SkyStyle [NoPaint]'
     Edition: Extensions
     Id: Extensions.SkyStyle [NoPaint].Hair.Blade
     Path: Assets/HeroEditor/Extensions/Style/Sprites/BodyParts/Hair/SkyStyle [NoPaint]/Blade.png
@@ -224,7 +224,7 @@ MonoBehaviour:
     Meta: 
     Tags: []
   - Name: Blade
-    Collection: SunStyle [NoPaint]
+    Collection: 'SunStyle [NoPaint]'
     Edition: Extensions
     Id: Extensions.SunStyle [NoPaint].Hair.Blade
     Path: Assets/HeroEditor/Extensions/Style/Sprites/BodyParts/Hair/SunStyle [NoPaint]/Blade.png
@@ -236,10 +236,10 @@ MonoBehaviour:
     Meta: 
     Tags:
     - NoPaint
-  - Name: Blossom [HideEars]
-    Collection: MoonStyle [NoPaint]
+  - Name: 'Blossom [HideEars]'
+    Collection: 'MoonStyle [NoPaint]'
     Edition: Extensions
-    Id: Extensions.MoonStyle [NoPaint].Hair.Blossom [HideEars]
+    Id: 'Extensions.MoonStyle [NoPaint].Hair.Blossom [HideEars]'
     Path: Assets/HeroEditor/Extensions/Style/Sprites/BodyParts/Hair/MoonStyle [NoPaint]/Blossom
       [HideEars].png
     Sprite: {fileID: 21300000, guid: d0b658b16e744122acc64eb3e4d43565, type: 3}
@@ -251,10 +251,10 @@ MonoBehaviour:
     Tags:
     - NoPaint
     - HideEars
-  - Name: Blossom [HideEars]
-    Collection: SkyStyle [NoPaint]
+  - Name: 'Blossom [HideEars]'
+    Collection: 'SkyStyle [NoPaint]'
     Edition: Extensions
-    Id: Extensions.SkyStyle [NoPaint].Hair.Blossom [HideEars]
+    Id: 'Extensions.SkyStyle [NoPaint].Hair.Blossom [HideEars]'
     Path: Assets/HeroEditor/Extensions/Style/Sprites/BodyParts/Hair/SkyStyle [NoPaint]/Blossom
       [HideEars].png
     Sprite: {fileID: 21300000, guid: 05c7ae8a739342b7b19e32ad98ea7e08, type: 3}
@@ -266,10 +266,10 @@ MonoBehaviour:
     Tags:
     - NoPaint
     - HideEars
-  - Name: Blossom [HideEars]
+  - Name: 'Blossom [HideEars]'
     Collection: Style
     Edition: Extensions
-    Id: Extensions.Style.Hair.Blossom [HideEars]
+    Id: 'Extensions.Style.Hair.Blossom [HideEars]'
     Path: Assets/HeroEditor/Extensions/Style/Sprites/BodyParts/Hair/Style/Blossom
       [HideEars].png
     Sprite: {fileID: 21300000, guid: 2aef7ac1a46c4bb697cad6633354dbc0, type: 3}
@@ -280,10 +280,10 @@ MonoBehaviour:
     Meta: 
     Tags:
     - HideEars
-  - Name: Blossom [HideEars]
-    Collection: SunStyle [NoPaint]
+  - Name: 'Blossom [HideEars]'
+    Collection: 'SunStyle [NoPaint]'
     Edition: Extensions
-    Id: Extensions.SunStyle [NoPaint].Hair.Blossom [HideEars]
+    Id: 'Extensions.SunStyle [NoPaint].Hair.Blossom [HideEars]'
     Path: Assets/HeroEditor/Extensions/Style/Sprites/BodyParts/Hair/SunStyle [NoPaint]/Blossom
       [HideEars].png
     Sprite: {fileID: 21300000, guid: e110dbcd42d14d2c951135ea6b190f58, type: 3}
@@ -308,7 +308,7 @@ MonoBehaviour:
     Meta: 
     Tags: []
   - Name: Bubble
-    Collection: MoonStyle [NoPaint]
+    Collection: 'MoonStyle [NoPaint]'
     Edition: Extensions
     Id: Extensions.MoonStyle [NoPaint].Hair.Bubble
     Path: Assets/HeroEditor/Extensions/Style/Sprites/BodyParts/Hair/MoonStyle [NoPaint]/Bubble.png
@@ -321,7 +321,7 @@ MonoBehaviour:
     Tags:
     - NoPaint
   - Name: Bubble
-    Collection: SkyStyle [NoPaint]
+    Collection: 'SkyStyle [NoPaint]'
     Edition: Extensions
     Id: Extensions.SkyStyle [NoPaint].Hair.Bubble
     Path: Assets/HeroEditor/Extensions/Style/Sprites/BodyParts/Hair/SkyStyle [NoPaint]/Bubble.png
@@ -346,7 +346,7 @@ MonoBehaviour:
     Meta: 
     Tags: []
   - Name: Bubble
-    Collection: SunStyle [NoPaint]
+    Collection: 'SunStyle [NoPaint]'
     Edition: Extensions
     Id: Extensions.SunStyle [NoPaint].Hair.Bubble
     Path: Assets/HeroEditor/Extensions/Style/Sprites/BodyParts/Hair/SunStyle [NoPaint]/Bubble.png
@@ -383,7 +383,7 @@ MonoBehaviour:
     Meta: 
     Tags: []
   - Name: Cheeky
-    Collection: MoonStyle [NoPaint]
+    Collection: 'MoonStyle [NoPaint]'
     Edition: Extensions
     Id: Extensions.MoonStyle [NoPaint].Hair.Cheeky
     Path: Assets/HeroEditor/Extensions/Style/Sprites/BodyParts/Hair/MoonStyle [NoPaint]/Cheeky.png
@@ -396,7 +396,7 @@ MonoBehaviour:
     Tags:
     - NoPaint
   - Name: Cheeky
-    Collection: SkyStyle [NoPaint]
+    Collection: 'SkyStyle [NoPaint]'
     Edition: Extensions
     Id: Extensions.SkyStyle [NoPaint].Hair.Cheeky
     Path: Assets/HeroEditor/Extensions/Style/Sprites/BodyParts/Hair/SkyStyle [NoPaint]/Cheeky.png
@@ -421,7 +421,7 @@ MonoBehaviour:
     Meta: 
     Tags: []
   - Name: Cheeky
-    Collection: SunStyle [NoPaint]
+    Collection: 'SunStyle [NoPaint]'
     Edition: Extensions
     Id: Extensions.SunStyle [NoPaint].Hair.Cheeky
     Path: Assets/HeroEditor/Extensions/Style/Sprites/BodyParts/Hair/SunStyle [NoPaint]/Cheeky.png
@@ -433,10 +433,10 @@ MonoBehaviour:
     Meta: 
     Tags:
     - NoPaint
-  - Name: Cleo [HideEars]
-    Collection: MoonStyle [NoPaint]
+  - Name: 'Cleo [HideEars]'
+    Collection: 'MoonStyle [NoPaint]'
     Edition: Extensions
-    Id: Extensions.MoonStyle [NoPaint].Hair.Cleo [HideEars]
+    Id: 'Extensions.MoonStyle [NoPaint].Hair.Cleo [HideEars]'
     Path: Assets/HeroEditor/Extensions/Style/Sprites/BodyParts/Hair/MoonStyle [NoPaint]/Cleo
       [HideEars].png
     Sprite: {fileID: 21300000, guid: 2f35c1a2f7d94680b7af2ee24301d038, type: 3}
@@ -448,10 +448,10 @@ MonoBehaviour:
     Tags:
     - NoPaint
     - HideEars
-  - Name: Cleo [HideEars]
-    Collection: SkyStyle [NoPaint]
+  - Name: 'Cleo [HideEars]'
+    Collection: 'SkyStyle [NoPaint]'
     Edition: Extensions
-    Id: Extensions.SkyStyle [NoPaint].Hair.Cleo [HideEars]
+    Id: 'Extensions.SkyStyle [NoPaint].Hair.Cleo [HideEars]'
     Path: Assets/HeroEditor/Extensions/Style/Sprites/BodyParts/Hair/SkyStyle [NoPaint]/Cleo
       [HideEars].png
     Sprite: {fileID: 21300000, guid: f4d7d076ad7c4d1bb9a5597edaf8891b, type: 3}
@@ -463,10 +463,10 @@ MonoBehaviour:
     Tags:
     - NoPaint
     - HideEars
-  - Name: Cleo [HideEars]
+  - Name: 'Cleo [HideEars]'
     Collection: Style
     Edition: Extensions
-    Id: Extensions.Style.Hair.Cleo [HideEars]
+    Id: 'Extensions.Style.Hair.Cleo [HideEars]'
     Path: Assets/HeroEditor/Extensions/Style/Sprites/BodyParts/Hair/Style/Cleo [HideEars].png
     Sprite: {fileID: 21300000, guid: 802bfadb366c4d638a31dfe589b4085d, type: 3}
     Sprites:
@@ -476,10 +476,10 @@ MonoBehaviour:
     Meta: 
     Tags:
     - HideEars
-  - Name: Cleo [HideEars]
-    Collection: SunStyle [NoPaint]
+  - Name: 'Cleo [HideEars]'
+    Collection: 'SunStyle [NoPaint]'
     Edition: Extensions
-    Id: Extensions.SunStyle [NoPaint].Hair.Cleo [HideEars]
+    Id: 'Extensions.SunStyle [NoPaint].Hair.Cleo [HideEars]'
     Path: Assets/HeroEditor/Extensions/Style/Sprites/BodyParts/Hair/SunStyle [NoPaint]/Cleo
       [HideEars].png
     Sprite: {fileID: 21300000, guid: d42b592fa68b47cea40347f46ea1d7de, type: 3}
@@ -516,7 +516,7 @@ MonoBehaviour:
     Meta: 
     Tags: []
   - Name: Cutie
-    Collection: MoonStyle [NoPaint]
+    Collection: 'MoonStyle [NoPaint]'
     Edition: Extensions
     Id: Extensions.MoonStyle [NoPaint].Hair.Cutie
     Path: Assets/HeroEditor/Extensions/Style/Sprites/BodyParts/Hair/MoonStyle [NoPaint]/Cutie.png
@@ -529,7 +529,7 @@ MonoBehaviour:
     Tags:
     - NoPaint
   - Name: Cutie
-    Collection: SkyStyle [NoPaint]
+    Collection: 'SkyStyle [NoPaint]'
     Edition: Extensions
     Id: Extensions.SkyStyle [NoPaint].Hair.Cutie
     Path: Assets/HeroEditor/Extensions/Style/Sprites/BodyParts/Hair/SkyStyle [NoPaint]/Cutie.png
@@ -554,7 +554,7 @@ MonoBehaviour:
     Meta: 
     Tags: []
   - Name: Cutie
-    Collection: SunStyle [NoPaint]
+    Collection: 'SunStyle [NoPaint]'
     Edition: Extensions
     Id: Extensions.SunStyle [NoPaint].Hair.Cutie
     Path: Assets/HeroEditor/Extensions/Style/Sprites/BodyParts/Hair/SunStyle [NoPaint]/Cutie.png
@@ -579,7 +579,7 @@ MonoBehaviour:
     Meta: 
     Tags: []
   - Name: DoubleTrouble
-    Collection: MoonStyle [NoPaint]
+    Collection: 'MoonStyle [NoPaint]'
     Edition: Extensions
     Id: Extensions.MoonStyle [NoPaint].Hair.DoubleTrouble
     Path: Assets/HeroEditor/Extensions/Style/Sprites/BodyParts/Hair/MoonStyle [NoPaint]/DoubleTrouble.png
@@ -592,7 +592,7 @@ MonoBehaviour:
     Tags:
     - NoPaint
   - Name: DoubleTrouble
-    Collection: SkyStyle [NoPaint]
+    Collection: 'SkyStyle [NoPaint]'
     Edition: Extensions
     Id: Extensions.SkyStyle [NoPaint].Hair.DoubleTrouble
     Path: Assets/HeroEditor/Extensions/Style/Sprites/BodyParts/Hair/SkyStyle [NoPaint]/DoubleTrouble.png
@@ -617,7 +617,7 @@ MonoBehaviour:
     Meta: 
     Tags: []
   - Name: DoubleTrouble
-    Collection: SunStyle [NoPaint]
+    Collection: 'SunStyle [NoPaint]'
     Edition: Extensions
     Id: Extensions.SunStyle [NoPaint].Hair.DoubleTrouble
     Path: Assets/HeroEditor/Extensions/Style/Sprites/BodyParts/Hair/SunStyle [NoPaint]/DoubleTrouble.png
@@ -629,10 +629,10 @@ MonoBehaviour:
     Meta: 
     Tags:
     - NoPaint
-  - Name: Emma [HideEars]
-    Collection: MoonStyle [NoPaint]
+  - Name: 'Emma [HideEars]'
+    Collection: 'MoonStyle [NoPaint]'
     Edition: Extensions
-    Id: Extensions.MoonStyle [NoPaint].Hair.Emma [HideEars]
+    Id: 'Extensions.MoonStyle [NoPaint].Hair.Emma [HideEars]'
     Path: Assets/HeroEditor/Extensions/Style/Sprites/BodyParts/Hair/MoonStyle [NoPaint]/Emma
       [HideEars].png
     Sprite: {fileID: 21300000, guid: 337b217bf6454689bfc88899821cf72a, type: 3}
@@ -644,10 +644,10 @@ MonoBehaviour:
     Tags:
     - NoPaint
     - HideEars
-  - Name: Emma [HideEars]
-    Collection: SkyStyle [NoPaint]
+  - Name: 'Emma [HideEars]'
+    Collection: 'SkyStyle [NoPaint]'
     Edition: Extensions
-    Id: Extensions.SkyStyle [NoPaint].Hair.Emma [HideEars]
+    Id: 'Extensions.SkyStyle [NoPaint].Hair.Emma [HideEars]'
     Path: Assets/HeroEditor/Extensions/Style/Sprites/BodyParts/Hair/SkyStyle [NoPaint]/Emma
       [HideEars].png
     Sprite: {fileID: 21300000, guid: 239790ad11d943bfa06ffd67a6060004, type: 3}
@@ -659,10 +659,10 @@ MonoBehaviour:
     Tags:
     - NoPaint
     - HideEars
-  - Name: Emma [HideEars]
+  - Name: 'Emma [HideEars]'
     Collection: Style
     Edition: Extensions
-    Id: Extensions.Style.Hair.Emma [HideEars]
+    Id: 'Extensions.Style.Hair.Emma [HideEars]'
     Path: Assets/HeroEditor/Extensions/Style/Sprites/BodyParts/Hair/Style/Emma [HideEars].png
     Sprite: {fileID: 21300000, guid: fe8ee5ac29864db6ac2a97d5c5b9a371, type: 3}
     Sprites:
@@ -672,10 +672,10 @@ MonoBehaviour:
     Meta: 
     Tags:
     - HideEars
-  - Name: Emma [HideEars]
-    Collection: SunStyle [NoPaint]
+  - Name: 'Emma [HideEars]'
+    Collection: 'SunStyle [NoPaint]'
     Edition: Extensions
-    Id: Extensions.SunStyle [NoPaint].Hair.Emma [HideEars]
+    Id: 'Extensions.SunStyle [NoPaint].Hair.Emma [HideEars]'
     Path: Assets/HeroEditor/Extensions/Style/Sprites/BodyParts/Hair/SunStyle [NoPaint]/Emma
       [HideEars].png
     Sprite: {fileID: 21300000, guid: d3649dab589e43b2aec1e913df31fe20, type: 3}
@@ -700,7 +700,7 @@ MonoBehaviour:
     Meta: 
     Tags: []
   - Name: Fluffy
-    Collection: MoonStyle [NoPaint]
+    Collection: 'MoonStyle [NoPaint]'
     Edition: Extensions
     Id: Extensions.MoonStyle [NoPaint].Hair.Fluffy
     Path: Assets/HeroEditor/Extensions/Style/Sprites/BodyParts/Hair/MoonStyle [NoPaint]/Fluffy.png
@@ -713,7 +713,7 @@ MonoBehaviour:
     Tags:
     - NoPaint
   - Name: Fluffy
-    Collection: SkyStyle [NoPaint]
+    Collection: 'SkyStyle [NoPaint]'
     Edition: Extensions
     Id: Extensions.SkyStyle [NoPaint].Hair.Fluffy
     Path: Assets/HeroEditor/Extensions/Style/Sprites/BodyParts/Hair/SkyStyle [NoPaint]/Fluffy.png
@@ -738,7 +738,7 @@ MonoBehaviour:
     Meta: 
     Tags: []
   - Name: Fluffy
-    Collection: SunStyle [NoPaint]
+    Collection: 'SunStyle [NoPaint]'
     Edition: Extensions
     Id: Extensions.SunStyle [NoPaint].Hair.Fluffy
     Path: Assets/HeroEditor/Extensions/Style/Sprites/BodyParts/Hair/SunStyle [NoPaint]/Fluffy.png
@@ -774,10 +774,10 @@ MonoBehaviour:
     Hash: 0b341f8da2a7f194a1a6987dc999ed43
     Meta: 
     Tags: []
-  - Name: Hair2 [HideEars]
+  - Name: 'Hair2 [HideEars]'
     Collection: Thrones
     Edition: Common
-    Id: Common.Thrones.Hair.Hair2 [HideEars]
+    Id: 'Common.Thrones.Hair.Hair2 [HideEars]'
     Path: Assets/HeroEditor/Common/Sprites/BodyParts/Hair/Thrones/Hair2 [HideEars].png
     Sprite: {fileID: 21300000, guid: 6f4e64f0d219437098c7a36a04149a56, type: 3}
     Sprites:
@@ -835,10 +835,10 @@ MonoBehaviour:
     Hash: 3b3aa7358a67b230975760015cbbf3e3
     Meta: 
     Tags: []
-  - Name: Hair7 [HideEars]
+  - Name: 'Hair7 [HideEars]'
     Collection: Thrones
     Edition: Common
-    Id: Common.Thrones.Hair.Hair7 [HideEars]
+    Id: 'Common.Thrones.Hair.Hair7 [HideEars]'
     Path: Assets/HeroEditor/Common/Sprites/BodyParts/Hair/Thrones/Hair7 [HideEars].png
     Sprite: {fileID: 21300000, guid: 92251016f5da44f781e5b000479463ee, type: 3}
     Sprites:
@@ -848,10 +848,10 @@ MonoBehaviour:
     Meta: 
     Tags:
     - HideEars
-  - Name: Lea [HideEars]
-    Collection: MoonStyle [NoPaint]
+  - Name: 'Lea [HideEars]'
+    Collection: 'MoonStyle [NoPaint]'
     Edition: Extensions
-    Id: Extensions.MoonStyle [NoPaint].Hair.Lea [HideEars]
+    Id: 'Extensions.MoonStyle [NoPaint].Hair.Lea [HideEars]'
     Path: Assets/HeroEditor/Extensions/Style/Sprites/BodyParts/Hair/MoonStyle [NoPaint]/Lea
       [HideEars].png
     Sprite: {fileID: 21300000, guid: 71492c24cd8f4ab2ba1e8417511c0843, type: 3}
@@ -863,10 +863,10 @@ MonoBehaviour:
     Tags:
     - NoPaint
     - HideEars
-  - Name: Lea [HideEars]
-    Collection: SkyStyle [NoPaint]
+  - Name: 'Lea [HideEars]'
+    Collection: 'SkyStyle [NoPaint]'
     Edition: Extensions
-    Id: Extensions.SkyStyle [NoPaint].Hair.Lea [HideEars]
+    Id: 'Extensions.SkyStyle [NoPaint].Hair.Lea [HideEars]'
     Path: Assets/HeroEditor/Extensions/Style/Sprites/BodyParts/Hair/SkyStyle [NoPaint]/Lea
       [HideEars].png
     Sprite: {fileID: 21300000, guid: 100d40c5bc75461f83b2cdeee5da3320, type: 3}
@@ -878,10 +878,10 @@ MonoBehaviour:
     Tags:
     - NoPaint
     - HideEars
-  - Name: Lea [HideEars]
+  - Name: 'Lea [HideEars]'
     Collection: Style
     Edition: Extensions
-    Id: Extensions.Style.Hair.Lea [HideEars]
+    Id: 'Extensions.Style.Hair.Lea [HideEars]'
     Path: Assets/HeroEditor/Extensions/Style/Sprites/BodyParts/Hair/Style/Lea [HideEars].png
     Sprite: {fileID: 21300000, guid: f395766088cb4c438efbf10a466d253e, type: 3}
     Sprites:
@@ -891,10 +891,10 @@ MonoBehaviour:
     Meta: 
     Tags:
     - HideEars
-  - Name: Lea [HideEars]
-    Collection: SunStyle [NoPaint]
+  - Name: 'Lea [HideEars]'
+    Collection: 'SunStyle [NoPaint]'
     Edition: Extensions
-    Id: Extensions.SunStyle [NoPaint].Hair.Lea [HideEars]
+    Id: 'Extensions.SunStyle [NoPaint].Hair.Lea [HideEars]'
     Path: Assets/HeroEditor/Extensions/Style/Sprites/BodyParts/Hair/SunStyle [NoPaint]/Lea
       [HideEars].png
     Sprite: {fileID: 21300000, guid: 7a12630aa258406cb267efee0cf4f30c, type: 3}
@@ -955,7 +955,7 @@ MonoBehaviour:
     Meta: 
     Tags: []
   - Name: Princess
-    Collection: MoonStyle [NoPaint]
+    Collection: 'MoonStyle [NoPaint]'
     Edition: Extensions
     Id: Extensions.MoonStyle [NoPaint].Hair.Princess
     Path: Assets/HeroEditor/Extensions/Style/Sprites/BodyParts/Hair/MoonStyle [NoPaint]/Princess.png
@@ -968,7 +968,7 @@ MonoBehaviour:
     Tags:
     - NoPaint
   - Name: Princess
-    Collection: SkyStyle [NoPaint]
+    Collection: 'SkyStyle [NoPaint]'
     Edition: Extensions
     Id: Extensions.SkyStyle [NoPaint].Hair.Princess
     Path: Assets/HeroEditor/Extensions/Style/Sprites/BodyParts/Hair/SkyStyle [NoPaint]/Princess.png
@@ -981,7 +981,7 @@ MonoBehaviour:
     Tags:
     - NoPaint
   - Name: Princess
-    Collection: SunStyle [NoPaint]
+    Collection: 'SunStyle [NoPaint]'
     Edition: Extensions
     Id: Extensions.SunStyle [NoPaint].Hair.Princess
     Path: Assets/HeroEditor/Extensions/Style/Sprites/BodyParts/Hair/SunStyle [NoPaint]/Princess.png
@@ -993,10 +993,10 @@ MonoBehaviour:
     Meta: 
     Tags:
     - NoPaint
-  - Name: Princess [HideEars]
+  - Name: 'Princess [HideEars]'
     Collection: Style
     Edition: Extensions
-    Id: Extensions.Style.Hair.Princess [HideEars]
+    Id: 'Extensions.Style.Hair.Princess [HideEars]'
     Path: Assets/HeroEditor/Extensions/Style/Sprites/BodyParts/Hair/Style/Princess
       [HideEars].png
     Sprite: {fileID: 21300000, guid: 184d84d413c34a25a352e3e3682a9500, type: 3}
@@ -1020,7 +1020,7 @@ MonoBehaviour:
     Meta: 
     Tags: []
   - Name: Rocky
-    Collection: MoonStyle [NoPaint]
+    Collection: 'MoonStyle [NoPaint]'
     Edition: Extensions
     Id: Extensions.MoonStyle [NoPaint].Hair.Rocky
     Path: Assets/HeroEditor/Extensions/Style/Sprites/BodyParts/Hair/MoonStyle [NoPaint]/Rocky.png
@@ -1033,7 +1033,7 @@ MonoBehaviour:
     Tags:
     - NoPaint
   - Name: Rocky
-    Collection: SkyStyle [NoPaint]
+    Collection: 'SkyStyle [NoPaint]'
     Edition: Extensions
     Id: Extensions.SkyStyle [NoPaint].Hair.Rocky
     Path: Assets/HeroEditor/Extensions/Style/Sprites/BodyParts/Hair/SkyStyle [NoPaint]/Rocky.png
@@ -1058,7 +1058,7 @@ MonoBehaviour:
     Meta: 
     Tags: []
   - Name: Rocky
-    Collection: SunStyle [NoPaint]
+    Collection: 'SunStyle [NoPaint]'
     Edition: Extensions
     Id: Extensions.SunStyle [NoPaint].Hair.Rocky
     Path: Assets/HeroEditor/Extensions/Style/Sprites/BodyParts/Hair/SunStyle [NoPaint]/Rocky.png
@@ -1167,7 +1167,7 @@ MonoBehaviour:
     Meta: 
     Tags: []
   - Name: Spiky
-    Collection: MoonStyle [NoPaint]
+    Collection: 'MoonStyle [NoPaint]'
     Edition: Extensions
     Id: Extensions.MoonStyle [NoPaint].Hair.Spiky
     Path: Assets/HeroEditor/Extensions/Style/Sprites/BodyParts/Hair/MoonStyle [NoPaint]/Spiky.png
@@ -1180,7 +1180,7 @@ MonoBehaviour:
     Tags:
     - NoPaint
   - Name: Spiky
-    Collection: SkyStyle [NoPaint]
+    Collection: 'SkyStyle [NoPaint]'
     Edition: Extensions
     Id: Extensions.SkyStyle [NoPaint].Hair.Spiky
     Path: Assets/HeroEditor/Extensions/Style/Sprites/BodyParts/Hair/SkyStyle [NoPaint]/Spiky.png
@@ -1205,7 +1205,7 @@ MonoBehaviour:
     Meta: 
     Tags: []
   - Name: Spiky
-    Collection: SunStyle [NoPaint]
+    Collection: 'SunStyle [NoPaint]'
     Edition: Extensions
     Id: Extensions.SunStyle [NoPaint].Hair.Spiky
     Path: Assets/HeroEditor/Extensions/Style/Sprites/BodyParts/Hair/SunStyle [NoPaint]/Spiky.png
@@ -1254,7 +1254,7 @@ MonoBehaviour:
     Meta: 
     Tags: []
   - Name: Wavy
-    Collection: MoonStyle [NoPaint]
+    Collection: 'MoonStyle [NoPaint]'
     Edition: Extensions
     Id: Extensions.MoonStyle [NoPaint].Hair.Wavy
     Path: Assets/HeroEditor/Extensions/Style/Sprites/BodyParts/Hair/MoonStyle [NoPaint]/Wavy.png
@@ -1267,7 +1267,7 @@ MonoBehaviour:
     Tags:
     - NoPaint
   - Name: Wavy
-    Collection: SkyStyle [NoPaint]
+    Collection: 'SkyStyle [NoPaint]'
     Edition: Extensions
     Id: Extensions.SkyStyle [NoPaint].Hair.Wavy
     Path: Assets/HeroEditor/Extensions/Style/Sprites/BodyParts/Hair/SkyStyle [NoPaint]/Wavy.png
@@ -1292,7 +1292,7 @@ MonoBehaviour:
     Meta: 
     Tags: []
   - Name: Wavy
-    Collection: SunStyle [NoPaint]
+    Collection: 'SunStyle [NoPaint]'
     Edition: Extensions
     Id: Extensions.SunStyle [NoPaint].Hair.Wavy
     Path: Assets/HeroEditor/Extensions/Style/Sprites/BodyParts/Hair/SunStyle [NoPaint]/Wavy.png
@@ -3361,10 +3361,10 @@ MonoBehaviour:
     Hash: 513be74e966c68031ec035e49c67a8ca
     Meta: 
     Tags: []
-  - Name: AssassinHood [Paint]
+  - Name: 'AssassinHood [Paint]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.Helmet.AssassinHood [Paint]
+    Id: 'FantasyHeroes.Basic.Helmet.AssassinHood [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Helmet/Basic/AssassinHood
       [Paint].png
     Sprite: {fileID: 21300000, guid: 3ff6793fa5e64aa9a7513c5027a3763d, type: 3}
@@ -3411,10 +3411,10 @@ MonoBehaviour:
     Hash: 0a914cc4b5528cbd4be8dc500a79882b
     Meta: 
     Tags: []
-  - Name: BishopHat [FullHair]
+  - Name: 'BishopHat [FullHair]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.Helmet.BishopHat [FullHair]
+    Id: 'FantasyHeroes.Basic.Helmet.BishopHat [FullHair]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Helmet/Basic/BishopHat
       [FullHair].png
     Sprite: {fileID: 21300000, guid: bf3f7e11115142b1b5ead6542911f907, type: 3}
@@ -3449,10 +3449,10 @@ MonoBehaviour:
     Hash: 3aae5d974104762662ea5521e9cdf049
     Meta: 
     Tags: []
-  - Name: Blossom [Paint] [FullHair]
+  - Name: 'Blossom [Paint] [FullHair]'
     Collection: Style
     Edition: Extensions
-    Id: Extensions.Style.Helmet.Blossom [Paint] [FullHair]
+    Id: 'Extensions.Style.Helmet.Blossom [Paint] [FullHair]'
     Path: Assets/HeroEditor/Extensions/Style/Sprites/Equipment/Helmet/Style/Blossom
       [Paint] [FullHair].png
     Sprite: {fileID: 21300000, guid: 9916249a1d8b47638247f08152e8e700, type: 3}
@@ -3476,10 +3476,10 @@ MonoBehaviour:
     Hash: e5ab101034b91412ac8b2ca20b289823
     Meta: 
     Tags: []
-  - Name: BowmanHat [Paint]
+  - Name: 'BowmanHat [Paint]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.Helmet.BowmanHat [Paint]
+    Id: 'FantasyHeroes.Basic.Helmet.BowmanHat [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Helmet/Basic/BowmanHat
       [Paint].png
     Sprite: {fileID: 21300000, guid: 8a65a2b1b3144e91bc7c2f31b2789ccd, type: 3}
@@ -3490,10 +3490,10 @@ MonoBehaviour:
     Meta: 
     Tags:
     - Paint
-  - Name: BunnyEarsA1 [Paint] [FullHair]
+  - Name: 'BunnyEarsA1 [Paint] [FullHair]'
     Collection: Style
     Edition: Extensions
-    Id: Extensions.Style.Helmet.BunnyEarsA1 [Paint] [FullHair]
+    Id: 'Extensions.Style.Helmet.BunnyEarsA1 [Paint] [FullHair]'
     Path: Assets/HeroEditor/Extensions/Style/Sprites/Equipment/Helmet/Style/BunnyEarsA1
       [Paint] [FullHair].png
     Sprite: {fileID: 21300000, guid: 9bb7139920184e3ea211030bbbd32164, type: 3}
@@ -3505,10 +3505,10 @@ MonoBehaviour:
     Tags:
     - Paint
     - FullHair
-  - Name: BunnyEarsA2 [Paint] [FullHair]
+  - Name: 'BunnyEarsA2 [Paint] [FullHair]'
     Collection: Style
     Edition: Extensions
-    Id: Extensions.Style.Helmet.BunnyEarsA2 [Paint] [FullHair]
+    Id: 'Extensions.Style.Helmet.BunnyEarsA2 [Paint] [FullHair]'
     Path: Assets/HeroEditor/Extensions/Style/Sprites/Equipment/Helmet/Style/BunnyEarsA2
       [Paint] [FullHair].png
     Sprite: {fileID: 21300000, guid: 6a6731fa01074fc1a92d205751241318, type: 3}
@@ -3520,10 +3520,10 @@ MonoBehaviour:
     Tags:
     - Paint
     - FullHair
-  - Name: BunnyEarsB1 [Paint] [FullHair]
+  - Name: 'BunnyEarsB1 [Paint] [FullHair]'
     Collection: Style
     Edition: Extensions
-    Id: Extensions.Style.Helmet.BunnyEarsB1 [Paint] [FullHair]
+    Id: 'Extensions.Style.Helmet.BunnyEarsB1 [Paint] [FullHair]'
     Path: Assets/HeroEditor/Extensions/Style/Sprites/Equipment/Helmet/Style/BunnyEarsB1
       [Paint] [FullHair].png
     Sprite: {fileID: 21300000, guid: d77ba76cfd3e46d68e5b220301f121ba, type: 3}
@@ -3535,10 +3535,10 @@ MonoBehaviour:
     Tags:
     - Paint
     - FullHair
-  - Name: BunnyEarsB2 [Paint] [FullHair]
+  - Name: 'BunnyEarsB2 [Paint] [FullHair]'
     Collection: Style
     Edition: Extensions
-    Id: Extensions.Style.Helmet.BunnyEarsB2 [Paint] [FullHair]
+    Id: 'Extensions.Style.Helmet.BunnyEarsB2 [Paint] [FullHair]'
     Path: Assets/HeroEditor/Extensions/Style/Sprites/Equipment/Helmet/Style/BunnyEarsB2
       [Paint] [FullHair].png
     Sprite: {fileID: 21300000, guid: 0f338c65a9ff48b2963c0a6c01b85261, type: 3}
@@ -3550,10 +3550,10 @@ MonoBehaviour:
     Tags:
     - Paint
     - FullHair
-  - Name: BunnyPin [Paint] [FullHair]
+  - Name: 'BunnyPin [Paint] [FullHair]'
     Collection: Style
     Edition: Extensions
-    Id: Extensions.Style.Helmet.BunnyPin [Paint] [FullHair]
+    Id: 'Extensions.Style.Helmet.BunnyPin [Paint] [FullHair]'
     Path: Assets/HeroEditor/Extensions/Style/Sprites/Equipment/Helmet/Style/BunnyPin
       [Paint] [FullHair].png
     Sprite: {fileID: 21300000, guid: eaee0e9b5ed644b2b521c8334d246ccc, type: 3}
@@ -3565,10 +3565,10 @@ MonoBehaviour:
     Tags:
     - Paint
     - FullHair
-  - Name: CardinalHat [Paint]
+  - Name: 'CardinalHat [Paint]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.Helmet.CardinalHat [Paint]
+    Id: 'FantasyHeroes.Basic.Helmet.CardinalHat [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Helmet/Basic/CardinalHat
       [Paint].png
     Sprite: {fileID: 21300000, guid: 9177cf618af6404b8e550dbf6570a877, type: 3}
@@ -3579,10 +3579,10 @@ MonoBehaviour:
     Meta: 
     Tags:
     - Paint
-  - Name: CataphractHelm [Paint]
+  - Name: 'CataphractHelm [Paint]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.Helmet.CataphractHelm [Paint]
+    Id: 'FantasyHeroes.Basic.Helmet.CataphractHelm [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Helmet/Basic/CataphractHelm
       [Paint].png
     Sprite: {fileID: 21300000, guid: f5682c7a42e646d6b672dfdfc22dabb2, type: 3}
@@ -3593,10 +3593,10 @@ MonoBehaviour:
     Meta: 
     Tags:
     - Paint
-  - Name: CatEars [Paint] [FullHair]
+  - Name: 'CatEars [Paint] [FullHair]'
     Collection: Style
     Edition: Extensions
-    Id: Extensions.Style.Helmet.CatEars [Paint] [FullHair]
+    Id: 'Extensions.Style.Helmet.CatEars [Paint] [FullHair]'
     Path: Assets/HeroEditor/Extensions/Style/Sprites/Equipment/Helmet/Style/CatEars
       [Paint] [FullHair].png
     Sprite: {fileID: 21300000, guid: 70a01f38caba4bef91435b8b055f5142, type: 3}
@@ -3632,10 +3632,10 @@ MonoBehaviour:
     Hash: 612b1c4f4a1664f34ada78a01145f328
     Meta: 
     Tags: []
-  - Name: ChocolatierRibbon [FullHair]
+  - Name: 'ChocolatierRibbon [FullHair]'
     Collection: Legendary
     Edition: Extensions
-    Id: Extensions.Legendary.Helmet.ChocolatierRibbon [FullHair]
+    Id: 'Extensions.Legendary.Helmet.ChocolatierRibbon [FullHair]'
     Path: Assets/HeroEditor/Extensions/EpicHeroes/Sprites/Equipment/Helmet/Legendary/ChocolatierRibbon
       [FullHair].png
     Sprite: {fileID: 21300000, guid: 794d5e23c7e2bea4690dfaef6d95ba18, type: 3}
@@ -3646,10 +3646,10 @@ MonoBehaviour:
     Meta: 
     Tags:
     - FullHair
-  - Name: ClericHood [Paint]
+  - Name: 'ClericHood [Paint]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.Helmet.ClericHood [Paint]
+    Id: 'FantasyHeroes.Basic.Helmet.ClericHood [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Helmet/Basic/ClericHood
       [Paint].png
     Sprite: {fileID: 21300000, guid: 7e6eea251b124d66a36fc5ca996bd7c0, type: 3}
@@ -3672,10 +3672,10 @@ MonoBehaviour:
     Hash: 02b175d84ae1ebe9118c824ed89129a0
     Meta: 
     Tags: []
-  - Name: Crown [Paint] [FullHair]
+  - Name: 'Crown [Paint] [FullHair]'
     Collection: Style
     Edition: Extensions
-    Id: Extensions.Style.Helmet.Crown [Paint] [FullHair]
+    Id: 'Extensions.Style.Helmet.Crown [Paint] [FullHair]'
     Path: Assets/HeroEditor/Extensions/Style/Sprites/Equipment/Helmet/Style/Crown
       [Paint] [FullHair].png
     Sprite: {fileID: 21300000, guid: 63fd4433cb974b099999fdfc03935a62, type: 3}
@@ -3687,10 +3687,10 @@ MonoBehaviour:
     Tags:
     - Paint
     - FullHair
-  - Name: CrownOfAjero [FullHair]
+  - Name: 'CrownOfAjero [FullHair]'
     Collection: Legendary
     Edition: Extensions
-    Id: Extensions.Legendary.Helmet.CrownOfAjero [FullHair]
+    Id: 'Extensions.Legendary.Helmet.CrownOfAjero [FullHair]'
     Path: Assets/HeroEditor/Extensions/EpicHeroes/Sprites/Equipment/Helmet/Legendary/CrownOfAjero
       [FullHair].png
     Sprite: {fileID: 21300000, guid: 6ad8cd6830da7784aa11e9fe6d9c5cef, type: 3}
@@ -3701,10 +3701,10 @@ MonoBehaviour:
     Meta: 
     Tags:
     - FullHair
-  - Name: CrownOfCompassion [FullHair]
+  - Name: 'CrownOfCompassion [FullHair]'
     Collection: Legendary
     Edition: Extensions
-    Id: Extensions.Legendary.Helmet.CrownOfCompassion [FullHair]
+    Id: 'Extensions.Legendary.Helmet.CrownOfCompassion [FullHair]'
     Path: Assets/HeroEditor/Extensions/EpicHeroes/Sprites/Equipment/Helmet/Legendary/CrownOfCompassion
       [FullHair].png
     Sprite: {fileID: 21300000, guid: 5865825e9e6fdbb4e8bb03d65789d7e9, type: 3}
@@ -3727,10 +3727,10 @@ MonoBehaviour:
     Hash: 5ee0fa2952024f6ffac844b58cc3992d
     Meta: 
     Tags: []
-  - Name: CrusaderHelm [Paint]
+  - Name: 'CrusaderHelm [Paint]'
     Collection: Knights
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Knights.Helmet.CrusaderHelm [Paint]
+    Id: 'FantasyHeroes.Knights.Helmet.CrusaderHelm [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Helmet/Knights/CrusaderHelm
       [Paint].png
     Sprite: {fileID: 21300000, guid: 0c04e3d979514b4a88953dd88835eddf, type: 3}
@@ -3777,10 +3777,10 @@ MonoBehaviour:
     Hash: 4a8c25586a37e47fd7c7647493a95360
     Meta: 
     Tags: []
-  - Name: DarkMountainHelm [Paint]
+  - Name: 'DarkMountainHelm [Paint]'
     Collection: Thrones
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Thrones.Helmet.DarkMountainHelm [Paint]
+    Id: 'FantasyHeroes.Thrones.Helmet.DarkMountainHelm [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Helmet/Thrones/DarkMountainHelm
       [Paint].png
     Sprite: {fileID: 21300000, guid: f39a45a4d0fc4f46b2b7c6ca9568a107, type: 3}
@@ -3791,10 +3791,10 @@ MonoBehaviour:
     Meta: 
     Tags:
     - Paint
-  - Name: DeserterBandage [FullHair]
+  - Name: 'DeserterBandage [FullHair]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.Helmet.DeserterBandage [FullHair]
+    Id: 'FantasyHeroes.Basic.Helmet.DeserterBandage [FullHair]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Helmet/Basic/DeserterBandage
       [FullHair].png
     Sprite: {fileID: 21300000, guid: 60539c8d76934c6780f5322692520c57, type: 3}
@@ -3805,10 +3805,10 @@ MonoBehaviour:
     Meta: 
     Tags:
     - FullHair
-  - Name: DestroyerHelm [Paint]
+  - Name: 'DestroyerHelm [Paint]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.Helmet.DestroyerHelm [Paint]
+    Id: 'FantasyHeroes.Basic.Helmet.DestroyerHelm [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Helmet/Basic/DestroyerHelm
       [Paint].png
     Sprite: {fileID: 21300000, guid: 271bee5322654d03a47284b78029a16e, type: 3}
@@ -3819,10 +3819,10 @@ MonoBehaviour:
     Meta: 
     Tags:
     - Paint
-  - Name: Diadem [FullHair]
+  - Name: 'Diadem [FullHair]'
     Collection: Style
     Edition: Extensions
-    Id: Extensions.Style.Helmet.Diadem [FullHair]
+    Id: 'Extensions.Style.Helmet.Diadem [FullHair]'
     Path: Assets/HeroEditor/Extensions/Style/Sprites/Equipment/Helmet/Style/Diadem
       [FullHair].png
     Sprite: {fileID: 21300000, guid: 9cd020f68c9047118001993fe8411e64, type: 3}
@@ -3869,10 +3869,10 @@ MonoBehaviour:
     Hash: 76085b8b970b8880148fe19cb2632999
     Meta: 
     Tags: []
-  - Name: DruidHat [Paint]
+  - Name: 'DruidHat [Paint]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.Helmet.DruidHat [Paint]
+    Id: 'FantasyHeroes.Basic.Helmet.DruidHat [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Helmet/Basic/DruidHat
       [Paint].png
     Sprite: {fileID: 21300000, guid: 072dffc32d1e46b888d676d09d150715, type: 3}
@@ -3883,10 +3883,10 @@ MonoBehaviour:
     Meta: 
     Tags:
     - Paint
-  - Name: DwellerHood [Paint]
+  - Name: 'DwellerHood [Paint]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.Helmet.DwellerHood [Paint]
+    Id: 'FantasyHeroes.Basic.Helmet.DwellerHood [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Helmet/Basic/DwellerHood
       [Paint].png
     Sprite: {fileID: 21300000, guid: daf86114d96b4ba3bd110ed6b24e1102, type: 3}
@@ -3909,10 +3909,10 @@ MonoBehaviour:
     Hash: 7e96a8aa843d298c2723945ee0817ce9
     Meta: 
     Tags: []
-  - Name: ElementalArcherCrown [FullHair]
+  - Name: 'ElementalArcherCrown [FullHair]'
     Collection: Legendary
     Edition: Extensions
-    Id: Extensions.Legendary.Helmet.ElementalArcherCrown [FullHair]
+    Id: 'Extensions.Legendary.Helmet.ElementalArcherCrown [FullHair]'
     Path: Assets/HeroEditor/Extensions/EpicHeroes/Sprites/Equipment/Helmet/Legendary/ElementalArcherCrown
       [FullHair].png
     Sprite: {fileID: 21300000, guid: c5062651b9a31cd43b8b69ac64a2f6e9, type: 3}
@@ -3995,10 +3995,10 @@ MonoBehaviour:
     Hash: 84fa138744898a7d6ba9bc3cab6f629a
     Meta: 
     Tags: []
-  - Name: EnforcedHelm [Paint]
+  - Name: 'EnforcedHelm [Paint]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.Helmet.EnforcedHelm [Paint]
+    Id: 'FantasyHeroes.Basic.Helmet.EnforcedHelm [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Helmet/Basic/EnforcedHelm
       [Paint].png
     Sprite: {fileID: 21300000, guid: ddf250c1f05c491595c6a0d2caf6a4a6, type: 3}
@@ -4033,10 +4033,10 @@ MonoBehaviour:
     Hash: 548ba3c586f7de8bee7c588cf9ad14e5
     Meta: 
     Tags: []
-  - Name: EyeguardOfDecay [FullHair]
+  - Name: 'EyeguardOfDecay [FullHair]'
     Collection: Legendary
     Edition: Extensions
-    Id: Extensions.Legendary.Helmet.EyeguardOfDecay [FullHair]
+    Id: 'Extensions.Legendary.Helmet.EyeguardOfDecay [FullHair]'
     Path: Assets/HeroEditor/Extensions/EpicHeroes/Sprites/Equipment/Helmet/Legendary/EyeguardOfDecay
       [FullHair].png
     Sprite: {fileID: 21300000, guid: 5a627917bc1e2074091468eccea8a43e, type: 3}
@@ -4179,10 +4179,10 @@ MonoBehaviour:
     Hash: d0cd2ed793b422402c7b835c7ef09a22
     Meta: 
     Tags: []
-  - Name: GuardHelm [Paint]
+  - Name: 'GuardHelm [Paint]'
     Collection: Knights
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Knights.Helmet.GuardHelm [Paint]
+    Id: 'FantasyHeroes.Knights.Helmet.GuardHelm [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Helmet/Knights/GuardHelm
       [Paint].png
     Sprite: {fileID: 21300000, guid: c08c70ad06094b1d9d4d9fe6ae8bcc92, type: 3}
@@ -4193,10 +4193,10 @@ MonoBehaviour:
     Meta: 
     Tags:
     - Paint
-  - Name: GuardHelm1 [Paint]
+  - Name: 'GuardHelm1 [Paint]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.Helmet.GuardHelm1 [Paint]
+    Id: 'FantasyHeroes.Basic.Helmet.GuardHelm1 [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Helmet/Basic/GuardHelm1
       [Paint].png
     Sprite: {fileID: 21300000, guid: a2532d7e20614f61981e1d2fe6d8e386, type: 3}
@@ -4207,10 +4207,10 @@ MonoBehaviour:
     Meta: 
     Tags:
     - Paint
-  - Name: GuardHelm2 [Paint]
+  - Name: 'GuardHelm2 [Paint]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.Helmet.GuardHelm2 [Paint]
+    Id: 'FantasyHeroes.Basic.Helmet.GuardHelm2 [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Helmet/Basic/GuardHelm2
       [Paint].png
     Sprite: {fileID: 21300000, guid: 9e241dcdb61c4229981106c8f8b023bf, type: 3}
@@ -4221,10 +4221,10 @@ MonoBehaviour:
     Meta: 
     Tags:
     - Paint
-  - Name: GuardHelm3 [Paint]
+  - Name: 'GuardHelm3 [Paint]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.Helmet.GuardHelm3 [Paint]
+    Id: 'FantasyHeroes.Basic.Helmet.GuardHelm3 [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Helmet/Basic/GuardHelm3
       [Paint].png
     Sprite: {fileID: 21300000, guid: b98c0ab922e94f38b6c0eae13689892c, type: 3}
@@ -4259,10 +4259,10 @@ MonoBehaviour:
     Hash: a01e55ec1c1a3f9a62f58279f0dd7364
     Meta: 
     Tags: []
-  - Name: HalberdierHelm [Paint]
+  - Name: 'HalberdierHelm [Paint]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.Helmet.HalberdierHelm [Paint]
+    Id: 'FantasyHeroes.Basic.Helmet.HalberdierHelm [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Helmet/Basic/HalberdierHelm
       [Paint].png
     Sprite: {fileID: 21300000, guid: ebf6ec8c96aa40b592548021e3f8747a, type: 3}
@@ -4297,10 +4297,10 @@ MonoBehaviour:
     Hash: e59f0100a758d5b8ab32b56628060f2c
     Meta: 
     Tags: []
-  - Name: HeavyHelm [Paint]
+  - Name: 'HeavyHelm [Paint]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.Helmet.HeavyHelm [Paint]
+    Id: 'FantasyHeroes.Basic.Helmet.HeavyHelm [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Helmet/Basic/HeavyHelm
       [Paint].png
     Sprite: {fileID: 21300000, guid: 6d1465613935433c8b440cb89ef8c3dc, type: 3}
@@ -4347,10 +4347,10 @@ MonoBehaviour:
     Hash: e19a346d6118ec0613cfba401b89fdd2
     Meta: 
     Tags: []
-  - Name: HelmetOfForgottenFoe [FullHair]
+  - Name: 'HelmetOfForgottenFoe [FullHair]'
     Collection: Epic
     Edition: Extensions
-    Id: Extensions.Epic.Helmet.HelmetOfForgottenFoe [FullHair]
+    Id: 'Extensions.Epic.Helmet.HelmetOfForgottenFoe [FullHair]'
     Path: Assets/HeroEditor/Extensions/EpicHeroes/Sprites/Equipment/Helmet/Epic/HelmetOfForgottenFoe
       [FullHair].png
     Sprite: {fileID: 21300000, guid: dc99774687384f88af161de0776d653a, type: 3}
@@ -4385,10 +4385,10 @@ MonoBehaviour:
     Hash: 5d5fee745bccf3bfbb6196a35a16bcfb
     Meta: 
     Tags: []
-  - Name: HelmetOfRelentlessNightmares [FullHair]
+  - Name: 'HelmetOfRelentlessNightmares [FullHair]'
     Collection: Epic
     Edition: Extensions
-    Id: Extensions.Epic.Helmet.HelmetOfRelentlessNightmares [FullHair]
+    Id: 'Extensions.Epic.Helmet.HelmetOfRelentlessNightmares [FullHair]'
     Path: Assets/HeroEditor/Extensions/EpicHeroes/Sprites/Equipment/Helmet/Epic/HelmetOfRelentlessNightmares
       [FullHair].png
     Sprite: {fileID: 21300000, guid: d84f48a3221947c18e2465a8dcc2719c, type: 3}
@@ -4423,10 +4423,10 @@ MonoBehaviour:
     Hash: 7114844a3f6dbcac5efa845bd6053037
     Meta: 
     Tags: []
-  - Name: HelmOfBrynhildr [FullHair]
+  - Name: 'HelmOfBrynhildr [FullHair]'
     Collection: Legendary
     Edition: Extensions
-    Id: Extensions.Legendary.Helmet.HelmOfBrynhildr [FullHair]
+    Id: 'Extensions.Legendary.Helmet.HelmOfBrynhildr [FullHair]'
     Path: Assets/HeroEditor/Extensions/EpicHeroes/Sprites/Equipment/Helmet/Legendary/HelmOfBrynhildr
       [FullHair].png
     Sprite: {fileID: 21300000, guid: ee7c14bd9e1398543be56b22bd3287f7, type: 3}
@@ -4461,10 +4461,10 @@ MonoBehaviour:
     Hash: 5deae36ea5f190984f0a1bead5c7ec4d
     Meta: 
     Tags: []
-  - Name: HermitHood [Paint]
+  - Name: 'HermitHood [Paint]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.Helmet.HermitHood [Paint]
+    Id: 'FantasyHeroes.Basic.Helmet.HermitHood [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Helmet/Basic/HermitHood
       [Paint].png
     Sprite: {fileID: 21300000, guid: 399ea8fd30d246619d3433bd9aa0e388, type: 3}
@@ -4499,10 +4499,10 @@ MonoBehaviour:
     Hash: 3c822f438b147a6f343cade086dc937a
     Meta: 
     Tags: []
-  - Name: Horns1 [Paint] [FullHair]
+  - Name: 'Horns1 [Paint] [FullHair]'
     Collection: Horns (Style)
     Edition: Extensions
-    Id: Extensions.Horns (Style).Helmet.Horns1 [Paint] [FullHair]
+    Id: 'Extensions.Horns (Style).Helmet.Horns1 [Paint] [FullHair]'
     Path: Assets/HeroEditor/Extensions/Style/Sprites/Equipment/Helmet/Horns (Style)/Horns1
       [Paint] [FullHair].png
     Sprite: {fileID: 21300000, guid: 63c2481abb8543b2a0c51bf003ef22f1, type: 3}
@@ -4514,10 +4514,10 @@ MonoBehaviour:
     Tags:
     - Paint
     - FullHair
-  - Name: Horns10 [Paint] [FullHair]
+  - Name: 'Horns10 [Paint] [FullHair]'
     Collection: Horns (Style)
     Edition: Extensions
-    Id: Extensions.Horns (Style).Helmet.Horns10 [Paint] [FullHair]
+    Id: 'Extensions.Horns (Style).Helmet.Horns10 [Paint] [FullHair]'
     Path: Assets/HeroEditor/Extensions/Style/Sprites/Equipment/Helmet/Horns (Style)/Horns10
       [Paint] [FullHair].png
     Sprite: {fileID: 21300000, guid: 855aa1e5a0cd4593a9b273a0e702b817, type: 3}
@@ -4529,10 +4529,10 @@ MonoBehaviour:
     Tags:
     - Paint
     - FullHair
-  - Name: Horns11 [Paint] [FullHair]
+  - Name: 'Horns11 [Paint] [FullHair]'
     Collection: Horns (Style)
     Edition: Extensions
-    Id: Extensions.Horns (Style).Helmet.Horns11 [Paint] [FullHair]
+    Id: 'Extensions.Horns (Style).Helmet.Horns11 [Paint] [FullHair]'
     Path: Assets/HeroEditor/Extensions/Style/Sprites/Equipment/Helmet/Horns (Style)/Horns11
       [Paint] [FullHair].png
     Sprite: {fileID: 21300000, guid: 587eacbc314a4b8987a85e3c7ca25e76, type: 3}
@@ -4544,10 +4544,10 @@ MonoBehaviour:
     Tags:
     - Paint
     - FullHair
-  - Name: Horns12 [Paint] [FullHair]
+  - Name: 'Horns12 [Paint] [FullHair]'
     Collection: Horns (Style)
     Edition: Extensions
-    Id: Extensions.Horns (Style).Helmet.Horns12 [Paint] [FullHair]
+    Id: 'Extensions.Horns (Style).Helmet.Horns12 [Paint] [FullHair]'
     Path: Assets/HeroEditor/Extensions/Style/Sprites/Equipment/Helmet/Horns (Style)/Horns12
       [Paint] [FullHair].png
     Sprite: {fileID: 21300000, guid: 77406e8446924e9ca790c6f03cc243b2, type: 3}
@@ -4559,10 +4559,10 @@ MonoBehaviour:
     Tags:
     - Paint
     - FullHair
-  - Name: Horns13 [Paint] [FullHair]
+  - Name: 'Horns13 [Paint] [FullHair]'
     Collection: Horns (Style)
     Edition: Extensions
-    Id: Extensions.Horns (Style).Helmet.Horns13 [Paint] [FullHair]
+    Id: 'Extensions.Horns (Style).Helmet.Horns13 [Paint] [FullHair]'
     Path: Assets/HeroEditor/Extensions/Style/Sprites/Equipment/Helmet/Horns (Style)/Horns13
       [Paint] [FullHair].png
     Sprite: {fileID: 21300000, guid: e5b5747e422b4a1f88449cd3f1ee0350, type: 3}
@@ -4574,10 +4574,10 @@ MonoBehaviour:
     Tags:
     - Paint
     - FullHair
-  - Name: Horns14 [Paint] [FullHair]
+  - Name: 'Horns14 [Paint] [FullHair]'
     Collection: Horns (Style)
     Edition: Extensions
-    Id: Extensions.Horns (Style).Helmet.Horns14 [Paint] [FullHair]
+    Id: 'Extensions.Horns (Style).Helmet.Horns14 [Paint] [FullHair]'
     Path: Assets/HeroEditor/Extensions/Style/Sprites/Equipment/Helmet/Horns (Style)/Horns14
       [Paint] [FullHair].png
     Sprite: {fileID: 21300000, guid: a957d25935a0437981cb1d7f90d6597c, type: 3}
@@ -4589,10 +4589,10 @@ MonoBehaviour:
     Tags:
     - Paint
     - FullHair
-  - Name: Horns15[Paint] [FullHair]
+  - Name: 'Horns15[Paint] [FullHair]'
     Collection: Horns (Style)
     Edition: Extensions
-    Id: Extensions.Horns (Style).Helmet.Horns15[Paint] [FullHair]
+    Id: 'Extensions.Horns (Style).Helmet.Horns15[Paint] [FullHair]'
     Path: Assets/HeroEditor/Extensions/Style/Sprites/Equipment/Helmet/Horns (Style)/Horns15[Paint]
       [FullHair].png
     Sprite: {fileID: 21300000, guid: 9f34aff186bb48718f4153a1ac7c141b, type: 3}
@@ -4604,10 +4604,10 @@ MonoBehaviour:
     Tags:
     - Paint
     - FullHair
-  - Name: Horns2 [Paint] [FullHair]
+  - Name: 'Horns2 [Paint] [FullHair]'
     Collection: Horns (Style)
     Edition: Extensions
-    Id: Extensions.Horns (Style).Helmet.Horns2 [Paint] [FullHair]
+    Id: 'Extensions.Horns (Style).Helmet.Horns2 [Paint] [FullHair]'
     Path: Assets/HeroEditor/Extensions/Style/Sprites/Equipment/Helmet/Horns (Style)/Horns2
       [Paint] [FullHair].png
     Sprite: {fileID: 21300000, guid: b0f00dc724ac4b92995fe6942cf37202, type: 3}
@@ -4619,10 +4619,10 @@ MonoBehaviour:
     Tags:
     - Paint
     - FullHair
-  - Name: Horns3 [Paint] [FullHair]
+  - Name: 'Horns3 [Paint] [FullHair]'
     Collection: Horns (Style)
     Edition: Extensions
-    Id: Extensions.Horns (Style).Helmet.Horns3 [Paint] [FullHair]
+    Id: 'Extensions.Horns (Style).Helmet.Horns3 [Paint] [FullHair]'
     Path: Assets/HeroEditor/Extensions/Style/Sprites/Equipment/Helmet/Horns (Style)/Horns3
       [Paint] [FullHair].png
     Sprite: {fileID: 21300000, guid: dfde533e23384117be07a98017d25f32, type: 3}
@@ -4634,10 +4634,10 @@ MonoBehaviour:
     Tags:
     - Paint
     - FullHair
-  - Name: Horns4 [Paint] [FullHair]
+  - Name: 'Horns4 [Paint] [FullHair]'
     Collection: Horns (Style)
     Edition: Extensions
-    Id: Extensions.Horns (Style).Helmet.Horns4 [Paint] [FullHair]
+    Id: 'Extensions.Horns (Style).Helmet.Horns4 [Paint] [FullHair]'
     Path: Assets/HeroEditor/Extensions/Style/Sprites/Equipment/Helmet/Horns (Style)/Horns4
       [Paint] [FullHair].png
     Sprite: {fileID: 21300000, guid: 0a0fb40d36d44bb7a9b490a0de3e6b3d, type: 3}
@@ -4649,10 +4649,10 @@ MonoBehaviour:
     Tags:
     - Paint
     - FullHair
-  - Name: Horns5 [Paint] [FullHair]
+  - Name: 'Horns5 [Paint] [FullHair]'
     Collection: Horns (Style)
     Edition: Extensions
-    Id: Extensions.Horns (Style).Helmet.Horns5 [Paint] [FullHair]
+    Id: 'Extensions.Horns (Style).Helmet.Horns5 [Paint] [FullHair]'
     Path: Assets/HeroEditor/Extensions/Style/Sprites/Equipment/Helmet/Horns (Style)/Horns5
       [Paint] [FullHair].png
     Sprite: {fileID: 21300000, guid: c1ac12c39de64f009ecea909f4a6b81b, type: 3}
@@ -4664,10 +4664,10 @@ MonoBehaviour:
     Tags:
     - Paint
     - FullHair
-  - Name: Horns6 [Paint] [FullHair]
+  - Name: 'Horns6 [Paint] [FullHair]'
     Collection: Horns (Style)
     Edition: Extensions
-    Id: Extensions.Horns (Style).Helmet.Horns6 [Paint] [FullHair]
+    Id: 'Extensions.Horns (Style).Helmet.Horns6 [Paint] [FullHair]'
     Path: Assets/HeroEditor/Extensions/Style/Sprites/Equipment/Helmet/Horns (Style)/Horns6
       [Paint] [FullHair].png
     Sprite: {fileID: 21300000, guid: 1fa53b6d7f874cf2b148aadf06f07d67, type: 3}
@@ -4679,10 +4679,10 @@ MonoBehaviour:
     Tags:
     - Paint
     - FullHair
-  - Name: Horns7 [Paint] [FullHair]
+  - Name: 'Horns7 [Paint] [FullHair]'
     Collection: Horns (Style)
     Edition: Extensions
-    Id: Extensions.Horns (Style).Helmet.Horns7 [Paint] [FullHair]
+    Id: 'Extensions.Horns (Style).Helmet.Horns7 [Paint] [FullHair]'
     Path: Assets/HeroEditor/Extensions/Style/Sprites/Equipment/Helmet/Horns (Style)/Horns7
       [Paint] [FullHair].png
     Sprite: {fileID: 21300000, guid: 141240e0842d45a7be771c944d786cae, type: 3}
@@ -4694,10 +4694,10 @@ MonoBehaviour:
     Tags:
     - Paint
     - FullHair
-  - Name: Horns8 [Paint] [FullHair]
+  - Name: 'Horns8 [Paint] [FullHair]'
     Collection: Horns (Style)
     Edition: Extensions
-    Id: Extensions.Horns (Style).Helmet.Horns8 [Paint] [FullHair]
+    Id: 'Extensions.Horns (Style).Helmet.Horns8 [Paint] [FullHair]'
     Path: Assets/HeroEditor/Extensions/Style/Sprites/Equipment/Helmet/Horns (Style)/Horns8
       [Paint] [FullHair].png
     Sprite: {fileID: 21300000, guid: 3a54c2cbc4f741b0bf2e4208a83e7929, type: 3}
@@ -4709,10 +4709,10 @@ MonoBehaviour:
     Tags:
     - Paint
     - FullHair
-  - Name: Horns9 [Paint] [FullHair]
+  - Name: 'Horns9 [Paint] [FullHair]'
     Collection: Horns (Style)
     Edition: Extensions
-    Id: Extensions.Horns (Style).Helmet.Horns9 [Paint] [FullHair]
+    Id: 'Extensions.Horns (Style).Helmet.Horns9 [Paint] [FullHair]'
     Path: Assets/HeroEditor/Extensions/Style/Sprites/Equipment/Helmet/Horns (Style)/Horns9
       [Paint] [FullHair].png
     Sprite: {fileID: 21300000, guid: b4f3a910c8494cfaa2a21825a105fd33, type: 3}
@@ -4760,10 +4760,10 @@ MonoBehaviour:
     Hash: 720af19ec2d1c7a233bef341a8eb1078
     Meta: 
     Tags: []
-  - Name: HunterHelm [Paint]
+  - Name: 'HunterHelm [Paint]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.Helmet.HunterHelm [Paint]
+    Id: 'FantasyHeroes.Basic.Helmet.HunterHelm [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Helmet/Basic/HunterHelm
       [Paint].png
     Sprite: {fileID: 21300000, guid: ab67a7dc2435452fad67a3841ec520ae, type: 3}
@@ -4823,10 +4823,10 @@ MonoBehaviour:
     Hash: ed226fc92bf094a390be92f12195d540
     Meta: 
     Tags: []
-  - Name: IndraGemmedCrown [FullHair]
+  - Name: 'IndraGemmedCrown [FullHair]'
     Collection: Legendary
     Edition: Extensions
-    Id: Extensions.Legendary.Helmet.IndraGemmedCrown [FullHair]
+    Id: 'Extensions.Legendary.Helmet.IndraGemmedCrown [FullHair]'
     Path: Assets/HeroEditor/Extensions/EpicHeroes/Sprites/Equipment/Helmet/Legendary/IndraGemmedCrown
       [FullHair].png
     Sprite: {fileID: 21300000, guid: 95874498f481184488e91d43b172fc7c, type: 3}
@@ -4837,10 +4837,10 @@ MonoBehaviour:
     Meta: 
     Tags:
     - FullHair
-  - Name: InquisitorHat1 [Paint]
+  - Name: 'InquisitorHat1 [Paint]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.Helmet.InquisitorHat1 [Paint]
+    Id: 'FantasyHeroes.Basic.Helmet.InquisitorHat1 [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Helmet/Basic/InquisitorHat1
       [Paint].png
     Sprite: {fileID: 21300000, guid: b8616c98ffad499a8549fa4a68269866, type: 3}
@@ -4851,10 +4851,10 @@ MonoBehaviour:
     Meta: 
     Tags:
     - Paint
-  - Name: InquisitorHat2 [Paint]
+  - Name: 'InquisitorHat2 [Paint]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.Helmet.InquisitorHat2 [Paint]
+    Id: 'FantasyHeroes.Basic.Helmet.InquisitorHat2 [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Helmet/Basic/InquisitorHat2
       [Paint].png
     Sprite: {fileID: 21300000, guid: 81a57828699d411cbf1eef31511652e4, type: 3}
@@ -4913,10 +4913,10 @@ MonoBehaviour:
     Hash: def34458309d0cd2b0a66d2f6217e1b6
     Meta: 
     Tags: []
-  - Name: KnightHelm [Paint]
+  - Name: 'KnightHelm [Paint]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.Helmet.KnightHelm [Paint]
+    Id: 'FantasyHeroes.Basic.Helmet.KnightHelm [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Helmet/Basic/KnightHelm
       [Paint].png
     Sprite: {fileID: 21300000, guid: 66ce6282a2b24280a9f53a86eff81f39, type: 3}
@@ -4927,10 +4927,10 @@ MonoBehaviour:
     Meta: 
     Tags:
     - Paint
-  - Name: KronosCrownedHelmet [FullHair]
+  - Name: 'KronosCrownedHelmet [FullHair]'
     Collection: Legendary
     Edition: Extensions
-    Id: Extensions.Legendary.Helmet.KronosCrownedHelmet [FullHair]
+    Id: 'Extensions.Legendary.Helmet.KronosCrownedHelmet [FullHair]'
     Path: Assets/HeroEditor/Extensions/EpicHeroes/Sprites/Equipment/Helmet/Legendary/KronosCrownedHelmet
       [FullHair].png
     Sprite: {fileID: 21300000, guid: b869defa9e5d0254a9071251e6b1c70a, type: 3}
@@ -4965,10 +4965,10 @@ MonoBehaviour:
     Hash: d40f181597a02bfba746c4eea5620d14
     Meta: 
     Tags: []
-  - Name: LandsknechtHelm [Paint]
+  - Name: 'LandsknechtHelm [Paint]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.Helmet.LandsknechtHelm [Paint]
+    Id: 'FantasyHeroes.Basic.Helmet.LandsknechtHelm [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Helmet/Basic/LandsknechtHelm
       [Paint].png
     Sprite: {fileID: 21300000, guid: faad24028bde44f1bdb82fded6788525, type: 3}
@@ -5003,10 +5003,10 @@ MonoBehaviour:
     Hash: f44d9405f5684f35c734ff8ad929650f
     Meta: 
     Tags: []
-  - Name: LotusPrinceHorns [FullHair]
+  - Name: 'LotusPrinceHorns [FullHair]'
     Collection: Legendary
     Edition: Extensions
-    Id: Extensions.Legendary.Helmet.LotusPrinceHorns [FullHair]
+    Id: 'Extensions.Legendary.Helmet.LotusPrinceHorns [FullHair]'
     Path: Assets/HeroEditor/Extensions/EpicHeroes/Sprites/Equipment/Helmet/Legendary/LotusPrinceHorns
       [FullHair].png
     Sprite: {fileID: 21300000, guid: cf17867a28c74b9449adb0b249d35e5a, type: 3}
@@ -5089,10 +5089,10 @@ MonoBehaviour:
     Hash: 44f3d151d232cfad3d1fb1383c5f0cc0
     Meta: 
     Tags: []
-  - Name: MercenaryHelm1 [Paint]
+  - Name: 'MercenaryHelm1 [Paint]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.Helmet.MercenaryHelm1 [Paint]
+    Id: 'FantasyHeroes.Basic.Helmet.MercenaryHelm1 [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Helmet/Basic/MercenaryHelm1
       [Paint].png
     Sprite: {fileID: 21300000, guid: 2a2a008fca554f9d88e735dbf6091146, type: 3}
@@ -5103,10 +5103,10 @@ MonoBehaviour:
     Meta: 
     Tags:
     - Paint
-  - Name: MercenaryHelm2 [Paint]
+  - Name: 'MercenaryHelm2 [Paint]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.Helmet.MercenaryHelm2 [Paint]
+    Id: 'FantasyHeroes.Basic.Helmet.MercenaryHelm2 [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Helmet/Basic/MercenaryHelm2
       [Paint].png
     Sprite: {fileID: 21300000, guid: d75363f7bbeb40cb8f1f6fa975f2f764, type: 3}
@@ -5117,10 +5117,10 @@ MonoBehaviour:
     Meta: 
     Tags:
     - Paint
-  - Name: MilitiamanHelmet1 [Paint]
+  - Name: 'MilitiamanHelmet1 [Paint]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.Helmet.MilitiamanHelmet1 [Paint]
+    Id: 'FantasyHeroes.Basic.Helmet.MilitiamanHelmet1 [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Helmet/Basic/MilitiamanHelmet1
       [Paint].png
     Sprite: {fileID: 21300000, guid: 4c345e2764204f13a7a601a0df480641, type: 3}
@@ -5131,10 +5131,10 @@ MonoBehaviour:
     Meta: 
     Tags:
     - Paint
-  - Name: MilitiamanHelmet2 [Paint]
+  - Name: 'MilitiamanHelmet2 [Paint]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.Helmet.MilitiamanHelmet2 [Paint]
+    Id: 'FantasyHeroes.Basic.Helmet.MilitiamanHelmet2 [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Helmet/Basic/MilitiamanHelmet2
       [Paint].png
     Sprite: {fileID: 21300000, guid: feba854ae4b643709dfc47d7936c4be3, type: 3}
@@ -5145,10 +5145,10 @@ MonoBehaviour:
     Meta: 
     Tags:
     - Paint
-  - Name: MountainHelm [Paint]
+  - Name: 'MountainHelm [Paint]'
     Collection: Thrones
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Thrones.Helmet.MountainHelm [Paint]
+    Id: 'FantasyHeroes.Thrones.Helmet.MountainHelm [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Helmet/Thrones/MountainHelm
       [Paint].png
     Sprite: {fileID: 21300000, guid: 1ce742be81464944802ed79dcfd1b9b2, type: 3}
@@ -5183,10 +5183,10 @@ MonoBehaviour:
     Hash: 9fd4e7e475862f0d3da41cce1d3eb01c
     Meta: 
     Tags: []
-  - Name: NinjaHelm1 [Paint]
+  - Name: 'NinjaHelm1 [Paint]'
     Collection: Samurai
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Samurai.Helmet.NinjaHelm1 [Paint]
+    Id: 'FantasyHeroes.Samurai.Helmet.NinjaHelm1 [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Helmet/Samurai/NinjaHelm1
       [Paint].png
     Sprite: {fileID: 21300000, guid: 23927b63f7e24423b494d1018ba4d7ca, type: 3}
@@ -5197,10 +5197,10 @@ MonoBehaviour:
     Meta: 
     Tags:
     - Paint
-  - Name: NinjaHelm2 [Paint]
+  - Name: 'NinjaHelm2 [Paint]'
     Collection: Samurai
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Samurai.Helmet.NinjaHelm2 [Paint]
+    Id: 'FantasyHeroes.Samurai.Helmet.NinjaHelm2 [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Helmet/Samurai/NinjaHelm2
       [Paint].png
     Sprite: {fileID: 21300000, guid: 61e4d2946bd14fba8bf2feff8321bae1, type: 3}
@@ -5211,10 +5211,10 @@ MonoBehaviour:
     Meta: 
     Tags:
     - Paint
-  - Name: NinjaHelm3 [Paint]
+  - Name: 'NinjaHelm3 [Paint]'
     Collection: Samurai
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Samurai.Helmet.NinjaHelm3 [Paint]
+    Id: 'FantasyHeroes.Samurai.Helmet.NinjaHelm3 [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Helmet/Samurai/NinjaHelm3
       [Paint].png
     Sprite: {fileID: 21300000, guid: f6271df6229842b7950f0e2d5269a576, type: 3}
@@ -5261,10 +5261,10 @@ MonoBehaviour:
     Hash: 50bee1a07114358ff2e73ede8d9d6b7d
     Meta: 
     Tags: []
-  - Name: PaladinHelm [Paint]
+  - Name: 'PaladinHelm [Paint]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.Helmet.PaladinHelm [Paint]
+    Id: 'FantasyHeroes.Basic.Helmet.PaladinHelm [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Helmet/Basic/PaladinHelm
       [Paint].png
     Sprite: {fileID: 21300000, guid: 10d607cf1daa47bf80236aa0db39ebc6, type: 3}
@@ -5275,10 +5275,10 @@ MonoBehaviour:
     Meta: 
     Tags:
     - Paint
-  - Name: PathfinderHat [Paint]
+  - Name: 'PathfinderHat [Paint]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.Helmet.PathfinderHat [Paint]
+    Id: 'FantasyHeroes.Basic.Helmet.PathfinderHat [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Helmet/Basic/PathfinderHat
       [Paint].png
     Sprite: {fileID: 21300000, guid: 8862c9695f8b44dcac8a53692dd54f42, type: 3}
@@ -5313,10 +5313,10 @@ MonoBehaviour:
     Hash: 9c51bff56b929a3e6d24f61c11fbc52b
     Meta: 
     Tags: []
-  - Name: PhoenixHairpiece [FullHair]
+  - Name: 'PhoenixHairpiece [FullHair]'
     Collection: Legendary
     Edition: Extensions
-    Id: Extensions.Legendary.Helmet.PhoenixHairpiece [FullHair]
+    Id: 'Extensions.Legendary.Helmet.PhoenixHairpiece [FullHair]'
     Path: Assets/HeroEditor/Extensions/EpicHeroes/Sprites/Equipment/Helmet/Legendary/PhoenixHairpiece
       [FullHair].png
     Sprite: {fileID: 21300000, guid: bacbbb468efb5ca4686a17e767781ec8, type: 3}
@@ -5363,10 +5363,10 @@ MonoBehaviour:
     Hash: edcf310abc81c103d7d1ae754d222e28
     Meta: 
     Tags: []
-  - Name: PrincessTiara [FullHair]
+  - Name: 'PrincessTiara [FullHair]'
     Collection: Legendary
     Edition: Extensions
-    Id: Extensions.Legendary.Helmet.PrincessTiara [FullHair]
+    Id: 'Extensions.Legendary.Helmet.PrincessTiara [FullHair]'
     Path: Assets/HeroEditor/Extensions/EpicHeroes/Sprites/Equipment/Helmet/Legendary/PrincessTiara
       [FullHair].png
     Sprite: {fileID: 21300000, guid: b646a90323b820341b02c0c60742a36a, type: 3}
@@ -5389,10 +5389,10 @@ MonoBehaviour:
     Hash: 12269a423ffa6199099d5186a415d57a
     Meta: 
     Tags: []
-  - Name: RangerHat [Paint]
+  - Name: 'RangerHat [Paint]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.Helmet.RangerHat [Paint]
+    Id: 'FantasyHeroes.Basic.Helmet.RangerHat [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Helmet/Basic/RangerHat
       [Paint].png
     Sprite: {fileID: 21300000, guid: 3e58c75cb77c43b7be13fa9930dba31d, type: 3}
@@ -5439,10 +5439,10 @@ MonoBehaviour:
     Hash: 317671917154e93c4ae4cd65b3902221
     Meta: 
     Tags: []
-  - Name: Ribbon1 [FullHair]
+  - Name: 'Ribbon1 [FullHair]'
     Collection: Style
     Edition: Extensions
-    Id: Extensions.Style.Helmet.Ribbon1 [FullHair]
+    Id: 'Extensions.Style.Helmet.Ribbon1 [FullHair]'
     Path: Assets/HeroEditor/Extensions/Style/Sprites/Equipment/Helmet/Style/Ribbon1
       [FullHair].png
     Sprite: {fileID: 21300000, guid: e1082789a9104bc884327a6a1e8efe85, type: 3}
@@ -5453,10 +5453,10 @@ MonoBehaviour:
     Meta: 
     Tags:
     - FullHair
-  - Name: Ribbon1 [Paint] [FullHair]
+  - Name: 'Ribbon1 [Paint] [FullHair]'
     Collection: Style
     Edition: Extensions
-    Id: Extensions.Style.Helmet.Ribbon1 [Paint] [FullHair]
+    Id: 'Extensions.Style.Helmet.Ribbon1 [Paint] [FullHair]'
     Path: Assets/HeroEditor/Extensions/Style/Sprites/Equipment/Helmet/Style/Ribbon1
       [Paint] [FullHair].png
     Sprite: {fileID: 21300000, guid: 042f9da101714e3e8c2d8783e2391e06, type: 3}
@@ -5468,10 +5468,10 @@ MonoBehaviour:
     Tags:
     - Paint
     - FullHair
-  - Name: Ribbon2 [FullHair]
+  - Name: 'Ribbon2 [FullHair]'
     Collection: Style
     Edition: Extensions
-    Id: Extensions.Style.Helmet.Ribbon2 [FullHair]
+    Id: 'Extensions.Style.Helmet.Ribbon2 [FullHair]'
     Path: Assets/HeroEditor/Extensions/Style/Sprites/Equipment/Helmet/Style/Ribbon2
       [FullHair].png
     Sprite: {fileID: 21300000, guid: 2d3b975b973d45a8b452dcea1ef1fa58, type: 3}
@@ -5482,10 +5482,10 @@ MonoBehaviour:
     Meta: 
     Tags:
     - FullHair
-  - Name: Ribbon2 [Paint] [FullHair]
+  - Name: 'Ribbon2 [Paint] [FullHair]'
     Collection: Style
     Edition: Extensions
-    Id: Extensions.Style.Helmet.Ribbon2 [Paint] [FullHair]
+    Id: 'Extensions.Style.Helmet.Ribbon2 [Paint] [FullHair]'
     Path: Assets/HeroEditor/Extensions/Style/Sprites/Equipment/Helmet/Style/Ribbon2
       [Paint] [FullHair].png
     Sprite: {fileID: 21300000, guid: 044224b86fcd4c43b781cf031ad2ffb6, type: 3}
@@ -5509,10 +5509,10 @@ MonoBehaviour:
     Hash: 5a27d36a147e4c433e32524b8e179d07
     Meta: 
     Tags: []
-  - Name: Rocky [Paint] [FullHair]
+  - Name: 'Rocky [Paint] [FullHair]'
     Collection: Style
     Edition: Extensions
-    Id: Extensions.Style.Helmet.Rocky [Paint] [FullHair]
+    Id: 'Extensions.Style.Helmet.Rocky [Paint] [FullHair]'
     Path: Assets/HeroEditor/Extensions/Style/Sprites/Equipment/Helmet/Style/Rocky
       [Paint] [FullHair].png
     Sprite: {fileID: 21300000, guid: a996170d52124d12909376dbc509dab8, type: 3}
@@ -5764,10 +5764,10 @@ MonoBehaviour:
     Hash: 6206dd04d34c37de0b00f628c6d09d69
     Meta: 
     Tags: []
-  - Name: SeraphimHalo [FullHair]
+  - Name: 'SeraphimHalo [FullHair]'
     Collection: Legendary
     Edition: Extensions
-    Id: Extensions.Legendary.Helmet.SeraphimHalo [FullHair]
+    Id: 'Extensions.Legendary.Helmet.SeraphimHalo [FullHair]'
     Path: Assets/HeroEditor/Extensions/EpicHeroes/Sprites/Equipment/Helmet/Legendary/SeraphimHalo
       [FullHair].png
     Sprite: {fileID: 21300000, guid: 8591b01ee3176f94b865a4f3aa7259d6, type: 3}
@@ -5778,10 +5778,10 @@ MonoBehaviour:
     Meta: 
     Tags:
     - FullHair
-  - Name: ShamanHelm [FullHair]
+  - Name: 'ShamanHelm [FullHair]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.Helmet.ShamanHelm [FullHair]
+    Id: 'FantasyHeroes.Basic.Helmet.ShamanHelm [FullHair]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Helmet/Basic/ShamanHelm
       [FullHair].png
     Sprite: {fileID: 21300000, guid: 1a321f5f0546417b90359a69835c6beb, type: 3}
@@ -5792,10 +5792,10 @@ MonoBehaviour:
     Meta: 
     Tags:
     - FullHair
-  - Name: ShamanMask [FullHair]
+  - Name: 'ShamanMask [FullHair]'
     Collection: SwampLords
     Edition: FantasyHeroes
-    Id: FantasyHeroes.SwampLords.Helmet.ShamanMask [FullHair]
+    Id: 'FantasyHeroes.SwampLords.Helmet.ShamanMask [FullHair]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Helmet/SwampLords/ShamanMask
       [FullHair].png
     Sprite: {fileID: 21300000, guid: 52163ef8576943f79672de12704aba19, type: 3}
@@ -5806,10 +5806,10 @@ MonoBehaviour:
     Meta: 
     Tags:
     - FullHair
-  - Name: ShamanMask2 [FullHair]
+  - Name: 'ShamanMask2 [FullHair]'
     Collection: SwampLords
     Edition: FantasyHeroes
-    Id: FantasyHeroes.SwampLords.Helmet.ShamanMask2 [FullHair]
+    Id: 'FantasyHeroes.SwampLords.Helmet.ShamanMask2 [FullHair]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Helmet/SwampLords/ShamanMask2
       [FullHair].png
     Sprite: {fileID: 21300000, guid: 5809370ada474003860ef34ec6cc49a0, type: 3}
@@ -5820,10 +5820,10 @@ MonoBehaviour:
     Meta: 
     Tags:
     - FullHair
-  - Name: ShamanMask3 [FullHair]
+  - Name: 'ShamanMask3 [FullHair]'
     Collection: SwampLords
     Edition: FantasyHeroes
-    Id: FantasyHeroes.SwampLords.Helmet.ShamanMask3 [FullHair]
+    Id: 'FantasyHeroes.SwampLords.Helmet.ShamanMask3 [FullHair]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Helmet/SwampLords/ShamanMask3
       [FullHair].png
     Sprite: {fileID: 21300000, guid: 659ff226fb504c48ac08805036a8f4d1, type: 3}
@@ -5834,10 +5834,10 @@ MonoBehaviour:
     Meta: 
     Tags:
     - FullHair
-  - Name: SharpHelm [Paint]
+  - Name: 'SharpHelm [Paint]'
     Collection: Knights
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Knights.Helmet.SharpHelm [Paint]
+    Id: 'FantasyHeroes.Knights.Helmet.SharpHelm [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Helmet/Knights/SharpHelm
       [Paint].png
     Sprite: {fileID: 21300000, guid: 388d34b31f6f43a49e4ec8d2e25f83b7, type: 3}
@@ -5848,10 +5848,10 @@ MonoBehaviour:
     Meta: 
     Tags:
     - Paint
-  - Name: SiegeArcherHelm [Paint]
+  - Name: 'SiegeArcherHelm [Paint]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.Helmet.SiegeArcherHelm [Paint]
+    Id: 'FantasyHeroes.Basic.Helmet.SiegeArcherHelm [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Helmet/Basic/SiegeArcherHelm
       [Paint].png
     Sprite: {fileID: 21300000, guid: 498ed08befb2479599352f94ac566bb9, type: 3}
@@ -5862,10 +5862,10 @@ MonoBehaviour:
     Meta: 
     Tags:
     - Paint
-  - Name: SkullPin [Paint] [FullHair]
+  - Name: 'SkullPin [Paint] [FullHair]'
     Collection: Style
     Edition: Extensions
-    Id: Extensions.Style.Helmet.SkullPin [Paint] [FullHair]
+    Id: 'Extensions.Style.Helmet.SkullPin [Paint] [FullHair]'
     Path: Assets/HeroEditor/Extensions/Style/Sprites/Equipment/Helmet/Style/SkullPin
       [Paint] [FullHair].png
     Sprite: {fileID: 21300000, guid: 96c8510dd0874f92b8a4f695b2c4aad1, type: 3}
@@ -5877,10 +5877,10 @@ MonoBehaviour:
     Tags:
     - Paint
     - FullHair
-  - Name: SlaveHeadband [FullHair]
+  - Name: 'SlaveHeadband [FullHair]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.Helmet.SlaveHeadband [FullHair]
+    Id: 'FantasyHeroes.Basic.Helmet.SlaveHeadband [FullHair]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Helmet/Basic/SlaveHeadband
       [FullHair].png
     Sprite: {fileID: 21300000, guid: a426c135d98949b39f19dd64deed5d2b, type: 3}
@@ -5927,10 +5927,10 @@ MonoBehaviour:
     Hash: 32710acd9c5671834768b05a6c706707
     Meta: 
     Tags: []
-  - Name: SteelHelm [Paint]
+  - Name: 'SteelHelm [Paint]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.Helmet.SteelHelm [Paint]
+    Id: 'FantasyHeroes.Basic.Helmet.SteelHelm [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Helmet/Basic/SteelHelm
       [Paint].png
     Sprite: {fileID: 21300000, guid: ecbf6e5e91ce4a928da232e93322a7ce, type: 3}
@@ -5953,10 +5953,10 @@ MonoBehaviour:
     Hash: d0b47e6b239363ed5a1d0d9f5c63463c
     Meta: 
     Tags: []
-  - Name: StormcallerHelmet [FullHair]
+  - Name: 'StormcallerHelmet [FullHair]'
     Collection: Epic
     Edition: Extensions
-    Id: Extensions.Epic.Helmet.StormcallerHelmet [FullHair]
+    Id: 'Extensions.Epic.Helmet.StormcallerHelmet [FullHair]'
     Path: Assets/HeroEditor/Extensions/EpicHeroes/Sprites/Equipment/Helmet/Epic/StormcallerHelmet
       [FullHair].png
     Sprite: {fileID: 21300000, guid: b46fcff17abb48bd8b4272a853922c17, type: 3}
@@ -5979,10 +5979,10 @@ MonoBehaviour:
     Hash: acce0a8155bf4f06f26b646ce500f7ac
     Meta: 
     Tags: []
-  - Name: SupremeHimeCrown [FullHair]
+  - Name: 'SupremeHimeCrown [FullHair]'
     Collection: Legendary
     Edition: Extensions
-    Id: Extensions.Legendary.Helmet.SupremeHimeCrown [FullHair]
+    Id: 'Extensions.Legendary.Helmet.SupremeHimeCrown [FullHair]'
     Path: Assets/HeroEditor/Extensions/EpicHeroes/Sprites/Equipment/Helmet/Legendary/SupremeHimeCrown
       [FullHair].png
     Sprite: {fileID: 21300000, guid: ad509bbc289d76d4db7541be897d9aa6, type: 3}
@@ -5993,10 +5993,10 @@ MonoBehaviour:
     Meta: 
     Tags:
     - FullHair
-  - Name: SwampLordMask1 [FullHair]
+  - Name: 'SwampLordMask1 [FullHair]'
     Collection: SwampLords
     Edition: FantasyHeroes
-    Id: FantasyHeroes.SwampLords.Helmet.SwampLordMask1 [FullHair]
+    Id: 'FantasyHeroes.SwampLords.Helmet.SwampLordMask1 [FullHair]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Helmet/SwampLords/SwampLordMask1
       [FullHair].png
     Sprite: {fileID: 21300000, guid: a75d9120d782429abd3985fe7832e842, type: 3}
@@ -6007,10 +6007,10 @@ MonoBehaviour:
     Meta: 
     Tags:
     - FullHair
-  - Name: SwampLordMask2  [FullHair]
+  - Name: 'SwampLordMask2  [FullHair]'
     Collection: SwampLords
     Edition: FantasyHeroes
-    Id: FantasyHeroes.SwampLords.Helmet.SwampLordMask2  [FullHair]
+    Id: 'FantasyHeroes.SwampLords.Helmet.SwampLordMask2  [FullHair]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Helmet/SwampLords/SwampLordMask2 
       [FullHair].png
     Sprite: {fileID: 21300000, guid: 45e0b4149cfa44618b9e6bc2c32eb7e4, type: 3}
@@ -6045,10 +6045,10 @@ MonoBehaviour:
     Hash: 46ec4e516c6eb52be762a7b3e52577c2
     Meta: 
     Tags: []
-  - Name: ThiefHelm [Paint]
+  - Name: 'ThiefHelm [Paint]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.Helmet.ThiefHelm [Paint]
+    Id: 'FantasyHeroes.Basic.Helmet.ThiefHelm [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Helmet/Basic/ThiefHelm
       [Paint].png
     Sprite: {fileID: 21300000, guid: 75525ee8bb3843d1817463d96b3b8580, type: 3}
@@ -6059,10 +6059,10 @@ MonoBehaviour:
     Meta: 
     Tags:
     - Paint
-  - Name: UltimateMadokaRibbons [FullHair]
+  - Name: 'UltimateMadokaRibbons [FullHair]'
     Collection: Legendary
     Edition: Extensions
-    Id: Extensions.Legendary.Helmet.UltimateMadokaRibbons [FullHair]
+    Id: 'Extensions.Legendary.Helmet.UltimateMadokaRibbons [FullHair]'
     Path: Assets/HeroEditor/Extensions/EpicHeroes/Sprites/Equipment/Helmet/Legendary/UltimateMadokaRibbons
       [FullHair].png
     Sprite: {fileID: 21300000, guid: 1254172aeffa00541afb3664a9572530, type: 3}
@@ -6073,10 +6073,10 @@ MonoBehaviour:
     Meta: 
     Tags:
     - FullHair
-  - Name: UncleSamHat [FullHair]
+  - Name: 'UncleSamHat [FullHair]'
     Collection: Legendary
     Edition: Extensions
-    Id: Extensions.Legendary.Helmet.UncleSamHat [FullHair]
+    Id: 'Extensions.Legendary.Helmet.UncleSamHat [FullHair]'
     Path: Assets/HeroEditor/Extensions/EpicHeroes/Sprites/Equipment/Helmet/Legendary/UncleSamHat
       [FullHair].png
     Sprite: {fileID: 21300000, guid: 9a2caf72dd70bfc4494b99d4054d083b, type: 3}
@@ -6159,10 +6159,10 @@ MonoBehaviour:
     Hash: f2e75519bb55b947fb35d4acc35bfe84
     Meta: 
     Tags: []
-  - Name: VillainCrown [FullHair]
+  - Name: 'VillainCrown [FullHair]'
     Collection: Legendary
     Edition: Extensions
-    Id: Extensions.Legendary.Helmet.VillainCrown [FullHair]
+    Id: 'Extensions.Legendary.Helmet.VillainCrown [FullHair]'
     Path: Assets/HeroEditor/Extensions/EpicHeroes/Sprites/Equipment/Helmet/Legendary/VillainCrown
       [FullHair].png
     Sprite: {fileID: 21300000, guid: 4e03695630da1e0418ab7dfeb8a8d690, type: 3}
@@ -6173,10 +6173,10 @@ MonoBehaviour:
     Meta: 
     Tags:
     - FullHair
-  - Name: VisorKnightHelm [Paint]
+  - Name: 'VisorKnightHelm [Paint]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.Helmet.VisorKnightHelm [Paint]
+    Id: 'FantasyHeroes.Basic.Helmet.VisorKnightHelm [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Helmet/Basic/VisorKnightHelm
       [Paint].png
     Sprite: {fileID: 21300000, guid: 19f4eb233a98eec4dbe759399768af9b, type: 3}
@@ -6223,10 +6223,10 @@ MonoBehaviour:
     Hash: c90d0439a67b781ae2844811df85de40
     Meta: 
     Tags: []
-  - Name: WarriorHelm [Paint]
+  - Name: 'WarriorHelm [Paint]'
     Collection: Knights
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Knights.Helmet.WarriorHelm [Paint]
+    Id: 'FantasyHeroes.Knights.Helmet.WarriorHelm [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Helmet/Knights/WarriorHelm
       [Paint].png
     Sprite: {fileID: 21300000, guid: 23bfe752ec2e46078e3234398f827a77, type: 3}
@@ -6273,10 +6273,10 @@ MonoBehaviour:
     Hash: d51ff046fe2dda0040921e9b913de4e2
     Meta: 
     Tags: []
-  - Name: WitchHat [Paint]
+  - Name: 'WitchHat [Paint]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.Helmet.WitchHat [Paint]
+    Id: 'FantasyHeroes.Basic.Helmet.WitchHat [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Helmet/Basic/WitchHat
       [Paint].png
     Sprite: {fileID: 21300000, guid: 71fb40c093af42ccabaab39d723d3cdd, type: 3}
@@ -6287,10 +6287,10 @@ MonoBehaviour:
     Meta: 
     Tags:
     - Paint
-  - Name: WitchHunterHat [Paint]
+  - Name: 'WitchHunterHat [Paint]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.Helmet.WitchHunterHat [Paint]
+    Id: 'FantasyHeroes.Basic.Helmet.WitchHunterHat [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Helmet/Basic/WitchHunterHat
       [Paint].png
     Sprite: {fileID: 21300000, guid: 291a590d37964a228d317f82f7b158ae, type: 3}
@@ -6507,10 +6507,10 @@ MonoBehaviour:
     Meta: 
     Tags: []
   Mask:
-  - Name: BanditMask [Paint]
+  - Name: 'BanditMask [Paint]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.Mask.BanditMask [Paint]
+    Id: 'FantasyHeroes.Basic.Mask.BanditMask [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Mask/Basic/BanditMask
       [Paint].png
     Sprite: {fileID: 21300000, guid: 9d2584e2bc234f83a70ca188de6d4007, type: 3}
@@ -6533,10 +6533,10 @@ MonoBehaviour:
     Hash: 087b2ec008a3a0a66e7fb2afe3fcf0e0
     Meta: 
     Tags: []
-  - Name: Mask1 [Paint]
+  - Name: 'Mask1 [Paint]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.Mask.Mask1 [Paint]
+    Id: 'FantasyHeroes.Basic.Mask.Mask1 [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Mask/Basic/Mask1 [Paint].png
     Sprite: {fileID: 21300000, guid: ea3f523f292e4724b8368692b8417246, type: 3}
     Sprites:
@@ -6546,10 +6546,10 @@ MonoBehaviour:
     Meta: 
     Tags:
     - Paint
-  - Name: Mask2 [Paint]
+  - Name: 'Mask2 [Paint]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.Mask.Mask2 [Paint]
+    Id: 'FantasyHeroes.Basic.Mask.Mask2 [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Mask/Basic/Mask2 [Paint].png
     Sprite: {fileID: 21300000, guid: 26e37202602c48b09a59a003fcde9df0, type: 3}
     Sprites:
@@ -6559,10 +6559,10 @@ MonoBehaviour:
     Meta: 
     Tags:
     - Paint
-  - Name: ShamanMask [Paint]
+  - Name: 'ShamanMask [Paint]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.Mask.ShamanMask [Paint]
+    Id: 'FantasyHeroes.Basic.Mask.ShamanMask [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Mask/Basic/ShamanMask
       [Paint].png
     Sprite: {fileID: 21300000, guid: 83c6183d4a1743e197d433a747a333ca, type: 3}
@@ -6662,8 +6662,7 @@ MonoBehaviour:
     Edition: Extensions
     Id: Extensions.Legendary.Armor.ArcArmor
     Path: Assets/HeroEditor/Extensions/EpicHeroes/Sprites/Equipment/Armor/Legendary/ArcArmor.png
-    Sprite: {fileID: -4550084578846169200, guid: dc6bb6438f7a447418ad29b28e3954bb,
-      type: 3}
+    Sprite: {fileID: -4550084578846169200, guid: dc6bb6438f7a447418ad29b28e3954bb, type: 3}
     Sprites:
     - {fileID: -4550084578846169200, guid: dc6bb6438f7a447418ad29b28e3954bb, type: 3}
     - {fileID: 624974917677838921, guid: dc6bb6438f7a447418ad29b28e3954bb, type: 3}
@@ -6686,8 +6685,7 @@ MonoBehaviour:
     Edition: Extensions
     Id: Extensions.Legendary.Armor.ArcArmorTypeB
     Path: Assets/HeroEditor/Extensions/EpicHeroes/Sprites/Equipment/Armor/Legendary/ArcArmorTypeB.png
-    Sprite: {fileID: -4550084578846169200, guid: 4193436b4f4e0b14f982b10dcec9fe78,
-      type: 3}
+    Sprite: {fileID: -4550084578846169200, guid: 4193436b4f4e0b14f982b10dcec9fe78, type: 3}
     Sprites:
     - {fileID: -4550084578846169200, guid: 4193436b4f4e0b14f982b10dcec9fe78, type: 3}
     - {fileID: 624974917677838921, guid: 4193436b4f4e0b14f982b10dcec9fe78, type: 3}
@@ -6705,10 +6703,10 @@ MonoBehaviour:
     Hash: d067cbd9fb312fc030c94a0592b585d6
     Meta: 
     Tags: []
-  - Name: ArielDress [Paint]
+  - Name: 'ArielDress [Paint]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.Armor.ArielDress [Paint]
+    Id: 'FantasyHeroes.Basic.Armor.ArielDress [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Armor/Basic/ArielDress
       [Paint].png
     Sprite: {fileID: 21300004, guid: 89ecd65e8c4d4168a4d4805570df4db2, type: 3}
@@ -6735,8 +6733,7 @@ MonoBehaviour:
     Edition: Extensions
     Id: Extensions.Legendary.Armor.ArmorOfAjero
     Path: Assets/HeroEditor/Extensions/EpicHeroes/Sprites/Equipment/Armor/Legendary/ArmorOfAjero.png
-    Sprite: {fileID: -4550084578846169200, guid: c4154f7c316073844a6e921e5e5cb89a,
-      type: 3}
+    Sprite: {fileID: -4550084578846169200, guid: c4154f7c316073844a6e921e5e5cb89a, type: 3}
     Sprites:
     - {fileID: -4550084578846169200, guid: c4154f7c316073844a6e921e5e5cb89a, type: 3}
     - {fileID: 624974917677838921, guid: c4154f7c316073844a6e921e5e5cb89a, type: 3}
@@ -6759,8 +6756,7 @@ MonoBehaviour:
     Edition: Extensions
     Id: Extensions.Legendary.Armor.ArmorOfBrynhildr
     Path: Assets/HeroEditor/Extensions/EpicHeroes/Sprites/Equipment/Armor/Legendary/ArmorOfBrynhildr.png
-    Sprite: {fileID: -4550084578846169200, guid: 374ba0f7c760ae64a87935257079efee,
-      type: 3}
+    Sprite: {fileID: -4550084578846169200, guid: 374ba0f7c760ae64a87935257079efee, type: 3}
     Sprites:
     - {fileID: -4550084578846169200, guid: 374ba0f7c760ae64a87935257079efee, type: 3}
     - {fileID: 624974917677838921, guid: 374ba0f7c760ae64a87935257079efee, type: 3}
@@ -6783,8 +6779,7 @@ MonoBehaviour:
     Edition: Extensions
     Id: Extensions.Legendary.Armor.ArmorOfCompassion
     Path: Assets/HeroEditor/Extensions/EpicHeroes/Sprites/Equipment/Armor/Legendary/ArmorOfCompassion.png
-    Sprite: {fileID: -4550084578846169200, guid: db1cb0c394e7807479fd8b04982689a8,
-      type: 3}
+    Sprite: {fileID: -4550084578846169200, guid: db1cb0c394e7807479fd8b04982689a8, type: 3}
     Sprites:
     - {fileID: -4550084578846169200, guid: db1cb0c394e7807479fd8b04982689a8, type: 3}
     - {fileID: 624974917677838921, guid: db1cb0c394e7807479fd8b04982689a8, type: 3}
@@ -6830,8 +6825,7 @@ MonoBehaviour:
     Edition: Extensions
     Id: Extensions.Legendary.Armor.ArmorOfDecay
     Path: Assets/HeroEditor/Extensions/EpicHeroes/Sprites/Equipment/Armor/Legendary/ArmorOfDecay.png
-    Sprite: {fileID: -4550084578846169200, guid: 3b70d20c8d060e54badcb14d9cf083e7,
-      type: 3}
+    Sprite: {fileID: -4550084578846169200, guid: 3b70d20c8d060e54badcb14d9cf083e7, type: 3}
     Sprites:
     - {fileID: -4550084578846169200, guid: 3b70d20c8d060e54badcb14d9cf083e7, type: 3}
     - {fileID: 624974917677838921, guid: 3b70d20c8d060e54badcb14d9cf083e7, type: 3}
@@ -7015,8 +7009,7 @@ MonoBehaviour:
     Edition: Extensions
     Id: Extensions.Legendary.Armor.ArmorOfTheMadGod
     Path: Assets/HeroEditor/Extensions/EpicHeroes/Sprites/Equipment/Armor/Legendary/ArmorOfTheMadGod.png
-    Sprite: {fileID: -4550084578846169200, guid: 94db190bd4e35b44d99652a6f47ce058,
-      type: 3}
+    Sprite: {fileID: -4550084578846169200, guid: 94db190bd4e35b44d99652a6f47ce058, type: 3}
     Sprites:
     - {fileID: -4550084578846169200, guid: 94db190bd4e35b44d99652a6f47ce058, type: 3}
     - {fileID: 624974917677838921, guid: 94db190bd4e35b44d99652a6f47ce058, type: 3}
@@ -7039,8 +7032,7 @@ MonoBehaviour:
     Edition: Extensions
     Id: Extensions.Legendary.Armor.ArmorOfTheMadGodTypeB
     Path: Assets/HeroEditor/Extensions/EpicHeroes/Sprites/Equipment/Armor/Legendary/ArmorOfTheMadGodTypeB.png
-    Sprite: {fileID: -4550084578846169200, guid: e7c2b0dad48d72b4cbc48ca500663c77,
-      type: 3}
+    Sprite: {fileID: -4550084578846169200, guid: e7c2b0dad48d72b4cbc48ca500663c77, type: 3}
     Sprites:
     - {fileID: -4550084578846169200, guid: e7c2b0dad48d72b4cbc48ca500663c77, type: 3}
     - {fileID: 624974917677838921, guid: e7c2b0dad48d72b4cbc48ca500663c77, type: 3}
@@ -7058,10 +7050,10 @@ MonoBehaviour:
     Hash: 70a2133d0d71665697e394e4895e01aa
     Meta: 
     Tags: []
-  - Name: AssassinArmor [Paint]
+  - Name: 'AssassinArmor [Paint]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.Armor.AssassinArmor [Paint]
+    Id: 'FantasyHeroes.Basic.Armor.AssassinArmor [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Armor/Basic/AssassinArmor
       [Paint].png
     Sprite: {fileID: 21300004, guid: 4dda57fbc2bf4ef18678abd94ca93a0f, type: 3}
@@ -7129,10 +7121,10 @@ MonoBehaviour:
     Hash: 7ada3718d6be13c2ef63be2e237e3373
     Meta: 
     Tags: []
-  - Name: BanditLightArmor [Paint]
+  - Name: 'BanditLightArmor [Paint]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.Armor.BanditLightArmor [Paint]
+    Id: 'FantasyHeroes.Basic.Armor.BanditLightArmor [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Armor/Basic/BanditLightArmor
       [Paint].png
     Sprite: {fileID: 21300004, guid: 2552032f57804288b1cf3512de976866, type: 3}
@@ -7292,10 +7284,10 @@ MonoBehaviour:
     Hash: 4e01b2aee21854749a94651e3fcb2b1c
     Meta: 
     Tags: []
-  - Name: CataphractArmor [Paint]
+  - Name: 'CataphractArmor [Paint]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.Armor.CataphractArmor [Paint]
+    Id: 'FantasyHeroes.Basic.Armor.CataphractArmor [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Armor/Basic/CataphractArmor
       [Paint].png
     Sprite: {fileID: 21300004, guid: 51c4eae62b5c47ab9044d448c538a5bc, type: 3}
@@ -7317,10 +7309,10 @@ MonoBehaviour:
     Meta: 
     Tags:
     - Paint
-  - Name: ChainmailLightArmor [Paint]
+  - Name: 'ChainmailLightArmor [Paint]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.Armor.ChainmailLightArmor [Paint]
+    Id: 'FantasyHeroes.Basic.Armor.ChainmailLightArmor [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Armor/Basic/ChainmailLightArmor
       [Paint].png
     Sprite: {fileID: 21300024, guid: 658165d7bf37420295a9bc8fdb232c10, type: 3}
@@ -7393,8 +7385,7 @@ MonoBehaviour:
     Edition: Extensions
     Id: Extensions.Legendary.Armor.ChocolatierDress
     Path: Assets/HeroEditor/Extensions/EpicHeroes/Sprites/Equipment/Armor/Legendary/ChocolatierDress.png
-    Sprite: {fileID: -4550084578846169200, guid: 96df9fe4183b0ac4cb00c1cd2dbb67df,
-      type: 3}
+    Sprite: {fileID: -4550084578846169200, guid: 96df9fe4183b0ac4cb00c1cd2dbb67df, type: 3}
     Sprites:
     - {fileID: -4550084578846169200, guid: 96df9fe4183b0ac4cb00c1cd2dbb67df, type: 3}
     - {fileID: 624974917677838921, guid: 96df9fe4183b0ac4cb00c1cd2dbb67df, type: 3}
@@ -7417,8 +7408,7 @@ MonoBehaviour:
     Edition: Extensions
     Id: Extensions.Legendary.Armor.ChocolatierDress2
     Path: Assets/HeroEditor/Extensions/EpicHeroes/Sprites/Equipment/Armor/Legendary/ChocolatierDress2.png
-    Sprite: {fileID: -4550084578846169200, guid: 0a4ff20df82f8474cbd8027f81b611a4,
-      type: 3}
+    Sprite: {fileID: -4550084578846169200, guid: 0a4ff20df82f8474cbd8027f81b611a4, type: 3}
     Sprites:
     - {fileID: -4550084578846169200, guid: 0a4ff20df82f8474cbd8027f81b611a4, type: 3}
     - {fileID: 624974917677838921, guid: 0a4ff20df82f8474cbd8027f81b611a4, type: 3}
@@ -7441,8 +7431,7 @@ MonoBehaviour:
     Edition: Extensions
     Id: Extensions.Legendary.Armor.ChocolatierDress3
     Path: Assets/HeroEditor/Extensions/EpicHeroes/Sprites/Equipment/Armor/Legendary/ChocolatierDress3.png
-    Sprite: {fileID: -4550084578846169200, guid: 5181a52a037a3384b89c19e0317f0856,
-      type: 3}
+    Sprite: {fileID: -4550084578846169200, guid: 5181a52a037a3384b89c19e0317f0856, type: 3}
     Sprites:
     - {fileID: -4550084578846169200, guid: 5181a52a037a3384b89c19e0317f0856, type: 3}
     - {fileID: 624974917677838921, guid: 5181a52a037a3384b89c19e0317f0856, type: 3}
@@ -7460,10 +7449,10 @@ MonoBehaviour:
     Hash: cf02e1c681e86530263f66c2dc2e55d3
     Meta: 
     Tags: []
-  - Name: Cleric [Paint]
+  - Name: 'Cleric [Paint]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.Armor.Cleric [Paint]
+    Id: 'FantasyHeroes.Basic.Armor.Cleric [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Armor/Basic/Cleric [Paint].png
     Sprite: {fileID: 21300004, guid: e2940dad8faa493aad3d9ac9c364111d, type: 3}
     Sprites:
@@ -7484,10 +7473,10 @@ MonoBehaviour:
     Meta: 
     Tags:
     - Paint
-  - Name: CrusaderChainmail [Paint]
+  - Name: 'CrusaderChainmail [Paint]'
     Collection: Knights
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Knights.Armor.CrusaderChainmail [Paint]
+    Id: 'FantasyHeroes.Knights.Armor.CrusaderChainmail [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Armor/Knights/CrusaderChainmail
       [Paint].png
     Sprite: {fileID: 21300024, guid: 8b1ba0585ecc4f8eac582596cdc3b5f3, type: 3}
@@ -7560,8 +7549,7 @@ MonoBehaviour:
     Edition: Extensions
     Id: Extensions.Legendary.Armor.DarkLordArmor
     Path: Assets/HeroEditor/Extensions/EpicHeroes/Sprites/Equipment/Armor/Legendary/DarkLordArmor.png
-    Sprite: {fileID: -4550084578846169200, guid: dbc0be069e3adfe4ab391d9a49051cb3,
-      type: 3}
+    Sprite: {fileID: -4550084578846169200, guid: dbc0be069e3adfe4ab391d9a49051cb3, type: 3}
     Sprites:
     - {fileID: -4550084578846169200, guid: dbc0be069e3adfe4ab391d9a49051cb3, type: 3}
     - {fileID: 624974917677838921, guid: dbc0be069e3adfe4ab391d9a49051cb3, type: 3}
@@ -7625,10 +7613,10 @@ MonoBehaviour:
     Hash: 29f88fea5ddd88debf4bf7b4c0c392ef
     Meta: 
     Tags: []
-  - Name: DestroyerArmor [Paint]
+  - Name: 'DestroyerArmor [Paint]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.Armor.DestroyerArmor [Paint]
+    Id: 'FantasyHeroes.Basic.Armor.DestroyerArmor [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Armor/Basic/DestroyerArmor
       [Paint].png
     Sprite: {fileID: 21300004, guid: 67abd79503df442fab38eecf27d1e179, type: 3}
@@ -7678,8 +7666,7 @@ MonoBehaviour:
     Edition: Extensions
     Id: Extensions.Legendary.Armor.DragonTempestSteelGarb
     Path: Assets/HeroEditor/Extensions/EpicHeroes/Sprites/Equipment/Armor/Legendary/DragonTempestSteelGarb.png
-    Sprite: {fileID: -4550084578846169200, guid: e190188bdc8b9cf48b91c186f3bdb1b5,
-      type: 3}
+    Sprite: {fileID: -4550084578846169200, guid: e190188bdc8b9cf48b91c186f3bdb1b5, type: 3}
     Sprites:
     - {fileID: -4550084578846169200, guid: e190188bdc8b9cf48b91c186f3bdb1b5, type: 3}
     - {fileID: 624974917677838921, guid: e190188bdc8b9cf48b91c186f3bdb1b5, type: 3}
@@ -7794,8 +7781,7 @@ MonoBehaviour:
     Edition: Extensions
     Id: Extensions.Legendary.Armor.ElementalArcherArmor
     Path: Assets/HeroEditor/Extensions/EpicHeroes/Sprites/Equipment/Armor/Legendary/ElementalArcherArmor.png
-    Sprite: {fileID: -4550084578846169200, guid: fe8ce52490c078542bea48bf2eaf5b38,
-      type: 3}
+    Sprite: {fileID: -4550084578846169200, guid: fe8ce52490c078542bea48bf2eaf5b38, type: 3}
     Sprites:
     - {fileID: -4550084578846169200, guid: fe8ce52490c078542bea48bf2eaf5b38, type: 3}
     - {fileID: 624974917677838921, guid: fe8ce52490c078542bea48bf2eaf5b38, type: 3}
@@ -7818,8 +7804,7 @@ MonoBehaviour:
     Edition: Extensions
     Id: Extensions.Legendary.Armor.ElementalArmor
     Path: Assets/HeroEditor/Extensions/EpicHeroes/Sprites/Equipment/Armor/Legendary/ElementalArmor.png
-    Sprite: {fileID: -4550084578846169200, guid: 4d5866e6b446f46469ec447f0b62dacd,
-      type: 3}
+    Sprite: {fileID: -4550084578846169200, guid: 4d5866e6b446f46469ec447f0b62dacd, type: 3}
     Sprites:
     - {fileID: -4550084578846169200, guid: 4d5866e6b446f46469ec447f0b62dacd, type: 3}
     - {fileID: 624974917677838921, guid: 4d5866e6b446f46469ec447f0b62dacd, type: 3}
@@ -7842,8 +7827,7 @@ MonoBehaviour:
     Edition: Extensions
     Id: Extensions.Legendary.Armor.ElementalMageArmor
     Path: Assets/HeroEditor/Extensions/EpicHeroes/Sprites/Equipment/Armor/Legendary/ElementalMageArmor.png
-    Sprite: {fileID: -4550084578846169200, guid: 0fe9127d815e584439be455b7c82b323,
-      type: 3}
+    Sprite: {fileID: -4550084578846169200, guid: 0fe9127d815e584439be455b7c82b323, type: 3}
     Sprites:
     - {fileID: -4550084578846169200, guid: 0fe9127d815e584439be455b7c82b323, type: 3}
     - {fileID: 624974917677838921, guid: 0fe9127d815e584439be455b7c82b323, type: 3}
@@ -7861,10 +7845,10 @@ MonoBehaviour:
     Hash: dd249f0722ee88f0db6d25f2431819ea
     Meta: 
     Tags: []
-  - Name: EliteGuardArmor [Paint]
+  - Name: 'EliteGuardArmor [Paint]'
     Collection: Knights
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Knights.Armor.EliteGuardArmor [Paint]
+    Id: 'FantasyHeroes.Knights.Armor.EliteGuardArmor [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Armor/Knights/EliteGuardArmor
       [Paint].png
     Sprite: {fileID: 21300024, guid: c23cb85b4f2d400ba25fac244dc589b3, type: 3}
@@ -7960,8 +7944,7 @@ MonoBehaviour:
     Edition: Extensions
     Id: Extensions.Legendary.Armor.ExorcismRobes
     Path: Assets/HeroEditor/Extensions/EpicHeroes/Sprites/Equipment/Armor/Legendary/ExorcismRobes.png
-    Sprite: {fileID: -4550084578846169200, guid: 630e03e0c24939446aa6a218bb7bc619,
-      type: 3}
+    Sprite: {fileID: -4550084578846169200, guid: 630e03e0c24939446aa6a218bb7bc619, type: 3}
     Sprites:
     - {fileID: -4550084578846169200, guid: 630e03e0c24939446aa6a218bb7bc619, type: 3}
     - {fileID: 624974917677838921, guid: 630e03e0c24939446aa6a218bb7bc619, type: 3}
@@ -8048,10 +8031,10 @@ MonoBehaviour:
     Hash: 444720c04526071d263c0ec2d895bc3e
     Meta: 
     Tags: []
-  - Name: FireKnightArmor [Paint]
+  - Name: 'FireKnightArmor [Paint]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.Armor.FireKnightArmor [Paint]
+    Id: 'FantasyHeroes.Basic.Armor.FireKnightArmor [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Armor/Basic/FireKnightArmor
       [Paint].png
     Sprite: {fileID: 21300004, guid: 07793e333ad34ecb9b52416b92b8c03d, type: 3}
@@ -8165,10 +8148,10 @@ MonoBehaviour:
     Hash: 2f36240dfb7215dad9f2a40cdbaa14eb
     Meta: 
     Tags: []
-  - Name: FreeFolk [Paint]
+  - Name: 'FreeFolk [Paint]'
     Collection: Thrones
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Thrones.Armor.FreeFolk [Paint]
+    Id: 'FantasyHeroes.Thrones.Armor.FreeFolk [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Armor/Thrones/FreeFolk
       [Paint].png
     Sprite: {fileID: 21300004, guid: 0d37368cc9cf414e8e355d08efda7c0f, type: 3}
@@ -8305,10 +8288,10 @@ MonoBehaviour:
     Hash: 49430a3564ee2e3ea3d0436977206579
     Meta: 
     Tags: []
-  - Name: GguardsmenArmor [Paint]
+  - Name: 'GguardsmenArmor [Paint]'
     Collection: Knights
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Knights.Armor.GguardsmenArmor [Paint]
+    Id: 'FantasyHeroes.Knights.Armor.GguardsmenArmor [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Armor/Knights/GguardsmenArmor
       [Paint].png
     Sprite: {fileID: 21300004, guid: 787f05aceccb4d71b576b54d6286bb01, type: 3}
@@ -8399,10 +8382,10 @@ MonoBehaviour:
     Hash: 45934be0aa15e09cfe783e63a20cbe4c
     Meta: 
     Tags: []
-  - Name: GuardArmor [Paint]
+  - Name: 'GuardArmor [Paint]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.Armor.GuardArmor [Paint]
+    Id: 'FantasyHeroes.Basic.Armor.GuardArmor [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Armor/Basic/GuardArmor
       [Paint].png
     Sprite: {fileID: 21300004, guid: 3cdc83340f4148d4857e57b8d270068b, type: 3}
@@ -8447,10 +8430,10 @@ MonoBehaviour:
     Hash: cad34de1ee8b693a814d95de9b1642ab
     Meta: 
     Tags: []
-  - Name: HalberdierArmor [Paint]
+  - Name: 'HalberdierArmor [Paint]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.Armor.HalberdierArmor [Paint]
+    Id: 'FantasyHeroes.Basic.Armor.HalberdierArmor [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Armor/Basic/HalberdierArmor
       [Paint].png
     Sprite: {fileID: 21300004, guid: 2df502bcc200440bb7aa8cca6a5c1d2c, type: 3}
@@ -8472,10 +8455,10 @@ MonoBehaviour:
     Meta: 
     Tags:
     - Paint
-  - Name: HeavyArmor [Paint]
+  - Name: 'HeavyArmor [Paint]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.Armor.HeavyArmor [Paint]
+    Id: 'FantasyHeroes.Basic.Armor.HeavyArmor [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Armor/Basic/HeavyArmor
       [Paint].png
     Sprite: {fileID: 21300004, guid: d15c01c0171244539b381faaaca18c38, type: 3}
@@ -8686,8 +8669,7 @@ MonoBehaviour:
     Edition: Extensions
     Id: Extensions.Legendary.Armor.IgnisArmor
     Path: Assets/HeroEditor/Extensions/EpicHeroes/Sprites/Equipment/Armor/Legendary/IgnisArmor.png
-    Sprite: {fileID: -4550084578846169200, guid: 1ecc0e24c27ada944b46a3192b57df64,
-      type: 3}
+    Sprite: {fileID: -4550084578846169200, guid: 1ecc0e24c27ada944b46a3192b57df64, type: 3}
     Sprites:
     - {fileID: -4550084578846169200, guid: 1ecc0e24c27ada944b46a3192b57df64, type: 3}
     - {fileID: 624974917677838921, guid: 1ecc0e24c27ada944b46a3192b57df64, type: 3}
@@ -8799,10 +8781,10 @@ MonoBehaviour:
     Hash: 3a75ae0b1ef33cfbabeaf3f2c3f8af1d
     Meta: 
     Tags: []
-  - Name: IronArmor [Paint]
+  - Name: 'IronArmor [Paint]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.Armor.IronArmor [Paint]
+    Id: 'FantasyHeroes.Basic.Armor.IronArmor [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Armor/Basic/IronArmor
       [Paint].png
     Sprite: {fileID: 21300024, guid: cf5c2edea41a456cb61fb6fa08a3cd84, type: 3}
@@ -8893,10 +8875,10 @@ MonoBehaviour:
     Hash: 75187f6f5571264ea045a9709c026368
     Meta: 
     Tags: []
-  - Name: IronPlateArmor [Paint]
+  - Name: 'IronPlateArmor [Paint]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.Armor.IronPlateArmor [Paint]
+    Id: 'FantasyHeroes.Basic.Armor.IronPlateArmor [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Armor/Basic/IronPlateArmor
       [Paint].png
     Sprite: {fileID: 21300004, guid: b20f220786ca414e964539c7d2e7a5da, type: 3}
@@ -8941,10 +8923,10 @@ MonoBehaviour:
     Hash: 1dbc6190dfca04b37a22ad5da66fe782
     Meta: 
     Tags: []
-  - Name: KnightArmor [Paint]
+  - Name: 'KnightArmor [Paint]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.Armor.KnightArmor [Paint]
+    Id: 'FantasyHeroes.Basic.Armor.KnightArmor [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Armor/Basic/KnightArmor
       [Paint].png
     Sprite: {fileID: 21300004, guid: b3bafd4458b7421bbe35abc033b629a8, type: 3}
@@ -8971,8 +8953,7 @@ MonoBehaviour:
     Edition: Extensions
     Id: Extensions.Legendary.Armor.KronosArmoredOutfit
     Path: Assets/HeroEditor/Extensions/EpicHeroes/Sprites/Equipment/Armor/Legendary/KronosArmoredOutfit.png
-    Sprite: {fileID: -4550084578846169200, guid: a022390061d1d734088edadc116ed96a,
-      type: 3}
+    Sprite: {fileID: -4550084578846169200, guid: a022390061d1d734088edadc116ed96a, type: 3}
     Sprites:
     - {fileID: -4550084578846169200, guid: a022390061d1d734088edadc116ed96a, type: 3}
     - {fileID: 624974917677838921, guid: a022390061d1d734088edadc116ed96a, type: 3}
@@ -8995,8 +8976,7 @@ MonoBehaviour:
     Edition: Extensions
     Id: Extensions.Legendary.Armor.LakeDragonArmor
     Path: Assets/HeroEditor/Extensions/EpicHeroes/Sprites/Equipment/Armor/Legendary/LakeDragonArmor.png
-    Sprite: {fileID: -4550084578846169200, guid: 88cef6ae65ff39a41ac16df3e61359d1,
-      type: 3}
+    Sprite: {fileID: -4550084578846169200, guid: 88cef6ae65ff39a41ac16df3e61359d1, type: 3}
     Sprites:
     - {fileID: -4550084578846169200, guid: 88cef6ae65ff39a41ac16df3e61359d1, type: 3}
     - {fileID: 624974917677838921, guid: 88cef6ae65ff39a41ac16df3e61359d1, type: 3}
@@ -9019,8 +8999,7 @@ MonoBehaviour:
     Edition: Extensions
     Id: Extensions.Legendary.Armor.LambentGarb
     Path: Assets/HeroEditor/Extensions/EpicHeroes/Sprites/Equipment/Armor/Legendary/LambentGarb.png
-    Sprite: {fileID: -4550084578846169200, guid: 056a2bf7d981c8248b6989fccac8ad05,
-      type: 3}
+    Sprite: {fileID: -4550084578846169200, guid: 056a2bf7d981c8248b6989fccac8ad05, type: 3}
     Sprites:
     - {fileID: -4550084578846169200, guid: 056a2bf7d981c8248b6989fccac8ad05, type: 3}
     - {fileID: 624974917677838921, guid: 056a2bf7d981c8248b6989fccac8ad05, type: 3}
@@ -9158,8 +9137,7 @@ MonoBehaviour:
     Edition: Extensions
     Id: Extensions.Legendary.Armor.LotusPrinceGarb
     Path: Assets/HeroEditor/Extensions/EpicHeroes/Sprites/Equipment/Armor/Legendary/LotusPrinceGarb.png
-    Sprite: {fileID: -4550084578846169200, guid: 0cb109d5e1ef63040a0200b2cb63dc3a,
-      type: 3}
+    Sprite: {fileID: -4550084578846169200, guid: 0cb109d5e1ef63040a0200b2cb63dc3a, type: 3}
     Sprites:
     - {fileID: -4550084578846169200, guid: 0cb109d5e1ef63040a0200b2cb63dc3a, type: 3}
     - {fileID: 624974917677838921, guid: 0cb109d5e1ef63040a0200b2cb63dc3a, type: 3}
@@ -9182,8 +9160,7 @@ MonoBehaviour:
     Edition: Extensions
     Id: Extensions.Legendary.Armor.MagnetismArmor
     Path: Assets/HeroEditor/Extensions/EpicHeroes/Sprites/Equipment/Armor/Legendary/MagnetismArmor.png
-    Sprite: {fileID: -4550084578846169200, guid: 7054e2c7d3cc819468c6d4136cca72ef,
-      type: 3}
+    Sprite: {fileID: -4550084578846169200, guid: 7054e2c7d3cc819468c6d4136cca72ef, type: 3}
     Sprites:
     - {fileID: -4550084578846169200, guid: 7054e2c7d3cc819468c6d4136cca72ef, type: 3}
     - {fileID: 624974917677838921, guid: 7054e2c7d3cc819468c6d4136cca72ef, type: 3}
@@ -9224,10 +9201,10 @@ MonoBehaviour:
     Hash: 3cdb7d1923c2692913223848c80468d5
     Meta: 
     Tags: []
-  - Name: MarauderArmor [Paint]
+  - Name: 'MarauderArmor [Paint]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.Armor.MarauderArmor [Paint]
+    Id: 'FantasyHeroes.Basic.Armor.MarauderArmor [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Armor/Basic/MarauderArmor
       [Paint].png
     Sprite: {fileID: 21300004, guid: 8265bdc4b6e34015bff22a99b84c0e98, type: 3}
@@ -9249,10 +9226,10 @@ MonoBehaviour:
     Meta: 
     Tags:
     - Paint
-  - Name: MercenaryArmor [Paint]
+  - Name: 'MercenaryArmor [Paint]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.Armor.MercenaryArmor [Paint]
+    Id: 'FantasyHeroes.Basic.Armor.MercenaryArmor [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Armor/Basic/MercenaryArmor
       [Paint].png
     Sprite: {fileID: 21300004, guid: 8f68e34668404651a94c69505661ee2b, type: 3}
@@ -9297,10 +9274,10 @@ MonoBehaviour:
     Hash: d4044a411454eab7887d89c33ec82d01
     Meta: 
     Tags: []
-  - Name: Mountain [Paint]
+  - Name: 'Mountain [Paint]'
     Collection: Thrones
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Thrones.Armor.Mountain [Paint]
+    Id: 'FantasyHeroes.Thrones.Armor.Mountain [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Armor/Thrones/Mountain
       [Paint].png
     Sprite: {fileID: 21300004, guid: 3c966d6adbda47749ce47df1b477c0e8, type: 3}
@@ -9391,10 +9368,10 @@ MonoBehaviour:
     Hash: fdec6dae00f3799d9d068ee8fcafde31
     Meta: 
     Tags: []
-  - Name: NightsWatch [Paint]
+  - Name: 'NightsWatch [Paint]'
     Collection: Thrones
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Thrones.Armor.NightsWatch [Paint]
+    Id: 'FantasyHeroes.Thrones.Armor.NightsWatch [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Armor/Thrones/NightsWatch
       [Paint].png
     Sprite: {fileID: 21300004, guid: d97e7639175742f2a488ffeec31c685a, type: 3}
@@ -9416,10 +9393,10 @@ MonoBehaviour:
     Meta: 
     Tags:
     - Paint
-  - Name: Ninja1 [Paint]
+  - Name: 'Ninja1 [Paint]'
     Collection: Samurai
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Samurai.Armor.Ninja1 [Paint]
+    Id: 'FantasyHeroes.Samurai.Armor.Ninja1 [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Armor/Samurai/Ninja1
       [Paint].png
     Sprite: {fileID: 21300004, guid: 6f0ced5410494bd8834cf34265bcb1d6, type: 3}
@@ -9441,10 +9418,10 @@ MonoBehaviour:
     Meta: 
     Tags:
     - Paint
-  - Name: Ninja2 [Paint]
+  - Name: 'Ninja2 [Paint]'
     Collection: Samurai
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Samurai.Armor.Ninja2 [Paint]
+    Id: 'FantasyHeroes.Samurai.Armor.Ninja2 [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Armor/Samurai/Ninja2
       [Paint].png
     Sprite: {fileID: 21300004, guid: 757bc77008d7439097dc306ece797f0a, type: 3}
@@ -9517,8 +9494,7 @@ MonoBehaviour:
     Edition: Extensions
     Id: Extensions.Legendary.Armor.NominakaRobe
     Path: Assets/HeroEditor/Extensions/EpicHeroes/Sprites/Equipment/Armor/Legendary/NominakaRobe.png
-    Sprite: {fileID: -4550084578846169200, guid: 3e51d8485e77b1b4db2fdc33835decd1,
-      type: 3}
+    Sprite: {fileID: -4550084578846169200, guid: 3e51d8485e77b1b4db2fdc33835decd1, type: 3}
     Sprites:
     - {fileID: -4550084578846169200, guid: 3e51d8485e77b1b4db2fdc33835decd1, type: 3}
     - {fileID: 624974917677838921, guid: 3e51d8485e77b1b4db2fdc33835decd1, type: 3}
@@ -9651,10 +9627,10 @@ MonoBehaviour:
     Hash: cfa68072c45b29329c7c3e6422d0615e
     Meta: 
     Tags: []
-  - Name: PaladinArmor [Paint]
+  - Name: 'PaladinArmor [Paint]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.Armor.PaladinArmor [Paint]
+    Id: 'FantasyHeroes.Basic.Armor.PaladinArmor [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Armor/Basic/PaladinArmor
       [Paint].png
     Sprite: {fileID: 21300004, guid: ddd89ae909234cad9fd67e7e53404305, type: 3}
@@ -9727,8 +9703,7 @@ MonoBehaviour:
     Edition: Extensions
     Id: Extensions.Legendary.Armor.PhoenixRobe
     Path: Assets/HeroEditor/Extensions/EpicHeroes/Sprites/Equipment/Armor/Legendary/PhoenixRobe.png
-    Sprite: {fileID: -4550084578846169200, guid: ee7cb9c4da5171344898f0a94c38597a,
-      type: 3}
+    Sprite: {fileID: -4550084578846169200, guid: ee7cb9c4da5171344898f0a94c38597a, type: 3}
     Sprites:
     - {fileID: -4550084578846169200, guid: ee7cb9c4da5171344898f0a94c38597a, type: 3}
     - {fileID: 624974917677838921, guid: ee7cb9c4da5171344898f0a94c38597a, type: 3}
@@ -9751,8 +9726,7 @@ MonoBehaviour:
     Edition: Extensions
     Id: Extensions.Legendary.Armor.PhoenixRobe2
     Path: Assets/HeroEditor/Extensions/EpicHeroes/Sprites/Equipment/Armor/Legendary/PhoenixRobe2.png
-    Sprite: {fileID: -4550084578846169200, guid: 71efd1e117e7f864a8a020be67902a6d,
-      type: 3}
+    Sprite: {fileID: -4550084578846169200, guid: 71efd1e117e7f864a8a020be67902a6d, type: 3}
     Sprites:
     - {fileID: -4550084578846169200, guid: 71efd1e117e7f864a8a020be67902a6d, type: 3}
     - {fileID: 624974917677838921, guid: 71efd1e117e7f864a8a020be67902a6d, type: 3}
@@ -9775,8 +9749,7 @@ MonoBehaviour:
     Edition: Extensions
     Id: Extensions.Legendary.Armor.PlatinumUnicornArmor
     Path: Assets/HeroEditor/Extensions/EpicHeroes/Sprites/Equipment/Armor/Legendary/PlatinumUnicornArmor.png
-    Sprite: {fileID: -4550084578846169200, guid: 0fedeecd88807a24ebe103db6001254b,
-      type: 3}
+    Sprite: {fileID: -4550084578846169200, guid: 0fedeecd88807a24ebe103db6001254b, type: 3}
     Sprites:
     - {fileID: -4550084578846169200, guid: 0fedeecd88807a24ebe103db6001254b, type: 3}
     - {fileID: 624974917677838921, guid: 0fedeecd88807a24ebe103db6001254b, type: 3}
@@ -10691,10 +10664,10 @@ MonoBehaviour:
     Hash: 027ff3c0976a46ae0262c7c2c245aee2
     Meta: 
     Tags: []
-  - Name: Scout [Paint]
+  - Name: 'Scout [Paint]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.Armor.Scout [Paint]
+    Id: 'FantasyHeroes.Basic.Armor.Scout [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Armor/Basic/Scout [Paint].png
     Sprite: {fileID: 21300004, guid: 0b9e5b6d9aab44218a1b4b753c931c43, type: 3}
     Sprites:
@@ -11180,8 +11153,7 @@ MonoBehaviour:
     Edition: Extensions
     Id: Extensions.Legendary.Armor.TerraArmor
     Path: Assets/HeroEditor/Extensions/EpicHeroes/Sprites/Equipment/Armor/Legendary/TerraArmor.png
-    Sprite: {fileID: -4550084578846169200, guid: cc16d9faab1a1a4428fc309d7823a094,
-      type: 3}
+    Sprite: {fileID: -4550084578846169200, guid: cc16d9faab1a1a4428fc309d7823a094, type: 3}
     Sprites:
     - {fileID: -4550084578846169200, guid: cc16d9faab1a1a4428fc309d7823a094, type: 3}
     - {fileID: 624974917677838921, guid: cc16d9faab1a1a4428fc309d7823a094, type: 3}
@@ -11227,8 +11199,7 @@ MonoBehaviour:
     Edition: Extensions
     Id: Extensions.Legendary.Armor.UlimateMadokaDress
     Path: Assets/HeroEditor/Extensions/EpicHeroes/Sprites/Equipment/Armor/Legendary/UlimateMadokaDress.png
-    Sprite: {fileID: -4550084578846169200, guid: fc64bdffb10d9a14d8dc34a6d5c781ed,
-      type: 3}
+    Sprite: {fileID: -4550084578846169200, guid: fc64bdffb10d9a14d8dc34a6d5c781ed, type: 3}
     Sprites:
     - {fileID: -4550084578846169200, guid: fc64bdffb10d9a14d8dc34a6d5c781ed, type: 3}
     - {fileID: 624974917677838921, guid: fc64bdffb10d9a14d8dc34a6d5c781ed, type: 3}
@@ -11251,8 +11222,7 @@ MonoBehaviour:
     Edition: Extensions
     Id: Extensions.Legendary.Armor.UlimateMadokaDress2
     Path: Assets/HeroEditor/Extensions/EpicHeroes/Sprites/Equipment/Armor/Legendary/UlimateMadokaDress2.png
-    Sprite: {fileID: -4550084578846169200, guid: f6d234ce805001a4a886c8b7775c5adc,
-      type: 3}
+    Sprite: {fileID: -4550084578846169200, guid: f6d234ce805001a4a886c8b7775c5adc, type: 3}
     Sprites:
     - {fileID: -4550084578846169200, guid: f6d234ce805001a4a886c8b7775c5adc, type: 3}
     - {fileID: 624974917677838921, guid: f6d234ce805001a4a886c8b7775c5adc, type: 3}
@@ -11298,8 +11268,7 @@ MonoBehaviour:
     Edition: Extensions
     Id: Extensions.Legendary.Armor.UnderlordGarb
     Path: Assets/HeroEditor/Extensions/EpicHeroes/Sprites/Equipment/Armor/Legendary/UnderlordGarb.png
-    Sprite: {fileID: -4550084578846169200, guid: 9815e99c4eb0abd4f91442dea2c85760,
-      type: 3}
+    Sprite: {fileID: -4550084578846169200, guid: 9815e99c4eb0abd4f91442dea2c85760, type: 3}
     Sprites:
     - {fileID: -4550084578846169200, guid: 9815e99c4eb0abd4f91442dea2c85760, type: 3}
     - {fileID: 624974917677838921, guid: 9815e99c4eb0abd4f91442dea2c85760, type: 3}
@@ -11552,8 +11521,7 @@ MonoBehaviour:
     Edition: Extensions
     Id: Extensions.Legendary.Armor.UranosMail
     Path: Assets/HeroEditor/Extensions/EpicHeroes/Sprites/Equipment/Armor/Legendary/UranosMail.png
-    Sprite: {fileID: -4550084578846169200, guid: 34ea45143d4f7984b839f7343a92ecac,
-      type: 3}
+    Sprite: {fileID: -4550084578846169200, guid: 34ea45143d4f7984b839f7343a92ecac, type: 3}
     Sprites:
     - {fileID: -4550084578846169200, guid: 34ea45143d4f7984b839f7343a92ecac, type: 3}
     - {fileID: 624974917677838921, guid: 34ea45143d4f7984b839f7343a92ecac, type: 3}
@@ -11709,10 +11677,10 @@ MonoBehaviour:
     Hash: c62f107a8158222117334753102874f3
     Meta: 
     Tags: []
-  - Name: VikingRoughArmor3 [Paint]
+  - Name: 'VikingRoughArmor3 [Paint]'
     Collection: Vikings
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Vikings.Armor.VikingRoughArmor3 [Paint]
+    Id: 'FantasyHeroes.Vikings.Armor.VikingRoughArmor3 [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Armor/Vikings/VikingRoughArmor3
       [Paint].png
     Sprite: {fileID: 21300004, guid: bb25b4cde9b74a2d98341e9301362fc1, type: 3}
@@ -11739,8 +11707,7 @@ MonoBehaviour:
     Edition: Extensions
     Id: Extensions.Legendary.Armor.VoidDragonArmor
     Path: Assets/HeroEditor/Extensions/EpicHeroes/Sprites/Equipment/Armor/Legendary/VoidDragonArmor.png
-    Sprite: {fileID: -4550084578846169200, guid: 798e004ac042b9d4b85840e11b6a35ba,
-      type: 3}
+    Sprite: {fileID: -4550084578846169200, guid: 798e004ac042b9d4b85840e11b6a35ba, type: 3}
     Sprites:
     - {fileID: -4550084578846169200, guid: 798e004ac042b9d4b85840e11b6a35ba, type: 3}
     - {fileID: 624974917677838921, guid: 798e004ac042b9d4b85840e11b6a35ba, type: 3}
@@ -11942,10 +11909,10 @@ MonoBehaviour:
     Hash: 8bac4a1f3e1e03f784e4e7aad25c9af1
     Meta: 
     Tags: []
-  - Name: WitchHunterArmor [Paint]
+  - Name: 'WitchHunterArmor [Paint]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.Armor.WitchHunterArmor [Paint]
+    Id: 'FantasyHeroes.Basic.Armor.WitchHunterArmor [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Armor/Basic/WitchHunterArmor
       [Paint].png
     Sprite: {fileID: 21300004, guid: 6985f09f41934535807d866c3012af19, type: 3}
@@ -11972,8 +11939,7 @@ MonoBehaviour:
     Edition: Extensions
     Id: Extensions.Legendary.Armor.YearningGirlsOutfit
     Path: Assets/HeroEditor/Extensions/EpicHeroes/Sprites/Equipment/Armor/Legendary/YearningGirlsOutfit.png
-    Sprite: {fileID: -4550084578846169200, guid: 061686e9933d53d4e8d6d117379adce2,
-      type: 3}
+    Sprite: {fileID: -4550084578846169200, guid: 061686e9933d53d4e8d6d117379adce2, type: 3}
     Sprites:
     - {fileID: -4550084578846169200, guid: 061686e9933d53d4e8d6d117379adce2, type: 3}
     - {fileID: 624974917677838921, guid: 061686e9933d53d4e8d6d117379adce2, type: 3}
@@ -12016,10 +11982,10 @@ MonoBehaviour:
     Hash: 39528aad8120c646ebcded8c35c64e15
     Meta: 
     Tags: []
-  - Name: BatCape [Paint]
+  - Name: 'BatCape [Paint]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.Cape.BatCape [Paint]
+    Id: 'FantasyHeroes.Basic.Cape.BatCape [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Cape/Basic/BatCape [Paint].png
     Sprite: {fileID: 21300000, guid: 77ce35bcf9b477a418c837418d1fe90a, type: 3}
     Sprites:
@@ -12161,10 +12127,10 @@ MonoBehaviour:
     Hash: c7ad00e334701190d271b712f0ccfb2f
     Meta: 
     Tags: []
-  - Name: CotttonCape [Paint]
+  - Name: 'CotttonCape [Paint]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.Cape.CotttonCape [Paint]
+    Id: 'FantasyHeroes.Basic.Cape.CotttonCape [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Cape/Basic/CotttonCape
       [Paint].png
     Sprite: {fileID: 21300000, guid: 9643184d005ca454ca39c404c0411ef1, type: 3}
@@ -12223,10 +12189,10 @@ MonoBehaviour:
     Hash: 55d98f82f134db1f958fe28e610a1f41
     Meta: 
     Tags: []
-  - Name: GrandmaCape [Paint]
+  - Name: 'GrandmaCape [Paint]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.Cape.GrandmaCape [Paint]
+    Id: 'FantasyHeroes.Basic.Cape.GrandmaCape [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Cape/Basic/GrandmaCape
       [Paint].png
     Sprite: {fileID: 21300000, guid: 3e97a1107fea3d14c982ad6902843dab, type: 3}
@@ -12237,10 +12203,10 @@ MonoBehaviour:
     Meta: 
     Tags:
     - Paint
-  - Name: HeroicCape [Paint]
+  - Name: 'HeroicCape [Paint]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.Cape.HeroicCape [Paint]
+    Id: 'FantasyHeroes.Basic.Cape.HeroicCape [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Cape/Basic/HeroicCape
       [Paint].png
     Sprite: {fileID: 21300000, guid: 418edb5b34a9b4544a01dbf9b8357b15, type: 3}
@@ -12251,10 +12217,10 @@ MonoBehaviour:
     Meta: 
     Tags:
     - Paint
-  - Name: HeroicCape2 [Paint]
+  - Name: 'HeroicCape2 [Paint]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.Cape.HeroicCape2 [Paint]
+    Id: 'FantasyHeroes.Basic.Cape.HeroicCape2 [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Cape/Basic/HeroicCape2
       [Paint].png
     Sprite: {fileID: 21300000, guid: a13848c47ca0b46409f916f8e98bc08e, type: 3}
@@ -12337,10 +12303,10 @@ MonoBehaviour:
     Hash: 8a0ed5e34ece04767d3fbe945acbdfc4
     Meta: 
     Tags: []
-  - Name: OldCape [Paint]
+  - Name: 'OldCape [Paint]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.Cape.OldCape [Paint]
+    Id: 'FantasyHeroes.Basic.Cape.OldCape [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Cape/Basic/OldCape [Paint].png
     Sprite: {fileID: 21300000, guid: 7d5fe96145f7f34409119b6976f2d51d, type: 3}
     Sprites:
@@ -12350,10 +12316,10 @@ MonoBehaviour:
     Meta: 
     Tags:
     - Paint
-  - Name: OldCape2 [Paint]
+  - Name: 'OldCape2 [Paint]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.Cape.OldCape2 [Paint]
+    Id: 'FantasyHeroes.Basic.Cape.OldCape2 [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Cape/Basic/OldCape2 [Paint].png
     Sprite: {fileID: 21300000, guid: 35f8aab868393544a88cacbab53bd87d, type: 3}
     Sprites:
@@ -12399,10 +12365,10 @@ MonoBehaviour:
     Hash: f88ac09ae870e78c5065303a78847d9b
     Meta: 
     Tags: []
-  - Name: RoyalCape [Paint]
+  - Name: 'RoyalCape [Paint]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.Cape.RoyalCape [Paint]
+    Id: 'FantasyHeroes.Basic.Cape.RoyalCape [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Cape/Basic/RoyalCape
       [Paint].png
     Sprite: {fileID: 21300000, guid: 72d1bf775a7c4a46be2abf99c9c051dc, type: 3}
@@ -12497,10 +12463,10 @@ MonoBehaviour:
     Hash: 4a08d9b5c5dbe7bf58b92b7d636ba40e
     Meta: 
     Tags: []
-  - Name: VampireCape [Paint]
+  - Name: 'VampireCape [Paint]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.Cape.VampireCape [Paint]
+    Id: 'FantasyHeroes.Basic.Cape.VampireCape [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Cape/Basic/VampireCape
       [Paint].png
     Sprite: {fileID: 21300000, guid: 947a08d9ef9b40c43a7add52c971c883, type: 3}
@@ -12621,10 +12587,10 @@ MonoBehaviour:
     Hash: 70c987a67e4feb6953e82a4c047ce7c2
     Meta: 
     Tags: []
-  - Name: AssassinDagger [Paint]
+  - Name: 'AssassinDagger [Paint]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.MeleeWeapon1H.AssassinDagger [Paint]
+    Id: 'FantasyHeroes.Basic.MeleeWeapon1H.AssassinDagger [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/MeleeWeapon1H/Basic/Sword/AssassinDagger
       [Paint].png
     Sprite: {fileID: 21300000, guid: 2be1851c3c804bf4b3f2d9013882d152, type: 3}
@@ -12683,10 +12649,10 @@ MonoBehaviour:
     Hash: 337ad3b6e1083a36bb35dd22056fb3fd
     Meta: 
     Tags: []
-  - Name: BalancedSword [Paint]
+  - Name: 'BalancedSword [Paint]'
     Collection: Knights
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Knights.MeleeWeapon1H.BalancedSword [Paint]
+    Id: 'FantasyHeroes.Knights.MeleeWeapon1H.BalancedSword [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/MeleeWeapon1H/Knights/Sword/BalancedSword
       [Paint].png
     Sprite: {fileID: 21300000, guid: d5d8ac770f724d9596951f76e0ad2d33, type: 3}
@@ -13201,10 +13167,10 @@ MonoBehaviour:
     Hash: 853a42af20af1fd7d3dab11362b015bd
     Meta: 
     Tags: []
-  - Name: DeserterDagger [Paint]
+  - Name: 'DeserterDagger [Paint]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.MeleeWeapon1H.DeserterDagger [Paint]
+    Id: 'FantasyHeroes.Basic.MeleeWeapon1H.DeserterDagger [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/MeleeWeapon1H/Basic/Sword/DeserterDagger
       [Paint].png
     Sprite: {fileID: 21300000, guid: 57bb3be99cde4093b0599403a0922e7c, type: 3}
@@ -13419,10 +13385,10 @@ MonoBehaviour:
     Hash: 6fe7021c8a447704cf46b409cb91e684
     Meta: 
     Tags: []
-  - Name: EliteGuardSword [Paint]
+  - Name: 'EliteGuardSword [Paint]'
     Collection: Knights
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Knights.MeleeWeapon1H.EliteGuardSword [Paint]
+    Id: 'FantasyHeroes.Knights.MeleeWeapon1H.EliteGuardSword [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/MeleeWeapon1H/Knights/Sword/EliteGuardSword
       [Paint].png
     Sprite: {fileID: 21300000, guid: 9438f1b0fc104da5acd6b95595863543, type: 3}
@@ -13433,10 +13399,10 @@ MonoBehaviour:
     Meta: 
     Tags:
     - Paint
-  - Name: EliteKnightSword [Paint]
+  - Name: 'EliteKnightSword [Paint]'
     Collection: Knights
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Knights.MeleeWeapon1H.EliteKnightSword [Paint]
+    Id: 'FantasyHeroes.Knights.MeleeWeapon1H.EliteKnightSword [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/MeleeWeapon1H/Knights/Sword/EliteKnightSword
       [Paint].png
     Sprite: {fileID: 21300000, guid: c926f774572f477985278f5daebca71a, type: 3}
@@ -13699,10 +13665,10 @@ MonoBehaviour:
     Hash: 72e2ebe8ef1d30ece362e5020556f52c
     Meta: 
     Tags: []
-  - Name: GuardSword1 [Paint]
+  - Name: 'GuardSword1 [Paint]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.MeleeWeapon1H.GuardSword1 [Paint]
+    Id: 'FantasyHeroes.Basic.MeleeWeapon1H.GuardSword1 [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/MeleeWeapon1H/Basic/Sword/GuardSword1
       [Paint].png
     Sprite: {fileID: 21300000, guid: 379ce8798b424200bc55b35d9fc60d1e, type: 3}
@@ -13713,10 +13679,10 @@ MonoBehaviour:
     Meta: 
     Tags:
     - Paint
-  - Name: GuardSword2 [Paint]
+  - Name: 'GuardSword2 [Paint]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.MeleeWeapon1H.GuardSword2 [Paint]
+    Id: 'FantasyHeroes.Basic.MeleeWeapon1H.GuardSword2 [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/MeleeWeapon1H/Basic/Sword/GuardSword2
       [Paint].png
     Sprite: {fileID: 21300000, guid: f8653344d9ca4ce181931f1c6065eb15, type: 3}
@@ -13847,10 +13813,10 @@ MonoBehaviour:
     Hash: b717580a6480a09ad463ca9d60482936
     Meta: 
     Tags: []
-  - Name: HunterKnife [Paint]
+  - Name: 'HunterKnife [Paint]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.MeleeWeapon1H.HunterKnife [Paint]
+    Id: 'FantasyHeroes.Basic.MeleeWeapon1H.HunterKnife [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/MeleeWeapon1H/Basic/Dagger/HunterKnife
       [Paint].png
     Sprite: {fileID: 21300000, guid: 99102a1f5f28425b8389f3ab173d37d9, type: 3}
@@ -13873,10 +13839,10 @@ MonoBehaviour:
     Hash: 3ce54831c391d1c118ed2c361366f2dc
     Meta: 
     Tags: []
-  - Name: InquisitorSword1 [Paint]
+  - Name: 'InquisitorSword1 [Paint]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.MeleeWeapon1H.InquisitorSword1 [Paint]
+    Id: 'FantasyHeroes.Basic.MeleeWeapon1H.InquisitorSword1 [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/MeleeWeapon1H/Basic/Sword/InquisitorSword1
       [Paint].png
     Sprite: {fileID: 21300000, guid: 118b1d16027f41f09b499cf5207aabb8, type: 3}
@@ -13887,10 +13853,10 @@ MonoBehaviour:
     Meta: 
     Tags:
     - Paint
-  - Name: InquisitorSword2 [Paint]
+  - Name: 'InquisitorSword2 [Paint]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.MeleeWeapon1H.InquisitorSword2 [Paint]
+    Id: 'FantasyHeroes.Basic.MeleeWeapon1H.InquisitorSword2 [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/MeleeWeapon1H/Basic/Sword/InquisitorSword2
       [Paint].png
     Sprite: {fileID: 21300000, guid: bbfc46cf2bd64a3189262bc3145f173f, type: 3}
@@ -13901,10 +13867,10 @@ MonoBehaviour:
     Meta: 
     Tags:
     - Paint
-  - Name: InquisitorSword3 [Paint]
+  - Name: 'InquisitorSword3 [Paint]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.MeleeWeapon1H.InquisitorSword3 [Paint]
+    Id: 'FantasyHeroes.Basic.MeleeWeapon1H.InquisitorSword3 [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/MeleeWeapon1H/Basic/Sword/InquisitorSword3
       [Paint].png
     Sprite: {fileID: 21300000, guid: 1c23e62c8acf4e61940dfd753cc1a5bf, type: 3}
@@ -13915,10 +13881,10 @@ MonoBehaviour:
     Meta: 
     Tags:
     - Paint
-  - Name: InquisitorSword4 [Paint]
+  - Name: 'InquisitorSword4 [Paint]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.MeleeWeapon1H.InquisitorSword4 [Paint]
+    Id: 'FantasyHeroes.Basic.MeleeWeapon1H.InquisitorSword4 [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/MeleeWeapon1H/Basic/Sword/InquisitorSword4
       [Paint].png
     Sprite: {fileID: 21300000, guid: 59fd74f30fd1412f8c33d674f8371092, type: 3}
@@ -13929,10 +13895,10 @@ MonoBehaviour:
     Meta: 
     Tags:
     - Paint
-  - Name: IronIslandsSword [Paint]
+  - Name: 'IronIslandsSword [Paint]'
     Collection: Thrones
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Thrones.MeleeWeapon1H.IronIslandsSword [Paint]
+    Id: 'FantasyHeroes.Thrones.MeleeWeapon1H.IronIslandsSword [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/MeleeWeapon1H/Thrones/Sword/IronIslandsSword
       [Paint].png
     Sprite: {fileID: 21300000, guid: 22a95962272f4fd3831b83902ea8241b, type: 3}
@@ -13943,10 +13909,10 @@ MonoBehaviour:
     Meta: 
     Tags:
     - Paint
-  - Name: Katana1 [Paint]
+  - Name: 'Katana1 [Paint]'
     Collection: Samurai
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Samurai.MeleeWeapon1H.Katana1 [Paint]
+    Id: 'FantasyHeroes.Samurai.MeleeWeapon1H.Katana1 [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/MeleeWeapon1H/Samurai/Sword/Katana1
       [Paint].png
     Sprite: {fileID: 21300000, guid: 0ccfc8393cca4476ba71df31e56b36d4, type: 3}
@@ -13957,10 +13923,10 @@ MonoBehaviour:
     Meta: 
     Tags:
     - Paint
-  - Name: Katana2 [Paint]
+  - Name: 'Katana2 [Paint]'
     Collection: Samurai
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Samurai.MeleeWeapon1H.Katana2 [Paint]
+    Id: 'FantasyHeroes.Samurai.MeleeWeapon1H.Katana2 [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/MeleeWeapon1H/Samurai/Sword/Katana2
       [Paint].png
     Sprite: {fileID: 21300000, guid: 19c3f6d3a7224303aafab0394dfc6457, type: 3}
@@ -13971,10 +13937,10 @@ MonoBehaviour:
     Meta: 
     Tags:
     - Paint
-  - Name: Katana3 [Paint]
+  - Name: 'Katana3 [Paint]'
     Collection: Samurai
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Samurai.MeleeWeapon1H.Katana3 [Paint]
+    Id: 'FantasyHeroes.Samurai.MeleeWeapon1H.Katana3 [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/MeleeWeapon1H/Samurai/Sword/Katana3
       [Paint].png
     Sprite: {fileID: 21300000, guid: 13ea152918f14de9a082db87cd87c449, type: 3}
@@ -13985,10 +13951,10 @@ MonoBehaviour:
     Meta: 
     Tags:
     - Paint
-  - Name: KnightSword [Paint]
+  - Name: 'KnightSword [Paint]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.MeleeWeapon1H.KnightSword [Paint]
+    Id: 'FantasyHeroes.Basic.MeleeWeapon1H.KnightSword [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/MeleeWeapon1H/Basic/Sword/KnightSword
       [Paint].png
     Sprite: {fileID: 21300000, guid: 71b0f9c23a2e4831a0d93e084645a5d7, type: 3}
@@ -14047,10 +14013,10 @@ MonoBehaviour:
     Hash: 495c2bd30bab508c978e36238820792e
     Meta: 
     Tags: []
-  - Name: LionSword [Paint]
+  - Name: 'LionSword [Paint]'
     Collection: Thrones
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Thrones.MeleeWeapon1H.LionSword [Paint]
+    Id: 'FantasyHeroes.Thrones.MeleeWeapon1H.LionSword [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/MeleeWeapon1H/Thrones/Sword/LionSword
       [Paint].png
     Sprite: {fileID: 21300000, guid: b064c90a10824f6096a32eca03275989, type: 3}
@@ -14061,10 +14027,10 @@ MonoBehaviour:
     Meta: 
     Tags:
     - Paint
-  - Name: LittleLionSword [Paint]
+  - Name: 'LittleLionSword [Paint]'
     Collection: Thrones
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Thrones.MeleeWeapon1H.LittleLionSword [Paint]
+    Id: 'FantasyHeroes.Thrones.MeleeWeapon1H.LittleLionSword [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/MeleeWeapon1H/Thrones/Sword/LittleLionSword
       [Paint].png
     Sprite: {fileID: 21300000, guid: c2d6a4dd5cfe40b8b7718cbd3966b28f, type: 3}
@@ -14087,10 +14053,10 @@ MonoBehaviour:
     Hash: 1a90810886b1828f63c3e063692a2840
     Meta: 
     Tags: []
-  - Name: Machete [Paint]
+  - Name: 'Machete [Paint]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.MeleeWeapon1H.Machete [Paint]
+    Id: 'FantasyHeroes.Basic.MeleeWeapon1H.Machete [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/MeleeWeapon1H/Basic/Sword/Machete
       [Paint].png
     Sprite: {fileID: 21300000, guid: c59ef509ae34432aa2c0fb33b0c01821, type: 3}
@@ -14101,10 +14067,10 @@ MonoBehaviour:
     Meta: 
     Tags:
     - Paint
-  - Name: MagicSword [Paint]
+  - Name: 'MagicSword [Paint]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.MeleeWeapon1H.MagicSword [Paint]
+    Id: 'FantasyHeroes.Basic.MeleeWeapon1H.MagicSword [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/MeleeWeapon1H/Basic/Sword/MagicSword
       [Paint].png
     Sprite: {fileID: 21300000, guid: 2edcf2c6a70d4112a722ef201e8fff41, type: 3}
@@ -14139,10 +14105,10 @@ MonoBehaviour:
     Hash: 8d82a2d24d2c1b9823e2c52d03609947
     Meta: 
     Tags: []
-  - Name: MilitiamanShortSword [Paint]
+  - Name: 'MilitiamanShortSword [Paint]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.MeleeWeapon1H.MilitiamanShortSword [Paint]
+    Id: 'FantasyHeroes.Basic.MeleeWeapon1H.MilitiamanShortSword [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/MeleeWeapon1H/Basic/Sword/MilitiamanShortSword
       [Paint].png
     Sprite: {fileID: 21300000, guid: 8c694485eb8b4690b9db20aa4a178b5e, type: 3}
@@ -14273,10 +14239,10 @@ MonoBehaviour:
     Hash: b1307dcfe34d8b449bbcba618d57a1ce
     Meta: 
     Tags: []
-  - Name: Ninjato [Paint]
+  - Name: 'Ninjato [Paint]'
     Collection: Samurai
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Samurai.MeleeWeapon1H.Ninjato [Paint]
+    Id: 'FantasyHeroes.Samurai.MeleeWeapon1H.Ninjato [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/MeleeWeapon1H/Samurai/Sword/Ninjato
       [Paint].png
     Sprite: {fileID: 21300000, guid: f99a132074e041f2aacd6fb3230dd735, type: 3}
@@ -14299,10 +14265,10 @@ MonoBehaviour:
     Hash: e5d587cc38a108bf63dfd500649febae
     Meta: 
     Tags: []
-  - Name: NorthWardenSword [Paint]
+  - Name: 'NorthWardenSword [Paint]'
     Collection: Thrones
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Thrones.MeleeWeapon1H.NorthWardenSword [Paint]
+    Id: 'FantasyHeroes.Thrones.MeleeWeapon1H.NorthWardenSword [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/MeleeWeapon1H/Thrones/Sword/NorthWardenSword
       [Paint].png
     Sprite: {fileID: 21300000, guid: 29bba1db242f4b8e8700da10fa5b09ae, type: 3}
@@ -14553,10 +14519,10 @@ MonoBehaviour:
     Hash: ad5efd366aed70449e3b955e02ca8318
     Meta: 
     Tags: []
-  - Name: Sai [Paint]
+  - Name: 'Sai [Paint]'
     Collection: Samurai
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Samurai.MeleeWeapon1H.Sai [Paint]
+    Id: 'FantasyHeroes.Samurai.MeleeWeapon1H.Sai [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/MeleeWeapon1H/Samurai/Sword/Sai
       [Paint].png
     Sprite: {fileID: 21300000, guid: c4a159c07caf45c18023b76c41596e2e, type: 3}
@@ -14747,10 +14713,10 @@ MonoBehaviour:
     Hash: d47dde70b077e73282094a4d5bd05a10
     Meta: 
     Tags: []
-  - Name: ShortDagger [Paint]
+  - Name: 'ShortDagger [Paint]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.MeleeWeapon1H.ShortDagger [Paint]
+    Id: 'FantasyHeroes.Basic.MeleeWeapon1H.ShortDagger [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/MeleeWeapon1H/Basic/Dagger/ShortDagger
       [Paint].png
     Sprite: {fileID: 21300000, guid: e061f265eea44a029ad8748579d9b7b4, type: 3}
@@ -14761,10 +14727,10 @@ MonoBehaviour:
     Meta: 
     Tags:
     - Paint
-  - Name: ShortIronKatana [Paint]
+  - Name: 'ShortIronKatana [Paint]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.MeleeWeapon1H.ShortIronKatana [Paint]
+    Id: 'FantasyHeroes.Basic.MeleeWeapon1H.ShortIronKatana [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/MeleeWeapon1H/Basic/Sword/ShortIronKatana
       [Paint].png
     Sprite: {fileID: 21300000, guid: b4cecd4342cb4cbaaa740f5587ffedb2, type: 3}
@@ -14775,10 +14741,10 @@ MonoBehaviour:
     Meta: 
     Tags:
     - Paint
-  - Name: ShortKnightSword [Paint]
+  - Name: 'ShortKnightSword [Paint]'
     Collection: Knights
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Knights.MeleeWeapon1H.ShortKnightSword [Paint]
+    Id: 'FantasyHeroes.Knights.MeleeWeapon1H.ShortKnightSword [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/MeleeWeapon1H/Knights/Sword/ShortKnightSword
       [Paint].png
     Sprite: {fileID: 21300000, guid: b71a7e2b0c7c4dada62dfd0b58a7bf81, type: 3}
@@ -14789,10 +14755,10 @@ MonoBehaviour:
     Meta: 
     Tags:
     - Paint
-  - Name: ShortSword [Paint]
+  - Name: 'ShortSword [Paint]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.MeleeWeapon1H.ShortSword [Paint]
+    Id: 'FantasyHeroes.Basic.MeleeWeapon1H.ShortSword [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/MeleeWeapon1H/Basic/Sword/ShortSword
       [Paint].png
     Sprite: {fileID: 21300000, guid: ce4c09a990104660a0c5be744a247d3b, type: 3}
@@ -14851,10 +14817,10 @@ MonoBehaviour:
     Hash: 886fecbea486353066be91f73e4e09b8
     Meta: 
     Tags: []
-  - Name: SlaveSword [Paint]
+  - Name: 'SlaveSword [Paint]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.MeleeWeapon1H.SlaveSword [Paint]
+    Id: 'FantasyHeroes.Basic.MeleeWeapon1H.SlaveSword [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/MeleeWeapon1H/Basic/Sword/SlaveSword
       [Paint].png
     Sprite: {fileID: 21300000, guid: efea22a315ff41f7badcc36e1b33aac4, type: 3}
@@ -15333,10 +15299,10 @@ MonoBehaviour:
     Hash: 9f2aa08abe8174ff9c0ffddbb20e9ec8
     Meta: 
     Tags: []
-  - Name: TrainingSword [Paint]
+  - Name: 'TrainingSword [Paint]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.MeleeWeapon1H.TrainingSword [Paint]
+    Id: 'FantasyHeroes.Basic.MeleeWeapon1H.TrainingSword [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/MeleeWeapon1H/Basic/Sword/TrainingSword
       [Paint].png
     Sprite: {fileID: 21300000, guid: dee8f342c2f4453286fd0283b4c8a1cf, type: 3}
@@ -15455,10 +15421,10 @@ MonoBehaviour:
     Hash: 342da4e1f9f3edf83a59caa9bd8fe86b
     Meta: 
     Tags: []
-  - Name: VikingSword2 [Paint]
+  - Name: 'VikingSword2 [Paint]'
     Collection: Vikings
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Vikings.MeleeWeapon1H.VikingSword2 [Paint]
+    Id: 'FantasyHeroes.Vikings.MeleeWeapon1H.VikingSword2 [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/MeleeWeapon1H/Vikings/Sword/VikingSword2
       [Paint].png
     Sprite: {fileID: 21300000, guid: 11a64dd9b8b04238a400b736ac890bd8, type: 3}
@@ -15469,10 +15435,10 @@ MonoBehaviour:
     Meta: 
     Tags:
     - Paint
-  - Name: VikingSword3 [Paint]
+  - Name: 'VikingSword3 [Paint]'
     Collection: Vikings
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Vikings.MeleeWeapon1H.VikingSword3 [Paint]
+    Id: 'FantasyHeroes.Vikings.MeleeWeapon1H.VikingSword3 [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/MeleeWeapon1H/Vikings/Sword/VikingSword3
       [Paint].png
     Sprite: {fileID: 21300000, guid: 16c0ddcfd3b642fb8d9ceddfb6d857c6, type: 3}
@@ -15603,10 +15569,10 @@ MonoBehaviour:
     Hash: e0fbd08e3a9aa75f4e1254e0c33049b7
     Meta: 
     Tags: []
-  - Name: WolfSword [Paint]
+  - Name: 'WolfSword [Paint]'
     Collection: Thrones
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Thrones.MeleeWeapon1H.WolfSword [Paint]
+    Id: 'FantasyHeroes.Thrones.MeleeWeapon1H.WolfSword [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/MeleeWeapon1H/Thrones/Sword/WolfSword
       [Paint].png
     Sprite: {fileID: 21300000, guid: 95ed037f15324b968c245676600b436c, type: 3}
@@ -15942,10 +15908,10 @@ MonoBehaviour:
     Hash: a69599fc5381c2c6535e8392c6e70003
     Meta: 
     Tags: []
-  - Name: FireKnightSword [Paint]
+  - Name: 'FireKnightSword [Paint]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.MeleeWeapon2H.FireKnightSword [Paint]
+    Id: 'FantasyHeroes.Basic.MeleeWeapon2H.FireKnightSword [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/MeleeWeapon2H/Basic/Sword/FireKnightSword
       [Paint].png
     Sprite: {fileID: 21300000, guid: 5d8e6bd63b6a4395a494a121a611419b, type: 3}
@@ -16100,10 +16066,10 @@ MonoBehaviour:
     Hash: 157b346e68299b07e59aa48a069f65aa
     Meta: 
     Tags: []
-  - Name: HeavySword [Paint]
+  - Name: 'HeavySword [Paint]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.MeleeWeapon2H.HeavySword [Paint]
+    Id: 'FantasyHeroes.Basic.MeleeWeapon2H.HeavySword [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/MeleeWeapon2H/Basic/Sword/HeavySword
       [Paint].png
     Sprite: {fileID: 21300000, guid: 7fe524eff1ad4a9ba48897b865e8a7fa, type: 3}
@@ -16174,10 +16140,10 @@ MonoBehaviour:
     Hash: 1e9625ce6910124b2eabea6f3bdbec32
     Meta: 
     Tags: []
-  - Name: MercenarySword1 [Paint]
+  - Name: 'MercenarySword1 [Paint]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.MeleeWeapon2H.MercenarySword1 [Paint]
+    Id: 'FantasyHeroes.Basic.MeleeWeapon2H.MercenarySword1 [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/MeleeWeapon2H/Basic/Sword/MercenarySword1
       [Paint].png
     Sprite: {fileID: 21300000, guid: 85ae6d69ab0c4f8e8060b371efc80515, type: 3}
@@ -16188,10 +16154,10 @@ MonoBehaviour:
     Meta: 
     Tags:
     - Paint
-  - Name: MercenarySword2 [Paint]
+  - Name: 'MercenarySword2 [Paint]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.MeleeWeapon2H.MercenarySword2 [Paint]
+    Id: 'FantasyHeroes.Basic.MeleeWeapon2H.MercenarySword2 [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/MeleeWeapon2H/Basic/Sword/MercenarySword2
       [Paint].png
     Sprite: {fileID: 21300000, guid: 764dbfa4c66047e6bc2c958286c9543d, type: 3}
@@ -16202,10 +16168,10 @@ MonoBehaviour:
     Meta: 
     Tags:
     - Paint
-  - Name: MountainSword [Paint]
+  - Name: 'MountainSword [Paint]'
     Collection: Thrones
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Thrones.MeleeWeapon2H.MountainSword [Paint]
+    Id: 'FantasyHeroes.Thrones.MeleeWeapon2H.MountainSword [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/MeleeWeapon2H/Thrones/Sword/MountainSword
       [Paint].png
     Sprite: {fileID: 21300000, guid: c5af64e7385d4e15bf8db1f961223722, type: 3}
@@ -16240,10 +16206,10 @@ MonoBehaviour:
     Hash: c675d95686b913518f195f10a074f74e
     Meta: 
     Tags: []
-  - Name: PaladinSword [Paint]
+  - Name: 'PaladinSword [Paint]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.MeleeWeapon2H.PaladinSword [Paint]
+    Id: 'FantasyHeroes.Basic.MeleeWeapon2H.PaladinSword [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/MeleeWeapon2H/Basic/Sword/PaladinSword
       [Paint].png
     Sprite: {fileID: 21300000, guid: 26aff167340e42f3b37711e799402a8f, type: 3}
@@ -16362,10 +16328,10 @@ MonoBehaviour:
     Hash: f5e49bf6c9d58b47f0af97a646b7d0e9
     Meta: 
     Tags: []
-  - Name: SamuraiSword2 [Paint]
+  - Name: 'SamuraiSword2 [Paint]'
     Collection: Samurai
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Samurai.MeleeWeapon2H.SamuraiSword2 [Paint]
+    Id: 'FantasyHeroes.Samurai.MeleeWeapon2H.SamuraiSword2 [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/MeleeWeapon2H/Samurai/Sword/SamuraiSword2
       [Paint].png
     Sprite: {fileID: 21300000, guid: 0159796b092a41cc973c0daad78b11d8, type: 3}
@@ -16388,10 +16354,10 @@ MonoBehaviour:
     Hash: d0b34b3b942e2c518feba953d19b34e3
     Meta: 
     Tags: []
-  - Name: SamuraiSword3 [Paint]
+  - Name: 'SamuraiSword3 [Paint]'
     Collection: Samurai
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Samurai.MeleeWeapon2H.SamuraiSword3 [Paint]
+    Id: 'FantasyHeroes.Samurai.MeleeWeapon2H.SamuraiSword3 [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/MeleeWeapon2H/Samurai/Sword/SamuraiSword3
       [Paint].png
     Sprite: {fileID: 21300000, guid: 9d1e1e6ef5c74d11957490a1f427141d, type: 3}
@@ -16582,10 +16548,10 @@ MonoBehaviour:
     Hash: 22b24ac9181f1d7b25ca51a4a4798bfe
     Meta: 
     Tags: []
-  - Name: TwoHandedSword [Paint]
+  - Name: 'TwoHandedSword [Paint]'
     Collection: Knights
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Knights.MeleeWeapon2H.TwoHandedSword [Paint]
+    Id: 'FantasyHeroes.Knights.MeleeWeapon2H.TwoHandedSword [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/MeleeWeapon2H/Knights/Sword/TwoHandedSword
       [Paint].png
     Sprite: {fileID: 21300000, guid: bf7fb1e84a2e489996409b233e50e64f, type: 3}
@@ -16644,10 +16610,10 @@ MonoBehaviour:
     Hash: ea4c406623266ea73cb82076e7c6bc06
     Meta: 
     Tags: []
-  - Name: TwoHandedVikingSword2 [Paint]
+  - Name: 'TwoHandedVikingSword2 [Paint]'
     Collection: Vikings
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Vikings.MeleeWeapon2H.TwoHandedVikingSword2 [Paint]
+    Id: 'FantasyHeroes.Vikings.MeleeWeapon2H.TwoHandedVikingSword2 [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/MeleeWeapon2H/Vikings/Sword/TwoHandedVikingSword2
       [Paint].png
     Sprite: {fileID: 21300000, guid: 2dc31a35e02c4f22996f64cd837d46d3, type: 3}
@@ -16658,10 +16624,10 @@ MonoBehaviour:
     Meta: 
     Tags:
     - Paint
-  - Name: TwoHandedVikingSword3 [Paint]
+  - Name: 'TwoHandedVikingSword3 [Paint]'
     Collection: Vikings
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Vikings.MeleeWeapon2H.TwoHandedVikingSword3 [Paint]
+    Id: 'FantasyHeroes.Vikings.MeleeWeapon2H.TwoHandedVikingSword3 [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/MeleeWeapon2H/Vikings/Sword/TwoHandedVikingSword3
       [Paint].png
     Sprite: {fileID: 21300000, guid: f4aa25e64d3e42fd83ea8446340680cf, type: 3}
@@ -16744,10 +16710,10 @@ MonoBehaviour:
     Hash: 3aafe1e8c3ff6909f54a20502fcb8117
     Meta: 
     Tags: []
-  - Name: Zweihander [Paint]
+  - Name: 'Zweihander [Paint]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.MeleeWeapon2H.Zweihander [Paint]
+    Id: 'FantasyHeroes.Basic.MeleeWeapon2H.Zweihander [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/MeleeWeapon2H/Basic/Sword/Zweihander
       [Paint].png
     Sprite: {fileID: 21300000, guid: 7bcbe1243b3142c18c74b8865254e871, type: 3}
@@ -16778,8 +16744,7 @@ MonoBehaviour:
     Edition: Extensions
     Id: Extensions.Legendary.Bow.BowOfCompassion
     Path: Assets/HeroEditor/Extensions/EpicHeroes/Sprites/Equipment/Bow/Legendary/BowOfCompassion.png
-    Sprite: {fileID: 7034423813313189624, guid: 7d6953b710323e84a8aecd391347c43a,
-      type: 3}
+    Sprite: {fileID: 7034423813313189624, guid: 7d6953b710323e84a8aecd391347c43a, type: 3}
     Sprites:
     - {fileID: 7034423813313189624, guid: 7d6953b710323e84a8aecd391347c43a, type: 3}
     - {fileID: 8180187256336134010, guid: 7d6953b710323e84a8aecd391347c43a, type: 3}
@@ -16793,8 +16758,7 @@ MonoBehaviour:
     Edition: Extensions
     Id: Extensions.Legendary.Bow.BowOfGrace
     Path: Assets/HeroEditor/Extensions/EpicHeroes/Sprites/Equipment/Bow/Legendary/BowOfGrace.png
-    Sprite: {fileID: 7034423813313189624, guid: 4862c15967c0db941bb0644b927d30a4,
-      type: 3}
+    Sprite: {fileID: 7034423813313189624, guid: 4862c15967c0db941bb0644b927d30a4, type: 3}
     Sprites:
     - {fileID: 7034423813313189624, guid: 4862c15967c0db941bb0644b927d30a4, type: 3}
     - {fileID: 8180187256336134010, guid: 4862c15967c0db941bb0644b927d30a4, type: 3}
@@ -16836,8 +16800,7 @@ MonoBehaviour:
     Edition: Extensions
     Id: Extensions.Legendary.Bow.ElementalBow
     Path: Assets/HeroEditor/Extensions/EpicHeroes/Sprites/Equipment/Bow/Legendary/ElementalBow.png
-    Sprite: {fileID: 7034423813313189624, guid: 677f8f52577763447b26e948ae9702f2,
-      type: 3}
+    Sprite: {fileID: 7034423813313189624, guid: 677f8f52577763447b26e948ae9702f2, type: 3}
     Sprites:
     - {fileID: 7034423813313189624, guid: 677f8f52577763447b26e948ae9702f2, type: 3}
     - {fileID: 8180187256336134010, guid: 677f8f52577763447b26e948ae9702f2, type: 3}
@@ -16851,8 +16814,7 @@ MonoBehaviour:
     Edition: Extensions
     Id: Extensions.Legendary.Bow.ElementalBow2
     Path: Assets/HeroEditor/Extensions/EpicHeroes/Sprites/Equipment/Bow/Legendary/ElementalBow2.png
-    Sprite: {fileID: 7034423813313189624, guid: 3961a4d8047f80143aaccce1d5edf134,
-      type: 3}
+    Sprite: {fileID: 7034423813313189624, guid: 3961a4d8047f80143aaccce1d5edf134, type: 3}
     Sprites:
     - {fileID: 7034423813313189624, guid: 3961a4d8047f80143aaccce1d5edf134, type: 3}
     - {fileID: 8180187256336134010, guid: 3961a4d8047f80143aaccce1d5edf134, type: 3}
@@ -16866,8 +16828,7 @@ MonoBehaviour:
     Edition: Extensions
     Id: Extensions.Legendary.Bow.EsmeraldaArco
     Path: Assets/HeroEditor/Extensions/EpicHeroes/Sprites/Equipment/Bow/Legendary/EsmeraldaArco.png
-    Sprite: {fileID: 7034423813313189624, guid: 0f9791cb7eb9e104884fcbf65d769d26,
-      type: 3}
+    Sprite: {fileID: 7034423813313189624, guid: 0f9791cb7eb9e104884fcbf65d769d26, type: 3}
     Sprites:
     - {fileID: 7034423813313189624, guid: 0f9791cb7eb9e104884fcbf65d769d26, type: 3}
     - {fileID: 8180187256336134010, guid: 0f9791cb7eb9e104884fcbf65d769d26, type: 3}
@@ -16979,8 +16940,7 @@ MonoBehaviour:
     Edition: Extensions
     Id: Extensions.Legendary.Bow.LakeDragonBow
     Path: Assets/HeroEditor/Extensions/EpicHeroes/Sprites/Equipment/Bow/Legendary/LakeDragonBow.png
-    Sprite: {fileID: 7034423813313189624, guid: 5d174d080a8efa44aa85225e989d445d,
-      type: 3}
+    Sprite: {fileID: 7034423813313189624, guid: 5d174d080a8efa44aa85225e989d445d, type: 3}
     Sprites:
     - {fileID: 7034423813313189624, guid: 5d174d080a8efa44aa85225e989d445d, type: 3}
     - {fileID: 8180187256336134010, guid: 5d174d080a8efa44aa85225e989d445d, type: 3}
@@ -16994,8 +16954,7 @@ MonoBehaviour:
     Edition: Extensions
     Id: Extensions.Legendary.Bow.LakeDragonBow2
     Path: Assets/HeroEditor/Extensions/EpicHeroes/Sprites/Equipment/Bow/Legendary/LakeDragonBow2.png
-    Sprite: {fileID: 7034423813313189624, guid: 0e91d1fa9ee808644a2e1d6a218bc3c7,
-      type: 3}
+    Sprite: {fileID: 7034423813313189624, guid: 0e91d1fa9ee808644a2e1d6a218bc3c7, type: 3}
     Sprites:
     - {fileID: 7034423813313189624, guid: 0e91d1fa9ee808644a2e1d6a218bc3c7, type: 3}
     - {fileID: 8180187256336134010, guid: 0e91d1fa9ee808644a2e1d6a218bc3c7, type: 3}
@@ -17009,8 +16968,7 @@ MonoBehaviour:
     Edition: Extensions
     Id: Extensions.Legendary.Bow.LambentBow
     Path: Assets/HeroEditor/Extensions/EpicHeroes/Sprites/Equipment/Bow/Legendary/LambentBow.png
-    Sprite: {fileID: 7034423813313189624, guid: d9c18cc145219904e9d0ea532a5e229a,
-      type: 3}
+    Sprite: {fileID: 7034423813313189624, guid: d9c18cc145219904e9d0ea532a5e229a, type: 3}
     Sprites:
     - {fileID: 7034423813313189624, guid: d9c18cc145219904e9d0ea532a5e229a, type: 3}
     - {fileID: 8180187256336134010, guid: d9c18cc145219904e9d0ea532a5e229a, type: 3}
@@ -17024,8 +16982,7 @@ MonoBehaviour:
     Edition: Extensions
     Id: Extensions.Legendary.Bow.MagnetismBow
     Path: Assets/HeroEditor/Extensions/EpicHeroes/Sprites/Equipment/Bow/Legendary/MagnetismBow.png
-    Sprite: {fileID: 7034423813313189624, guid: 5cba2e50bebe85946b83cd9ff379ffc6,
-      type: 3}
+    Sprite: {fileID: 7034423813313189624, guid: 5cba2e50bebe85946b83cd9ff379ffc6, type: 3}
     Sprites:
     - {fileID: 7034423813313189624, guid: 5cba2e50bebe85946b83cd9ff379ffc6, type: 3}
     - {fileID: 8180187256336134010, guid: 5cba2e50bebe85946b83cd9ff379ffc6, type: 3}
@@ -17053,8 +17010,7 @@ MonoBehaviour:
     Edition: Extensions
     Id: Extensions.Legendary.Bow.MikadoBow
     Path: Assets/HeroEditor/Extensions/EpicHeroes/Sprites/Equipment/Bow/Legendary/MikadoBow.png
-    Sprite: {fileID: 7034423813313189624, guid: 1f69f7199de5d524fa43ad41028e9ad1,
-      type: 3}
+    Sprite: {fileID: 7034423813313189624, guid: 1f69f7199de5d524fa43ad41028e9ad1, type: 3}
     Sprites:
     - {fileID: 7034423813313189624, guid: 1f69f7199de5d524fa43ad41028e9ad1, type: 3}
     - {fileID: 8180187256336134010, guid: 1f69f7199de5d524fa43ad41028e9ad1, type: 3}
@@ -17096,8 +17052,7 @@ MonoBehaviour:
     Edition: Extensions
     Id: Extensions.Legendary.Bow.PhoenixBow
     Path: Assets/HeroEditor/Extensions/EpicHeroes/Sprites/Equipment/Bow/Legendary/PhoenixBow.png
-    Sprite: {fileID: 7034423813313189624, guid: 7cff4725287453440adb111f784b9646,
-      type: 3}
+    Sprite: {fileID: 7034423813313189624, guid: 7cff4725287453440adb111f784b9646, type: 3}
     Sprites:
     - {fileID: 7034423813313189624, guid: 7cff4725287453440adb111f784b9646, type: 3}
     - {fileID: 8180187256336134010, guid: 7cff4725287453440adb111f784b9646, type: 3}
@@ -17293,8 +17248,7 @@ MonoBehaviour:
     Edition: Extensions
     Id: Extensions.Legendary.Bow.SteampunkBow
     Path: Assets/HeroEditor/Extensions/EpicHeroes/Sprites/Equipment/Bow/Legendary/SteampunkBow.png
-    Sprite: {fileID: 7034423813313189624, guid: c3eefef3e8bf7c24eab686be4fbfdf9f,
-      type: 3}
+    Sprite: {fileID: 7034423813313189624, guid: c3eefef3e8bf7c24eab686be4fbfdf9f, type: 3}
     Sprites:
     - {fileID: 7034423813313189624, guid: c3eefef3e8bf7c24eab686be4fbfdf9f, type: 3}
     - {fileID: 8180187256336134010, guid: c3eefef3e8bf7c24eab686be4fbfdf9f, type: 3}
@@ -17350,8 +17304,7 @@ MonoBehaviour:
     Edition: Extensions
     Id: Extensions.Legendary.Bow.VeracityColdbow
     Path: Assets/HeroEditor/Extensions/EpicHeroes/Sprites/Equipment/Bow/Legendary/VeracityColdbow.png
-    Sprite: {fileID: 7034423813313189624, guid: 2c7bfca548724a048acb28fb2760cfe6,
-      type: 3}
+    Sprite: {fileID: 7034423813313189624, guid: 2c7bfca548724a048acb28fb2760cfe6, type: 3}
     Sprites:
     - {fileID: 7034423813313189624, guid: 2c7bfca548724a048acb28fb2760cfe6, type: 3}
     - {fileID: 8180187256336134010, guid: 2c7bfca548724a048acb28fb2760cfe6, type: 3}
@@ -17478,8 +17431,7 @@ MonoBehaviour:
     Edition: FantasyHeroes
     Id: FantasyHeroes.Basic.Firearms1H.FlintPistolTypeA
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Firearms1H/Basic/FlintPistolTypeA.png
-    Sprite: {fileID: 2362096653066871018, guid: 4d21c31a85d998048a24a3e930f7a265,
-      type: 3}
+    Sprite: {fileID: 2362096653066871018, guid: 4d21c31a85d998048a24a3e930f7a265, type: 3}
     Sprites:
     - {fileID: 2362096653066871018, guid: 4d21c31a85d998048a24a3e930f7a265, type: 3}
     - {fileID: -768287472138149725, guid: 4d21c31a85d998048a24a3e930f7a265, type: 3}
@@ -17498,8 +17450,7 @@ MonoBehaviour:
     Edition: FantasyHeroes
     Id: FantasyHeroes.Basic.Firearms1H.FlintPistolTypeB
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Firearms1H/Basic/FlintPistolTypeB.png
-    Sprite: {fileID: 2362096653066871018, guid: 2dc9b29c79ebfbb48b3552049fccbcbc,
-      type: 3}
+    Sprite: {fileID: 2362096653066871018, guid: 2dc9b29c79ebfbb48b3552049fccbcbc, type: 3}
     Sprites:
     - {fileID: 2362096653066871018, guid: 2dc9b29c79ebfbb48b3552049fccbcbc, type: 3}
     - {fileID: -768287472138149725, guid: 2dc9b29c79ebfbb48b3552049fccbcbc, type: 3}
@@ -17518,8 +17469,7 @@ MonoBehaviour:
     Edition: FantasyHeroes
     Id: FantasyHeroes.Basic.Firearms1H.FlintPistolTypeC
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Firearms1H/Basic/FlintPistolTypeC.png
-    Sprite: {fileID: 2362096653066871018, guid: 5a60b0e21ea3b4c41a6889eb2499e86e,
-      type: 3}
+    Sprite: {fileID: 2362096653066871018, guid: 5a60b0e21ea3b4c41a6889eb2499e86e, type: 3}
     Sprites:
     - {fileID: 2362096653066871018, guid: 5a60b0e21ea3b4c41a6889eb2499e86e, type: 3}
     - {fileID: -768287472138149725, guid: 5a60b0e21ea3b4c41a6889eb2499e86e, type: 3}
@@ -17538,8 +17488,7 @@ MonoBehaviour:
     Edition: FantasyHeroes
     Id: FantasyHeroes.Basic.Firearms1H.RevolverTypeA
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Firearms1H/Basic/RevolverTypeA.png
-    Sprite: {fileID: 2362096653066871018, guid: 5d70d2220796f224eaa00497878751d2,
-      type: 3}
+    Sprite: {fileID: 2362096653066871018, guid: 5d70d2220796f224eaa00497878751d2, type: 3}
     Sprites:
     - {fileID: 2362096653066871018, guid: 5d70d2220796f224eaa00497878751d2, type: 3}
     - {fileID: -768287472138149725, guid: 5d70d2220796f224eaa00497878751d2, type: 3}
@@ -17558,8 +17507,7 @@ MonoBehaviour:
     Edition: FantasyHeroes
     Id: FantasyHeroes.Basic.Firearms1H.RevolverTypeB
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Firearms1H/Basic/RevolverTypeB.png
-    Sprite: {fileID: 2362096653066871018, guid: 54a20c2f94626b34493d30bf62a9da4e,
-      type: 3}
+    Sprite: {fileID: 2362096653066871018, guid: 54a20c2f94626b34493d30bf62a9da4e, type: 3}
     Sprites:
     - {fileID: 2362096653066871018, guid: 54a20c2f94626b34493d30bf62a9da4e, type: 3}
     - {fileID: -768287472138149725, guid: 54a20c2f94626b34493d30bf62a9da4e, type: 3}
@@ -17578,8 +17526,7 @@ MonoBehaviour:
     Edition: FantasyHeroes
     Id: FantasyHeroes.Basic.Firearms1H.RevolverTypeC
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Firearms1H/Basic/RevolverTypeC.png
-    Sprite: {fileID: 2362096653066871018, guid: 38ac235120660e94ba9648f943bde542,
-      type: 3}
+    Sprite: {fileID: 2362096653066871018, guid: 38ac235120660e94ba9648f943bde542, type: 3}
     Sprites:
     - {fileID: 2362096653066871018, guid: 38ac235120660e94ba9648f943bde542, type: 3}
     - {fileID: -768287472138149725, guid: 38ac235120660e94ba9648f943bde542, type: 3}
@@ -18970,10 +18917,10 @@ MonoBehaviour:
     Hash: 3930cca71ceab65d1739fab4be26439b
     Meta: 
     Tags: []
-  - Name: Boomerang [Paint]
+  - Name: 'Boomerang [Paint]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.Supplies.Boomerang [Paint]
+    Id: 'FantasyHeroes.Basic.Supplies.Boomerang [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Supplies/Basic/Throwing/Boomerang
       [Paint].png
     Sprite: {fileID: 21300000, guid: 95028762b25b4b96988f4859837d9b6b, type: 3}
@@ -19248,10 +19195,10 @@ MonoBehaviour:
     Hash: f21d1a1a6bf9a80557c545a68c3f0d6c
     Meta: 
     Tags: []
-  - Name: LargePotion [Paint]
+  - Name: 'LargePotion [Paint]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.Supplies.LargePotion [Paint]
+    Id: 'FantasyHeroes.Basic.Supplies.LargePotion [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Supplies/Basic/Potions/LargePotion
       [Paint].png
     Sprite: {fileID: 21300000, guid: 2c3a6db3c61d4545ac0f5ca7e0fb8a58, type: 3}
@@ -19322,10 +19269,10 @@ MonoBehaviour:
     Hash: ad1ad53dbcccb9fefe3c26ce036f74a6
     Meta: 
     Tags: []
-  - Name: MediumPotion [Paint]
+  - Name: 'MediumPotion [Paint]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.Supplies.MediumPotion [Paint]
+    Id: 'FantasyHeroes.Basic.Supplies.MediumPotion [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Supplies/Basic/Potions/MediumPotion
       [Paint].png
     Sprite: {fileID: 21300000, guid: e3f5ad639ebf4899a2d14e1312800aee, type: 3}
@@ -19348,10 +19295,10 @@ MonoBehaviour:
     Hash: 575f7c3297b405c7da08cc3d173b1f00
     Meta: 
     Tags: []
-  - Name: Potion1 [Paint]
+  - Name: 'Potion1 [Paint]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.Supplies.Potion1 [Paint]
+    Id: 'FantasyHeroes.Basic.Supplies.Potion1 [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Supplies/Basic/Potions/Potion1
       [Paint].png
     Sprite: {fileID: 21300000, guid: ad76ddd5a66f4677bacc32c3f066525f, type: 3}
@@ -19374,10 +19321,10 @@ MonoBehaviour:
     Hash: 7eba07f8021490826b1403373996db02
     Meta: 
     Tags: []
-  - Name: Potion2 [Paint]
+  - Name: 'Potion2 [Paint]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.Supplies.Potion2 [Paint]
+    Id: 'FantasyHeroes.Basic.Supplies.Potion2 [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Supplies/Basic/Potions/Potion2
       [Paint].png
     Sprite: {fileID: 21300000, guid: f4f2cbb76c6342899dece02a07a0334e, type: 3}
@@ -19400,10 +19347,10 @@ MonoBehaviour:
     Hash: 682d904e8c08dda3836935f2b0f13625
     Meta: 
     Tags: []
-  - Name: Potion3 [Paint]
+  - Name: 'Potion3 [Paint]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.Supplies.Potion3 [Paint]
+    Id: 'FantasyHeroes.Basic.Supplies.Potion3 [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Supplies/Basic/Potions/Potion3
       [Paint].png
     Sprite: {fileID: 21300000, guid: c5fac54478824ce296dd8c162bf4dc74, type: 3}
@@ -19474,10 +19421,10 @@ MonoBehaviour:
     Hash: 73229f94567db0888ec127e2bb96070c
     Meta: 
     Tags: []
-  - Name: SmallPotion [Paint]
+  - Name: 'SmallPotion [Paint]'
     Collection: Basic
     Edition: FantasyHeroes
-    Id: FantasyHeroes.Basic.Supplies.SmallPotion [Paint]
+    Id: 'FantasyHeroes.Basic.Supplies.SmallPotion [Paint]'
     Path: Assets/HeroEditor/FantasyHeroes/Sprites/Equipment/Supplies/Basic/Potions/SmallPotion
       [Paint].png
     Sprite: {fileID: 21300000, guid: 07780e984e4f42ae8c70aa278e70a5a4, type: 3}

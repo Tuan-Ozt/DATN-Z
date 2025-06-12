@@ -18,6 +18,7 @@ public class ItemStats : ScriptableObject
     public int Intelligence; // tinh thần ( thông minh)
     public int Vitality;   // hp
     //chuyền dữ liệu cho ItemStartsDTO theo dạng json để truyền lên database
+
     public ItemStatsDTO ToDTO()
     {
         return new ItemStatsDTO

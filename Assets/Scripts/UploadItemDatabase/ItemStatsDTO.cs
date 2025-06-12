@@ -1,4 +1,7 @@
-﻿[System.Serializable]
+﻿using System.Collections.Generic;
+using UnityEngine;
+
+[System.Serializable]
 public class ItemStatsDTO
 {
     public string Name;
@@ -13,5 +16,6 @@ public class ItemStatsDTO
     public int Agility;   // nhanh nhẹn
     public int Intelligence; // tinh thần ( thông minh)
     public int Vitality;   // hp
+  
 }
 

@@ -10,19 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6eea8a67d52cafd4189c50561eac9854, type: 3}
-  m_Name: ItemStats 1
+  m_Name: NewItemStats 9
   m_EditorClassIdentifier: 
-  itemId: Extensions.Legendary.Gloves.AizenHeavyArmor
-  Icon: {fileID: 21300000, guid: e3e5b87a219fbf947b55570dbead9474, type: 3}
-  Name: Gang.AizenHeavyArmor
-  Type: Gloves
+  itemId: FantasyHeroes.Thrones.Pauldrons.IronIslands
+  Icon: {fileID: 21300000, guid: f45a149d36b41294b805a9aec8f2ef18, type: 3}
+  Name: Giapvai.AsteraArmor
+  Type: Pauldrons
   Description: "T\u0103ng ch\u1EC9 s\u1ED1"
   Rarity: 0
   Value: 0
-  Strength: 15
+  Strength: 21
   Defense: 15
   Agility: 15
-  Intelligence: 20
-  Vitality: 20
-  ArmorParts:
-  - Extensions.Legendary.Gloves.AizenHeavyArmor
+  Intelligence: 19
+  Vitality: 18
