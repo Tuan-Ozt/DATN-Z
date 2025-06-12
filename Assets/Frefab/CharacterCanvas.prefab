@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4623638852076556520}
   - component: {fileID: 7774092949547162546}
   m_Layer: 5
-  m_Name: quan
+  m_Name: Giay
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -413,7 +413,7 @@ GameObject:
   - component: {fileID: 27321581147418972}
   - component: {fileID: 2010939432108963452}
   m_Layer: 5
-  m_Name: Giay
+  m_Name: Bao Tay
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1894,7 +1894,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 5474036301182516}
   m_Direction: 2
   m_Value: 0
-  m_Size: 0.99973804
+  m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -3306,7 +3306,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0.000061035156}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: -82.3955, y: -278.8778}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &3437655434169667493
@@ -3322,7 +3322,7 @@ GameObject:
   - component: {fileID: 5413541002622292425}
   - component: {fileID: 5720168196351717666}
   m_Layer: 5
-  m_Name: ao trong
+  m_Name: Quan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3654,7 +3654,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 5827191911909531267}
   m_HandleRect: {fileID: 5857685200162800783}
   m_Direction: 2
-  m_Value: 1
+  m_Value: -0.00000039265498
   m_Size: 0.8224415
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -4865,7 +4865,7 @@ GameObject:
   - component: {fileID: 5957403767646941895}
   - component: {fileID: 6917829557349945327}
   m_Layer: 5
-  m_Name: Bao tay
+  m_Name: Giap vai
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6722,7 +6722,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.000012696, y: -0.000022237}
+  m_AnchoredPosition: {x: -0.000012696, y: 155.44226}
   m_SizeDelta: {x: 0, y: 875.4422}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &6529884611900949381
@@ -8553,26 +8553,24 @@ MonoBehaviour:
   Helmetslot: {fileID: 8899857280956034073}
   ArmorSlots:
   - {fileID: 3713062584463336836}
-  - {fileID: 3437655434169667493}
   - {fileID: 47697300940944356}
   - {fileID: 289892659140553495}
   - {fileID: 4472543452910779564}
   - {fileID: 3262889720197656678}
-  Vestslot: {fileID: 2920814365094628937}
-  Pauldronsslot: {fileID: 2920814365094628937}
-  Glovesslot: {fileID: 4472543452910779564}
-  Bootsslot: {fileID: 289892659140553495}
+  - {fileID: 3437655434169667493}
+  Vestslot: {fileID: 0}
+  Pauldronsslot: {fileID: 0}
+  Glovesslot: {fileID: 289892659140553495}
   Firearms1Hslot: {fileID: 2920814365094628937}
   Firearms2Hslot: {fileID: 2920814365094628937}
   Bowslot: {fileID: 2920814365094628937}
   Hairslot: {fileID: 9197104309140297112}
-  Beltslot: {fileID: 5490305354126890435}
+  Beltslot: {fileID: 3437655434169667493}
   Capeslot: {fileID: 293321821467875883}
   Backslot: {fileID: 5490305354126890435}
   Maskslot: {fileID: 4589378587811267925}
   Glassesslot: {fileID: 2620080721209191458}
   Shieldslot: {fileID: 1929204653040320543}
-  CharacterPreviewSlot: {fileID: 0}
   MeleeWeapon1Hslot: {fileID: 2920814365094628937}
   MeleeWeapon2Hslot: {fileID: 7044518874312868026}
   character: {fileID: 114665035860700710, guid: ff726cbf10a6436a8c11071a7641036f, type: 3}
