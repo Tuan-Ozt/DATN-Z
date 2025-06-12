@@ -24,3 +24,5 @@ MonoBehaviour:
   Agility: 15
   Intelligence: 15
   Vitality: 20
+  ArmorParts:
+  - Extensions.Legendary.Belt.AizenHeavyArmor
