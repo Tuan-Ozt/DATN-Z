@@ -23,6 +23,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Test2.unity
     guid: e3deafa4df9d5a244ac34aa82e3b308f
+  - enabled: 1
+    path: Assets/Scenes/Test to TuanAnh.unity
+    guid: fc7db67c8ef96e641b63e6fdc27442c0
   - enabled: 0
     path: Assets/Scenes/map1_HC.unity
     guid: f28219916ba33c14d98cd9abe5b696bb
