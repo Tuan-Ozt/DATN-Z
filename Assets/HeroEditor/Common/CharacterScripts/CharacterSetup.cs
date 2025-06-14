@@ -110,9 +110,25 @@ namespace Assets.HeroEditor.Common.CharacterScripts
                     FullHair = item == null || item.Tags.Contains("FullHair");
                     break;
                 case EquipmentPart.Armor:
-                    Armor = item?.Sprites.ToList();
-                    ArmorRenderers.ForEach(i => i.color = color ?? i.color);
+                    if (item?.Sprites != null && item.Sprites.Count > 0)
+                    {
+                        foreach (var sprite in item.Sprites)
+                        {
+                            string partName = sprite.name;
+                            SetArmorParts(partName, item.Sprites); // Gán đúng từng sprite
+                        }
+                    }
+
+                    // Tô màu cho phần được gán
+                    ArmorRenderers.ForEach(i =>
+                    {
+                        if (item?.Sprites != null && item.Sprites.Any(s => s.name == i.name.Split('[')[0]))
+                        {
+                            i.color = color ?? i.color;
+                        }
+                    });
                     break;
+
                 case EquipmentPart.Pauldrons:
                 case EquipmentPart.Vest:
                 case EquipmentPart.Gloves:
@@ -240,5 +256,6 @@ namespace Assets.HeroEditor.Common.CharacterScripts
                 part.sprite = sprites?.SingleOrDefault(i => i != null && i.name == part.name.Split('[')[0]);
             }
         }
+
     }
 }

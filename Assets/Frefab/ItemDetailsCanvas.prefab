@@ -1028,3 +1028,4 @@ MonoBehaviour:
   description: {fileID: 2417323947677605895}
   Type: {fileID: 473358215024140683}
   Name: {fileID: 9004776892856983969}
+  itemDetailsui: {fileID: 0}

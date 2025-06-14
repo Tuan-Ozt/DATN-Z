@@ -11,17 +11,14 @@ using UnityEngine.UI;
 public class CharacterUIManager1 : MonoBehaviour
 {
     public GameObject Helmetslot;  //mu
-    //public GameObject Armorslot ;      //ao
     public GameObject[] ArmorSlots;
 
     public GameObject Vestslot;// ao trong
     public GameObject Pauldronsslot;//quan
     public GameObject Glovesslot;//bao tay
-    //public GameObject Bootsslot;//giay
     public GameObject Firearms1Hslot;
     public GameObject Firearms2Hslot;
 
-    //public GameObject MeleeWeapon1Hslot; // 1 kiem
    // public GameObject Firearms1Hslot; // Súng
     // public GameObject Firearms2Hslot; // Súng to*/
     public GameObject Bowslot; // Cung
@@ -32,7 +29,6 @@ public class CharacterUIManager1 : MonoBehaviour
     public GameObject Maskslot;//bit mat
     public GameObject Glassesslot; //kinh
     public GameObject Shieldslot;//khien
-   // public GameObject CharacterPreviewSlot; // Nhân vật trung tâm
 
     //
 
@@ -75,30 +71,23 @@ public class CharacterUIManager1 : MonoBehaviour
         }
 
         DisplayItem1(Helmetslot, characterData.Helmet);
-        //DisplayItem(Armorslot, characterData.Armor);
-       // DisplayItem1(Vestslot, characterData.Vest);
-       // DisplayItem1(Pauldronsslot, characterData.Pauldrons);
-        DisplayItem1(Glovesslot, characterData.Gloves);
         DisplayItem1(MeleeWeapon1Hslot, characterData.MeleeWeapon1H);
         DisplayItem1(MeleeWeapon2Hslot, characterData.SecondaryMeleeWeapon);
         if (characterData.WeaponType == "Firearms1H" && !string.IsNullOrEmpty(characterData.Firearms))
         {
             DisplayItem1(Firearms1Hslot, characterData.Firearms);
         }
-        if (characterData.WeaponType == "Bow" && !string.IsNullOrEmpty(characterData.Bow))
+        if (!string.IsNullOrEmpty(characterData.Bow))
         {
             DisplayItem1(Bowslot, characterData.Bow);
         }
 
 
-       // DisplayItem1(Bootsslot, characterData.Boots);
-       // Debug.Log("Giay" + characterData.Boots);
-        // DisplayItem(Bowslot, characterData.Bow);
         DisplayItem1(Hairslot, characterData.Hair);
        
         DisplayItem1(Beltslot, characterData.Belt);
+        DisplayItem1(Vestslot, characterData.Vest);
         DisplayItem1(Capeslot, characterData.Cape);
-       // Debug.Log("Cánh" + characterData.Cape);
         DisplayItem1(Backslot, characterData.Back);
         DisplayItem1(Maskslot, characterData.Mask);
         DisplayItem1(Glassesslot, characterData.Glasses);
@@ -134,17 +123,18 @@ public class CharacterUIManager1 : MonoBehaviour
 
         // Các slot còn lại
         DisplayItem1(Helmetslot, characterData.Helmet, "Helmet");
-        //DisplayItem1(Vestslot, characterData.Vest, "Vest");
-        //DisplayItem1(Pauldronsslot, characterData.Pauldrons, "Pauldrons");
         DisplayItem1(Glovesslot, characterData.Gloves, "Gloves");
-        //DisplayItem1(Bootsslot, characterData.Boots, "Boots");
         DisplayItem1(MeleeWeapon1Hslot, characterData.PrimaryMeleeWeapon, "MeleeWeapon1H");
         DisplayItem1(MeleeWeapon2Hslot, characterData.SecondaryMeleeWeapon, "MeleeWeapon2H");
         DisplayItem1(Firearms1Hslot, characterData.Firearms1H, "Firearms1H");
         DisplayItem1(Firearms2Hslot, characterData.Firearms2H, "Firearms2H");
-        DisplayItem1(Bowslot, characterData.Bow, "Bow");
+        if (!string.IsNullOrEmpty(characterData.Bow))
+        {
+            DisplayItem1(Bowslot, characterData.Bow, "Bow");
+        }
         DisplayItem1(Hairslot, characterData.Hair, "Hair");
         DisplayItem1(Beltslot, characterData.Belt, "Belt");
+        DisplayItem1(Vestslot, characterData.Vest, "Vest");
         DisplayItem1(Capeslot, characterData.Cape, "Cape");
         DisplayItem1(Backslot, characterData.Back, "Back");
         DisplayItem1(Maskslot, characterData.Mask, "Mask");
@@ -193,7 +183,7 @@ public class CharacterUIManager1 : MonoBehaviour
                     eqSlot.SetItem(id, icon.Sprite, icon.Type);
                 }
 
-                // ✅ THÊM DÒNG NÀY để cộng stats:
+                // THÊM DÒNG NÀY để cộng stats:
                 string itemId = icon.Id.Split('.').Last(); // hoặc giữ nguyên icon.Id nếu bạn dùng full ID
                 string itemType = icon.Type;
                 var stats = ItemDatabase.Instance.GetItemStatsById(itemId, itemType);
@@ -256,7 +246,7 @@ public class CharacterUIManager1 : MonoBehaviour
                 eqSlot.SetItem(icon.Id, icon.Sprite, icon.Type);
             }
 
-            // ✅ Lấy chỉ số từ item và lưu lại
+            //  Lấy chỉ số từ item và lưu lại
             string itemId = icon.Id.Split('.').Last();
             string itemType = icon.Type;
             var stats = ItemDatabase.Instance.GetItemStatsById(itemId, itemType);

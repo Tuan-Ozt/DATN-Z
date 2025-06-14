@@ -1,10 +1,14 @@
 ﻿//sử dụng hero phải khai báo
 using Assets.HeroEditor.Common.CharacterScripts;
+using HeroEditor.Common;
 using HeroEditor.Common.Enums;
 using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
+using System.Linq;
 using TMPro;
 using Unity.VisualScripting.Antlr3.Runtime.Misc;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -64,6 +68,8 @@ public class ItemDetailsUI : MonoBehaviour
 
     public void UseItem()
     {
+        Debug.Log($"UseItem() called. UIManager instance = {CharacterUIManager1.Instance}");
+
         EquipToCharacter(currentItem.stats);
         if (CharacterUIManager1.Instance != null && currentItem != null)
         {
@@ -120,6 +126,14 @@ public class ItemDetailsUI : MonoBehaviour
                     "MeleeWeapon1H"
                 );
             }
+            if (type == "MeleeWeapon2H")
+            {
+                CharacterUIManager1.Instance.DisplayItem1(
+                    CharacterUIManager1.Instance.MeleeWeapon2Hslot, // Index 2 là Gloves
+                    itemId,
+                    "MeleeWeapon2H"
+                );
+            }
             if (type == "Cape")
             {
                 CharacterUIManager1.Instance.DisplayItem1(
@@ -144,6 +158,14 @@ public class ItemDetailsUI : MonoBehaviour
                     "Glasses"
                 );
             }
+            if (type == "Vest")
+            {
+                CharacterUIManager1.Instance.DisplayItem1(
+                    CharacterUIManager1.Instance.ArmorSlots[4], // Index 2 là Gloves
+                    itemId,
+                    "Vest"
+                );
+            }
             if (type == "Hair")
             {
                 CharacterUIManager1.Instance.DisplayItem1(
@@ -160,6 +182,24 @@ public class ItemDetailsUI : MonoBehaviour
                     "Back"
                 );
             }
+            if (type == "Bow")
+            {
+                CharacterUIManager1.Instance.DisplayItem1(
+                    CharacterUIManager1.Instance.Bowslot, // Index 2 là Gloves
+                    itemId,
+                    "Bow"
+                );
+            }
+     
+            if (type == "Shield")
+            {
+                CharacterUIManager1.Instance.DisplayItem1(
+                    CharacterUIManager1.Instance.Shieldslot, // Index 2 là Gloves
+                    itemId,
+                    "Shield"
+                );
+            }
+     
 
 
             // Có thể làm tương tự với Boots, Vest, Belt, Armor, Pauldrons...
@@ -186,31 +226,44 @@ public class ItemDetailsUI : MonoBehaviour
             case "Helmet":
             case "Armor":
             case "Boots":
+                dict["Boots"] = "ArmorCollection1.Shin";
+                break;
             case "Gloves":
             case "Pauldrons":
             case "Vest":
             case "Belt":
             case "Shield":
-            case "PrimaryMeleeWeapon":
-            case "SecondaryMeleeWeapon":
-            case "MeleeWeapon1H":
-            case "MeleeWeapon2H":
-            case "Bow":
             case "Cape":
             case "Back":
             case "Glasses":
             case "Hair":
+      
                 //case "Bow":
                 dict[currentItem.stats.Type] = currentItem.itemId;
+                break;
+            case "Bow":
+                dict["Bow"] = currentItem.itemId;          
+                dict["WeaponType"] = WeaponType.Bow.ToString();
+
+                break;
+
+            case "MeleeWeapon1H":
+                dict["PrimaryMeleeWeapon"] = currentItem.itemId;
+                dict["WeaponType"] = WeaponType.Melee1H.ToString();
+
+
+                break;
+            case "MeleeWeapon2H":
+                dict["SecondaryMeleeWeapon"] = currentItem.itemId;
                 break;
             default:
                 Debug.LogWarning($"❌ Loại chưa hỗ trợ: {currentItem.stats.Type}");
                 return;
         }
-
         // Serialize lại JSON
         string updatedJson = JsonConvert.SerializeObject(dict, Formatting.None);
         PlayerDataHolder1.CharacterJson = updatedJson;
+        Debug.Log($"[JSON AFTER USE] {updatedJson}");
 
         // Gửi lên server
         if (AuthManager.Instance != null)
@@ -230,13 +283,12 @@ public class ItemDetailsUI : MonoBehaviour
         if (CharacterUIManager1.Instance != null)
         {
             CharacterUIManager1.Instance.character.FromJson(updatedJson);
+            Debug.Log("DA GOI NHA111 ");
+          
         }
 
-        Debug.Log("Đã dùng item, cập nhật và lưu dữ liệu thành công.");
         panel.SetActive(false);
     }
-
-
 
 
 
@@ -255,6 +307,8 @@ public class ItemDetailsUI : MonoBehaviour
     }
     private void EquipToCharacter(ItemStats stats)
     {
+     
+
         Debug.Log(" ĐANG EQUIP: stats.Type = " + stats.Type + ", stats.Icon = " + (stats.Icon != null ? stats.Icon.name : "NULL"));
         string spriteName = ExtractSpriteName(stats.itemId); // Lấy từ itemId
         Sprite sprite = null;
@@ -275,16 +329,13 @@ public class ItemDetailsUI : MonoBehaviour
             case "Hair":
                 character.Hair = stats.Icon;
                 break;
-            case "Weapon":
-                character.PrimaryMeleeWeapon = stats.Icon;
-                character.WeaponType = HeroEditor.Common.Enums.WeaponType.Firearms1H; // ví dụ
-                break;
             case "Shield":
                 character.Shield = stats.Icon;
                 break;
             case "Armor":
                 EnsureArmorListSize(0);
-                character.Armor[0] = stats.Icon;
+                character.Armor.Insert(0, stats.Icon);
+                Debug.Log("Debug: " + character.Armor[0]);
                 break;
             case "Boots":
                 EnsureArmorListSize(1);
@@ -300,31 +351,91 @@ public class ItemDetailsUI : MonoBehaviour
                 break;
             case "Vest":
                 EnsureArmorListSize(4);
-                character.Armor[4] = stats.Icon;
+                character.Armor.Insert(4, stats.Icon);
+
                 break;
             case "Belt":
                 EnsureArmorListSize(5);
-                character.Armor[5] = stats.Icon;
+                character.Armor[8] = stats.Icon;
                 break;
             // === Vũ khí ===
+            // ===== Secondary Melee (Paired / 2H) =====
             case "MeleeWeapon1H":
-            case "PrimaryMeleeWeapon":
-                sprite = FindSpriteInCollection(spriteName, character.SpriteCollection.MeleeWeapon1H);
-                if (sprite == null) sprite = stats.Icon; // fallback nếu không tìm được
-                character.PrimaryMeleeWeapon = sprite;
-                character.WeaponType = WeaponType.Melee1H;
-                break;
+                {
+                    // Xoá bow/fireram cũ nếu có
+                    character.Bow = null;
+                    character.Firearms = null;
+                    character.SecondaryMeleeWeapon = null;
 
 
-            // thêm các loại khác nếu có
+                    sprite = FindSpriteInCollection(spriteName, character.SpriteCollection.MeleeWeapon1H) ?? stats.Icon;
+
+                    var entry = new SpriteGroupEntry("Custom", "Default", "MeleeWeapon1H", sprite.name, "", sprite, new List<Sprite> { sprite });
+
+                    character.Equip(entry, EquipmentPart.MeleeWeapon1H);
+
+                    break;
+                }
+            case "MeleeWeapon2H":
+                {
+                     sprite = FindSpriteInCollection(spriteName, character.SpriteCollection.MeleeWeapon2H) ?? stats.Icon;
+
+                    var entry = new SpriteGroupEntry("Custom", "Default", "MeleeWeapon2H", sprite.name, "", sprite, new List<Sprite> { sprite });
+
+                    character.Equip(entry, EquipmentPart.MeleeWeapon2H);
+                    break;
+                }
+            case "Bow":
+                {
+                    Debug.Log("👉 Equip Bow: " + spriteName);
+
+                    var entry = character.SpriteCollection.Bow.FirstOrDefault(e => e.Name == spriteName);
+
+                    if (entry != null)
+                    {
+                        // ⚠️ Đây là bước BẮT BUỘC để gán vào list Bow trong Character (hiện Inspector)
+                        character.Bow = new List<Sprite>(entry.Sprites);
+
+                        // 👉 Debug rõ ràng để kiểm tra
+                        Debug.Log($"✅ [EQUIP BOW] Gán Bow = {character.Bow.Count} sprites");
+                        for (int i = 0; i < character.Bow.Count; i++)
+                        {
+                            Debug.Log($"🟢 character.Bow[{i}] = {(character.Bow[i] != null ? character.Bow[i].name : "null")}");
+                        }
+
+                        // Tiếp theo mới Equip
+                        var bowEntry = new SpriteGroupEntry(
+                            edition: "Custom",
+                            collection: "Default",
+                            type: "Bow",
+                            name: entry.Name,
+                            path: "",
+                            sprite: entry.Sprites.FirstOrDefault(),
+                            sprites: entry.Sprites.ToList()
+                        );
+
+                        character.Equip(bowEntry, EquipmentPart.Bow);
+                    }
+                    else
+                    {
+                        Debug.LogError("❌ Không tìm thấy entry Bow: " + spriteName);
+                    }
+
+                    break;
+                }
+
+
+
+
             default:
                 Debug.LogWarning($" Không hỗ trợ loại trang bị: {stats.Type}");
                 break;
         }
 
         character.Initialize(); // ← áp dụng thay đổi
-    }
 
+    }
+  
     private void EnsureArmorListSize(int index)
     {
         while (character.Armor.Count <= index)
@@ -354,4 +465,91 @@ public class ItemDetailsUI : MonoBehaviour
         Debug.LogError($"❌ Không tìm thấy sprite có tên: {spriteName}");
         return null;
     }
+    //thao trang bi 
+    public void UnequipItem()
+    {
+        if (currentItem == null || currentItem.stats == null)
+        {
+            Debug.LogError("❌ Không có item để gỡ.");
+            return;
+        }
+
+        string type = currentItem.stats.Type;
+
+        // 1. Gỡ trang bị khỏi character
+        switch (type)
+        {
+            case "Helmet":
+                character.Helmet = null;
+                break;
+            case "Glasses":
+                character.Glasses = null;
+                break;
+            case "Cape":
+                character.Cape = null;
+                break;
+            case "Back":
+                character.Back = null;
+                break;
+            case "Hair":
+                character.Hair = null;
+                break;
+            case "Shield":
+                character.Shield = null;
+                break;
+            case "Armor":
+            case "Boots":
+            case "Gloves":
+            case "Pauldrons":
+            case "Vest":
+            case "Belt":
+                character.Equip(null, EquipmentPart.Armor); // Gỡ giáp riêng
+                break;
+            case "Bow":
+                character.Bow = null;
+                break;
+            case "MeleeWeapon1H":
+                character.PrimaryMeleeWeapon = null;
+                break;
+            case "MeleeWeapon2H":
+                character.SecondaryMeleeWeapon = null;
+                break;
+            default:
+                Debug.LogWarning($"⚠️ Loại chưa hỗ trợ khi gỡ: {type}");
+                return;
+        }
+
+        character.Initialize();
+
+        // 2. Gỡ khỏi JSON
+        var dict = JsonConvert.DeserializeObject<Dictionary<string, string>>(PlayerDataHolder1.CharacterJson);
+
+        if (dict.ContainsKey(type)) dict.Remove(type);
+
+        // Nếu là vũ khí → xóa thêm WeaponType
+        if (type == "Bow" || type.StartsWith("Melee"))
+        {
+            dict.Remove("WeaponType");
+        }
+
+        if (type == "MeleeWeapon1H") dict.Remove("PrimaryMeleeWeapon");
+        if (type == "MeleeWeapon2H") dict.Remove("SecondaryMeleeWeapon");
+
+        string updatedJson = JsonConvert.SerializeObject(dict, Formatting.None);
+        PlayerDataHolder1.CharacterJson = updatedJson;
+
+        // 3. Gửi lên server
+        if (AuthManager.Instance != null)
+        {
+            AuthManager.Instance.StartCoroutine(AuthManager.Instance.SaveCharacterToServer(updatedJson));
+        }
+
+        // 4. Cập nhật lại nhân vật & UI
+        if (PlayerAvatar.Instance != null) PlayerAvatar.Instance.UpdateCharacterJson(updatedJson);
+        if (CharacterUIManager1.Instance != null) CharacterUIManager1.Instance.character.FromJson(updatedJson);
+
+        Debug.Log($"✅ Đã gỡ {type}. JSON mới: {updatedJson}");
+        panel.SetActive(false);
+    }
+
 }

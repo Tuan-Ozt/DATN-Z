@@ -13,7 +13,7 @@ public class ItemDetailsPanel : MonoBehaviour
     public TMP_Text description;
     public TMP_Text Type;
     public TMP_Text Name;
-
+    public ItemDetailsUI itemDetailsui;
     private void Awake()
     {
         Instance = this;
@@ -54,4 +54,5 @@ public class ItemDetailsPanel : MonoBehaviour
             $"Thể lực: {stats.Vitality}";
     }
 
+  
 }

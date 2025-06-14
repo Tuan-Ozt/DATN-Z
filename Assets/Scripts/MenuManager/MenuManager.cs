@@ -47,7 +47,15 @@ public class MenuManager : MonoBehaviour
             PlayerDataHolder1.PlayerName = response.name;
             PlayerDataHolder1.CharacterJson = response.characterJson;
 
-            if (string.IsNullOrEmpty(response.characterJson) || response.characterJson == "null")
+            string raw = response.characterJson?.Trim();
+
+            bool isEmptyCharacter =
+                string.IsNullOrEmpty(raw) ||
+                raw == "null" ||
+                raw == "{}" ||
+                raw == "\"{}\""; // Trường hợp bị bao nháy
+
+            if (isEmptyCharacter)
             {
                 Debug.Log("Chưa có nhân vật, hiện Chơi Mới");
                 btnChoiMoi.SetActive(true);
@@ -59,6 +67,7 @@ public class MenuManager : MonoBehaviour
                 btnChoiMoi.SetActive(false);
                 btnChoiTiep.SetActive(true);
             }
+
         }
         else
         {

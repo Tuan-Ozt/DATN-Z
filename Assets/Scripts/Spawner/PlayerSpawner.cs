@@ -3,6 +3,7 @@ using Fusion.Sockets;
 using UnityEngine;
 using System.Collections.Generic;
 using System;
+using Assets.HeroEditor.Common.CharacterScripts;
 
 public class PlayerSpawner : SimulationBehaviour, INetworkRunnerCallbacks
 {
@@ -28,13 +29,16 @@ public class PlayerSpawner : SimulationBehaviour, INetworkRunnerCallbacks
 
 
             NetworkObject obj = runner.Spawn(playerPrefab, spawnPosition, spawnRotation, player);
-
+            var character = obj.GetComponent<Character>();
+            ItemDetailsUI.Instance.character = character; //  Gán đúng player instance trong scene
+            CharacterUIManager1.Instance.character = character; // (nếu bạn dùng CharacterUIManager1)
             var avatar = obj.GetComponent<PlayerAvatar>();
             if (avatar != null)
             {
                 Debug.Log("da goi");
                 avatar.UpdateCharacterJson(PlayerDataHolder1.CharacterJson);
             }
+
             //  Gán chỉ số gốc của player ( tất cả player sẽ chung một chỉ số
             var stats = obj.GetComponent<CharacterStats>();
             if (stats != null)
