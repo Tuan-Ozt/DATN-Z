@@ -24,14 +24,8 @@ EditorBuildSettings:
     path: Assets/Scenes/Test2.unity
     guid: e3deafa4df9d5a244ac34aa82e3b308f
   - enabled: 1
-    path: Assets/Scenes/Test to TuanAnh.unity
-    guid: fc7db67c8ef96e641b63e6fdc27442c0
-  - enabled: 0
-    path: Assets/Scenes/map1_HC.unity
-    guid: f28219916ba33c14d98cd9abe5b696bb
-  - enabled: 0
-    path: Assets/Scenes/Map2_HC.unity
-    guid: 88f33a49a470ed445a6ea2c5eb4545de
+    path: Assets/Scenes/TestTA.unity
+    guid: 314baedc3693f894f9db446f1df2fa92
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

@@ -86,7 +86,7 @@ public class MenuManager : MonoBehaviour
                 PlayerDataHolder1.Character = JsonUtility.FromJson<CharacterData>(PlayerDataHolder1.CharacterJson);
 
                 // Gọi luôn Fusion khởi động chế độ Shared và load scene Test
-                FusionManager.Instance.StartFusionSession("Test");
+                FusionManager.Instance.StartFusionSession("TestTA");
             }
             else
             {
